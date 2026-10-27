@@ -236,18 +236,18 @@
       "slug": "orbe",
       "icon": "icons/orbe.png",
       "bundleId": "com.traffikweb.orbe",
-      "version": "2.1",
-      "build": 202610270452,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.1-b202610270452/Orbe-2.1-b202610270452.zip",
-      "size": 5173537,
-      "sha256": "2cc030b65942470dde1ec322473ca9eda3459b32f2977b847cd326017f70abda",
-      "signature": "l55PEYrOsVfaNVDiT2NvS6fAZDK6vFekCSmd/L4rLd3OOFWmC8bgdDhlHq/D4297L562m5SbFmZBTKNHIe/vBA==",
-      "notes": "Connexion aux gestionnaires de mots de passe et sites protégés.\n- NordPass : la connexion ne tourne plus à l'infini. Après l'e-mail, la page Nord Account s'ouvre et revient dans l'extension, comme dans Chrome.\n- Extensions Chrome : même identité que dans Chrome (chrome-extension://…), connexion OAuth des extensions (chrome.identity) dans une fenêtre d'Orbe, messages des sites autorisés vers leurs extensions.\n- Pages anti-robot (vérification automatique) : testées, rien d'Orbe ne modifie l'empreinte des pages.\n- Statistiques anonymes : un signal par jour (version, macOS, modèle), sans nom ni adresse IP, désactivable dans Réglages › Général.",
+      "version": "2.1.1",
+      "build": 202610270453,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.1.1-b202610270453/Orbe-2.1.1-b202610270453.zip",
+      "size": 5187057,
+      "sha256": "e77a6b7981d9ca5e20cbe8a596971f01d76a508f4e96bc9367f9f1325a262c0e",
+      "signature": "L4CtTW7ZvI6DkzucVq3rJjG5A9fff5J30W+oT/jNyEmlW3WtbI7FYXQfRovtrvWWAhEVTC0M50Yb5BNQ49L7Dg==",
+      "notes": "Correctifs connexion NordPass et pages anti-robot.\n- NordPass : la page Nord Account ne reste plus noire. Quand un onglet passait d'une page d'extension à une page web, la nouvelle page se chargeait mais n'était jamais affichée.\n- Pages anti-robot (Hetzner « Checking that you are not a robot ») : Orbe donne maintenant aux pages la vraie taille de la fenêtre (window.outerWidth/outerHeight valaient 0, comme un navigateur sans écran). La vérification tournait en boucle puis Hetzner affichait « Request on Hold ».\n- Icônes de sites et suggestions : téléchargées sans cookies.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-10-27T12:44:16Z"
+      "published": "2026-10-27T14:14:38Z"
     },
     {
       "name": "Pastel",
