@@ -186,17 +186,17 @@
       "icon": "icons/mirage.png",
       "bundleId": "com.traffikweb.mirage",
       "version": "1.1",
-      "build": 1,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/mirage-v1.1-b1/Mirage-1.1-b1.zip",
-      "size": 3489532,
-      "sha256": "d0979e8587ecd039146786843193d2c6883abefe25df9c5178cf210fcc09c9b3",
-      "signature": "GzXM0W7C+n7at1FJo/YJ650o8EmSEjRmIfQ5Ep9qZxfIKm5oKdtC9DdeVYsw8AdR6r7u3NfwjM9Vd48iiRdZBw==",
+      "build": 2,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/mirage-v1.1-b2/Mirage-1.1-b2.zip",
+      "size": 3530747,
+      "sha256": "74800eda5ae76ccba20ac98ee82b0ee08fbe9adc7bc6c294463d50e4f3229064",
+      "signature": "jPxJ//J8ddtoh0T4tw5Do8Qdl1Jt1qMivds9z8UU1Ue1cKK3WK34PbGR+Z9bM5qe7u/4wx/QkDpvA5ndgGiUAQ==",
       "notes": "Nouveau panneau dans la barre des menus (aperçu animé, pause, précédent/suivant, récents, favoris, écran par écran, widgets), accueil au premier lancement, mises à jour automatiques.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-10-27T05:13:48Z"
+      "published": "2026-10-27T06:40:55Z"
     },
     {
       "name": "Onde",
