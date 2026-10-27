@@ -236,18 +236,18 @@
       "slug": "orbe",
       "icon": "icons/orbe.png",
       "bundleId": "com.traffikweb.orbe",
-      "version": "2.1.2",
-      "build": 202610270454,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.1.2-b202610270454/Orbe-2.1.2-b202610270454.zip",
-      "size": 5194459,
-      "sha256": "0904bea4ef94f65c325f4eab85baf65b79269f537e393e1f5cf9aad2823eb00f",
-      "signature": "cl8xdcU0+mZOLBVpTSidBez8V3hQ0aNjmGiUu+HmjC2v1y+S76zyzycEvEhq5o4ur0O2NHTYXBtG9S3JfvhLCQ==",
-      "notes": "Connexion NordPass : le retour depuis Nord Account fonctionne.\n- Après la connexion sur Nord Account, la page de l'extension (app.html) restait blanche : Orbe refusait la redirection vers l'extension, parce qu'il vérifiait l'adresse d'arrivée au lieu du site d'origine. C'est corrigé, comme dans Chrome.\n- Rappel 2.1.1 : page Nord Account noire corrigée, vérification anti-robot Hetzner qui aboutit.",
+      "version": "2.2",
+      "build": 202610270455,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.2-b202610270455/Orbe-2.2-b202610270455.zip",
+      "size": 5294668,
+      "sha256": "6ab81f1b8d81bfc181ef7285ebc89ed9342469fd773c1626d531753172a547f5",
+      "signature": "RlUFliVOZzfzAgVd3HVcjPKUH9XxZVqAjd8H7U/LDAVy0TZX8/UJnb1hvyUqRAxtJOfM6qwrMoSrvbvnto/QDQ==",
+      "notes": "Extensions : bouton NordPass réparé, et beaucoup plus d'API Chrome.\n- NordPass : le clic sur l'extension ouvre de nouveau l'application NordPass. Il n'avait plus d'effet une fois le compte connecté. NordPass attend un message d'erreur précis de Chrome quand l'application de bureau est absente, et WebKit en renvoyait un autre. Une popup qui se ferme elle-même (window.close) se ferme maintenant vraiment.\n- Toutes les extensions : les API Chrome absentes de WebKit sont fournies dans le service worker ET dans les pages (popup, options) : favoris (épinglés d'Orbe), historique, téléchargements, « À lire », sessions, sites fréquents, recherche, panneau latéral (ouvert en onglet), notifications, synthèse vocale, infos système, polices, DNS, et d'autres.\n- Rappel 2.1.x : page Nord Account noire corrigée, retour de connexion NordPass, vérification anti-robot Hetzner.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-10-27T14:43:05Z"
+      "published": "2026-10-27T15:04:46Z"
     },
     {
       "name": "Pastel",
