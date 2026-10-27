@@ -59,18 +59,18 @@
       "icon": "icons/clac.png",
       "bundleId": "com.traffikweb.clac",
       "version": "1.2",
-      "build": 2,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clac-v1.2-b2/Clac-1.2-b2.zip",
-      "size": 8183770,
-      "sha256": "710d7b9f24ab35575a5dd43abdc438de465e34dfc12b10d637d0108ab1d64d6e",
-      "signature": "/ma83CQ3w3r19e2ZdRM5N4G7cGaEvyneS3Rq3+WkhZEl7pZaQzv4v1gt+G9O0C1isfUs3zIuHWDwAKynmJXcBQ==",
-      "notes": "Première version publique : sons de clavier mécanique, accueil, mises à jour automatiques.",
+      "build": 3,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clac-v1.2-b3/Clac-1.2-b3.zip",
+      "size": 8169722,
+      "sha256": "80f30478c37aea25cf98a1fe9312e57286610ea2f203eac5e0366e80fc6a2b50",
+      "signature": "yjpMnIaj1TKhHQrly7Z7ccYvpCK3I9KnsctZoFv2j8KzKn351DwDtmsKhSY1DYS5aEz/PZAoG+6aw/ccQqTKDQ==",
+      "notes": "Clac 1.2\n• Mises à jour automatiques : les nouvelles versions arrivent toutes seules, vérifiées et signées.\n• Nouvel accueil au premier lancement : autorisation guidée, choix du son.\n• App universelle (Apple Silicon et Intel).",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-27T04:04:31Z"
+      "published": "2026-10-27T06:41:06Z"
     },
     {
       "name": "Clair",
