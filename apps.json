@@ -236,18 +236,18 @@
       "slug": "orbe",
       "icon": "icons/orbe.png",
       "bundleId": "com.traffikweb.orbe",
-      "version": "2.0",
-      "build": 202610270451,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.0-b202610270451/Orbe-2.0-b202610270451.zip",
-      "size": 5029065,
-      "sha256": "638e3e10e83ed174e3eedeeafe1c110422f886ff7da196250d6a8e30c6dd10e8",
-      "signature": "94IaN5/b4il9XaiHQDeLOgE7mHfJpNQgiQbGdo93w1N32kl6wqJ08vPQuVdGxw85kAcqRmdQjiF0UATJUMUUCw==",
-      "notes": "Orbe rejoint Traffik Apps : mises à jour automatiques signées, installées quand vous quittez Orbe.\n- Accueil au premier lancement : import depuis Arc, Chrome ou Safari, navigateur par défaut, bloqueur, IA.\n- IA : celle de votre Mac (Apple Intelligence) par défaut, ou votre clé ; sans IA, les fonctions sont simplement masquées.\n- Extensions Chrome : NordPass et les extensions qui utilisent privacy, idle ou offscreen fonctionnent maintenant.\n- Liquid Glass : textes toujours nets et à l'endroit.",
+      "version": "2.1",
+      "build": 202610270452,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.1-b202610270452/Orbe-2.1-b202610270452.zip",
+      "size": 5173537,
+      "sha256": "2cc030b65942470dde1ec322473ca9eda3459b32f2977b847cd326017f70abda",
+      "signature": "l55PEYrOsVfaNVDiT2NvS6fAZDK6vFekCSmd/L4rLd3OOFWmC8bgdDhlHq/D4297L562m5SbFmZBTKNHIe/vBA==",
+      "notes": "Connexion aux gestionnaires de mots de passe et sites protégés.\n- NordPass : la connexion ne tourne plus à l'infini. Après l'e-mail, la page Nord Account s'ouvre et revient dans l'extension, comme dans Chrome.\n- Extensions Chrome : même identité que dans Chrome (chrome-extension://…), connexion OAuth des extensions (chrome.identity) dans une fenêtre d'Orbe, messages des sites autorisés vers leurs extensions.\n- Pages anti-robot (vérification automatique) : testées, rien d'Orbe ne modifie l'empreinte des pages.\n- Statistiques anonymes : un signal par jour (version, macOS, modèle), sans nom ni adresse IP, désactivable dans Réglages › Général.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-10-27T07:02:00Z"
+      "published": "2026-10-27T12:44:16Z"
     },
     {
       "name": "Pastel",
