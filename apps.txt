@@ -1,3 +1,4 @@
 atelier
+canal
 clac
 halo

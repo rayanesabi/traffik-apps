@@ -1,0 +1,17 @@
+{
+  "app": "canal",
+  "name": "Canal",
+  "bundleId": "com.traffikweb.canal",
+  "version": "1.2",
+  "build": 1,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.2-b1/Canal-1.2-b1.zip",
+  "size": 12002161,
+  "sha256": "3fc09b1e45adde256cca2b48777306a2ace69bfac2bbc1f708ab7b3d813e38cd",
+  "signature": "VS084MpFZCCIrdO7Tn0e2tReX42CqzJRS9Q7z8R8xt4RBUbabXfL1hnv5KAd19enDak9QHKyP9xGjlLjPkywDw==",
+  "notes": "Listes M3U en plus des comptes Xtream, clé TMDB dans Compte, accueil au premier lancement avec test de connexion en direct, mises à jour automatiques.",
+  "minimumSystemVersion": "26.0",
+  "archs": [
+    "arm64"
+  ],
+  "published": "2026-10-27T04:55:54Z"
+}
