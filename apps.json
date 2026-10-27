@@ -49,6 +49,33 @@
         "arm64"
       ],
       "published": "2026-10-27T04:04:31Z"
+    },
+    {
+      "name": "Halo",
+      "tagline": "Lanceur, IA et outils du Mac au clavier",
+      "description": "⌥ Espace pour lancer apps, fichiers, calculs et commandes ; l'IA de votre Mac (ou votre clé, ou un modèle local) ; « Ce que j'ai raté » qui résume vos Messages, WhatsApp et Discord avec des réponses dans votre style ; sélecteur de fenêtres, rangement, captures, gestes et dictée à activer au choix. Un accueil vous guide au premier lancement.",
+      "shortcut": "⌥Espace",
+      "permissions": [
+        "Accessibilité (ranger les fenêtres, coller, lire la sélection)",
+        "Enregistrement de l'écran (captures, vignettes des fenêtres — si vous activez ces modules)",
+        "Accès complet au disque (« Ce que j'ai raté », vocaux, style — lecture sur le Mac uniquement)",
+        "Micro (dictée, seulement pendant que vous dictez)"
+      ],
+      "slug": "halo",
+      "icon": "icons/halo.png",
+      "bundleId": "com.traffikweb.halo",
+      "version": "1.1",
+      "build": 1,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.1-b1/Halo-1.1-b1.zip",
+      "size": 8037576,
+      "sha256": "34a9b8b6450022737893f9d1c8395e6fa09524a26c0bb2ffb1b1c7ee45366434",
+      "signature": "lzEZAIRPtjAfkimnNoXCJEYV0lTUWywMUdDunoadFlVc2QUA4llPl71IF60IiP0xHhQs3u5poEdI95FqTY/MAQ==",
+      "notes": "Nouvelle icône. Accueil au premier lancement : modules au choix (fenêtres, rangement, captures, gestes, dictée), autorisations expliquées, IA du Mac par défaut (ou votre clé, ou Ollama / LM Studio). « Ce que j'ai raté », vocaux et style lisent VOS messages, sur votre Mac. Modèle de dictée téléchargé au premier usage (vérifié), mises à jour automatiques.",
+      "minimumSystemVersion": "26.0",
+      "archs": [
+        "arm64"
+      ],
+      "published": "2026-10-27T04:55:27Z"
     }
   ]
 }
