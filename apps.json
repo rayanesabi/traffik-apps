@@ -210,18 +210,18 @@
       "icon": "icons/onde.png",
       "bundleId": "com.traffikweb.onde",
       "version": "1.2",
-      "build": 2,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/onde-v1.2-b2/Onde-1.2-b2.zip",
-      "size": 3644401,
-      "sha256": "0e12d7d12f0a5310e5ed82f06c00016fb76e3925b48a4dfa8a00b19f26184190",
-      "signature": "98p9v2jJW//TvezRf9ZE4gXOs8TJx1iu1vKnxF/jWKeqi+CtpA/Rc3OOzwYeZSPVySNAe2pSLBEVkDmnqW3cDw==",
-      "notes": "Onde 1.2 : son plus stable avec les AirPods et le Bluetooth (tampon adapté, plus de double lecture, son d'origine rendu aussitôt si la sortie se bloque), aimant à 100 % élargi. Accueil au premier lancement et mises à jour automatiques.",
+      "build": 3,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/onde-v1.2-b3/Onde-1.2-b3.zip",
+      "size": 3778761,
+      "sha256": "1eb35d6833c649ae793137c00c11a17e51164636b345f79ee424803dba86d88e",
+      "signature": "xdL9S+TGRb7WaxF4x4keC6HYDOO/qtI7bP7W3mPxmsHccP2XqiC0pfY07ivH+rONVQ70urvFQvNMNzRWttJdDg==",
+      "notes": "Statistiques d'usage anonymes, pour savoir combien de Mac utilisent Onde : un signal par jour (identifiant tiré au hasard, version, macOS, modèle de Mac), jamais votre nom ni vos données. Désactivables dans les réglages (carte « Mises à jour »).",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-27T05:36:49Z"
+      "published": "2026-10-27T07:25:12Z"
     },
     {
       "name": "Orbe",
