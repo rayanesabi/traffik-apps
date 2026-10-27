@@ -2,16 +2,16 @@
   "app": "orbe",
   "name": "Orbe",
   "bundleId": "com.traffikweb.orbe",
-  "version": "2.2.2",
-  "build": 202610270456,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.2.2-b202610270456/Orbe-2.2.2-b202610270456.zip",
-  "size": 5355327,
-  "sha256": "0825608eb53424e9ee91947d001a34ffe45df02c916718ccbb6cf08b425cbdfc",
-  "signature": "LFPV/hYpZ/yEVslAXUjRn7mfD5/AaLadT6HBO6uCuyiUOuUR9fys62FafO+vVX+gaIDJkUEvZw5koREmYKn9Ag==",
-  "notes": "Extensions et sites protégés : corrections.\n- Extensions : Claude, Picture-in-Picture, WebCRX, EditThisCookie, React Developer Tools, Loom et Bitwarden démarrent maintenant sans erreur. Orbe ajoute des API Chrome manquantes : runtime.onUpdateAvailable, action.setBadgeTextColor, constantes de declarativeNetRequest, en-têtes non pris en charge ignorés au lieu de tout refuser.\n- Popups d'extension : elles s'affichent aussi quand la barre latérale est masquée (⌘S).\n- Pages web : Orbe ne laisse plus de trace propre aux apps WebKit (window.webkit). Les notifications des sites passent par l'objet Notification d'origine, comme dans Safari.\n- Bloqueur : les services de vérification anti-robot (Cloudflare, hCaptcha, reCAPTCHA, DataDome, Hetzner…) ne sont jamais bloqués.\n- Diagnostic (désactivé par défaut) : `defaults write com.traffikweb.orbe debug.extensions -bool true` puis relancer Orbe → ~/Library/Logs/Orbe/extensions.log.",
+  "version": "2.3",
+  "build": 202610270457,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.3-b202610270457/Orbe-2.3-b202610270457.zip",
+  "size": 5396082,
+  "sha256": "cca97631adb1fbd75d78192aca74a0968be36b4c085cc0f16d475b2a57a0714c",
+  "signature": "QAjqmXupgkfIX8/5JHtml46lVZ6P8fVK3fWQJ3PtUwt9ThDRjFc7lrF5Nq2HqB/9rutRKr4QAofvOMsqg1Q2BQ==",
+  "notes": "NordPass refonctionne : correction d'un gel des extensions.\n- Une extension qui ouvrait un WebSocket dans son service worker figeait pour toujours son processus (défaut de WebKit). NordPass le fait dès la connexion : plus de popup, plus d'icône dans les champs, lien « Connexion » de nordpass.com sans effet. Orbe fait maintenant passer ces WebSocket par une page cachée de l'extension. Relancez Orbe une fois : un NordPass déjà figé ne se débloque pas tout seul.\n- Extensions : menus contextuels recréés au réveil sans erreur, et toutes les API ajoutées en 2.2 (favoris, historique, téléchargements…).\n- Rappel : page Nord Account noire, retour de connexion NordPass et anti-robot Hetzner corrigés en 2.1.x.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-10-27T16:01:53Z"
+  "published": "2026-10-27T17:35:56Z"
 }
