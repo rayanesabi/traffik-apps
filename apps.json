@@ -127,6 +127,28 @@
       "published": "2026-10-27T05:10:42Z"
     },
     {
+      "name": "Mirage",
+      "tagline": "Fonds d'écran animés sobres + widgets",
+      "description": "Fonds animés anime, paysages, villes et espace (Explorer MoeWalls/MotionBGs, scènes Mirage, import Wallpaper Engine), widgets de bureau en verre, et un panneau dans la barre des menus : aperçu, pause, suivant, favoris. Se met en pause dès que le bureau n'est pas visible. Agenda et rappels demandés seulement si vous ajoutez le widget Agenda.",
+      "shortcut": "",
+      "permissions": [],
+      "slug": "mirage",
+      "icon": "icons/mirage.png",
+      "bundleId": "com.traffikweb.mirage",
+      "version": "1.1",
+      "build": 1,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/mirage-v1.1-b1/Mirage-1.1-b1.zip",
+      "size": 3489532,
+      "sha256": "d0979e8587ecd039146786843193d2c6883abefe25df9c5178cf210fcc09c9b3",
+      "signature": "GzXM0W7C+n7at1FJo/YJ650o8EmSEjRmIfQ5Ep9qZxfIKm5oKdtC9DdeVYsw8AdR6r7u3NfwjM9Vd48iiRdZBw==",
+      "notes": "Nouveau panneau dans la barre des menus (aperçu animé, pause, précédent/suivant, récents, favoris, écran par écran, widgets), accueil au premier lancement, mises à jour automatiques.",
+      "minimumSystemVersion": "26.0",
+      "archs": [
+        "arm64"
+      ],
+      "published": "2026-10-27T05:13:48Z"
+    },
+    {
       "name": "Onde",
       "tagline": "Le son du Mac, app par app",
       "description": "Volume de 0 à 400 %, sortie et égaliseur pour chaque app, depuis la barre des menus, sans pilote audio. Zéro traitement tant que vous ne réglez rien. Recommandé avec Îlot : son mixeur s'affiche aussi dans l'encoche. Un accueil vous guide au premier lancement.",
