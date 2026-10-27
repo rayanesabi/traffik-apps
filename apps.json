@@ -137,17 +137,17 @@
       "icon": "icons/halo.png",
       "bundleId": "com.traffikweb.halo",
       "version": "1.1",
-      "build": 2,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.1-b2/Halo-1.1-b2.zip",
-      "size": 8079086,
-      "sha256": "250ce5f4cd72e9cf3d11809dee65c69e9def8c25ee7d33d9619129fe05ad4a01",
-      "signature": "Xh6CZ3HTXMILArEf6VkLAquQ4CgJXrnB4anLn116VPixb6S5aB7z9npsaiZqW1lhDQLFriUzJwGkIFRo4tKSAg==",
+      "build": 3,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.1-b3/Halo-1.1-b3.zip",
+      "size": 8080712,
+      "sha256": "0c567ef35241051722e5116e84c1ffc79fe3a1ca8f05bb9dd3dd5f498f34dcba",
+      "signature": "U3lcaLQXg0FUIn07DJuVqrtwisspKi9uVpAmZ1I4vGS+0GuBZnOSnpCSVpL8gJd5ksWSFt/l8wJjao2U8T8aBg==",
       "notes": "Les icônes d'apps se mettent à jour dans la recherche quand elles changent (thème d'icônes, mise à jour d'app).",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-10-27T06:01:40Z"
+      "published": "2026-10-27T06:41:14Z"
     },
     {
       "name": "Ilot",
