@@ -35,17 +35,17 @@
       "icon": "icons/canal.png",
       "bundleId": "com.traffikweb.canal",
       "version": "1.2",
-      "build": 3,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.2-b3/Canal-1.2-b3.zip",
-      "size": 12071586,
-      "sha256": "373375289f7eeaf0a6ec3f95a7fcfeb40069901a104df6136bae7fa0dbfb9e1b",
-      "signature": "Lze0qj56+IHDN0V52NFuiXRIlahZZC2DSARFwOMD6sJDhcBOOtq/JbnfMSperdz/sFrzjOFegjmxm++sALQgAQ==",
-      "notes": "Listes M3U en plus des comptes Xtream, clé TMDB dans Compte, accueil au premier lancement avec test de connexion en direct, mises à jour automatiques.",
+      "build": 4,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.2-b4/Canal-1.2-b4.zip",
+      "size": 12125706,
+      "sha256": "d45dbbb90630dcede7c1a2de4718da83dc96dfdfec8d3f1340ba3ee0e0772992",
+      "signature": "ha+ebRRnalOKdbvhWJHszMR43aWWF9sssd+eBe9LRb6AfT5baFpUM91W/DU078BwCH9niFQMqWRdDqfJdNBJCg==",
+      "notes": "Statistiques d'usage anonymes, pour savoir combien de Mac utilisent Canal : un signal par jour (identifiant tiré au hasard, version, macOS, modèle de Mac), jamais votre nom ni vos données. Désactivables dans les réglages (carte « Mises à jour »).",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-10-27T06:36:50Z"
+      "published": "2026-10-27T07:28:52Z"
     },
     {
       "name": "Clac",
