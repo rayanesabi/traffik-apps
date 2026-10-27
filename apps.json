@@ -137,17 +137,17 @@
       "icon": "icons/halo.png",
       "bundleId": "com.traffikweb.halo",
       "version": "1.1",
-      "build": 4,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.1-b4/Halo-1.1-b4.zip",
-      "size": 8134137,
-      "sha256": "8e3d819513a3cf920dfe375384c708bd1ab9c630ac1fda7e37d989f989ee0d54",
-      "signature": "Y+apfpIV2QZMjOP25Q79rhgCo3AAMsATAXF5t1bOdgiwKo/wg5Vo/gX1nFJYRPAK5nnG6hmqHDZYKo1euPc+DA==",
+      "build": 5,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.1-b5/Halo-1.1-b5.zip",
+      "size": 8159302,
+      "sha256": "1f45b5ae1ed215db79e92b1f1374a74b990b13a23a2fcc6b11397faa9deb312f",
+      "signature": "kO3SGhJj23CFwH8p5TWhtnUC9/TpfjOalKay1H4pot/wyakbxRcDDDG8OawRFvVHOg7L2iTZHCgeXmBPGTEpAA==",
       "notes": "Statistiques d'usage anonymes, pour savoir combien de Mac utilisent Halo : un signal par jour (identifiant tiré au hasard, version, macOS, modèle de Mac), jamais votre nom ni vos données. Désactivables dans les réglages (carte « Mises à jour »).",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-10-27T16:18:37Z"
+      "published": "2026-10-27T17:27:45Z"
     },
     {
       "name": "Ilot",
