@@ -2,6 +2,7 @@ atelier
 canal
 clac
 clair
+givre
 halo
 ilot
 mirage

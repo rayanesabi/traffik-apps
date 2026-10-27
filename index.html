@@ -115,7 +115,7 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
       <li class="glass">macOS 26 Tahoe ou plus récent</li>
       <li class="glass">Mac Apple Silicon (M1 et suivants)</li>
       <li class="glass">Intel : apps marquées « Universelle »</li>
-      <li class="glass">9 app(s) disponible(s)</li>
+      <li class="glass">10 app(s) disponible(s)</li>
     </ul>
   </header>
 
@@ -123,9 +123,9 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
     <div class="glass install">
       <h2>Installer en une commande</h2>
       <p class="sub">La méthode la plus simple : aucun blocage de macOS, et chaque app est vérifiée avant d'être installée.</p>
-      <div class="chips" id="chips"><label class="chip"><input type="checkbox" value="atelier" checked><span>Atelier</span></label><label class="chip"><input type="checkbox" value="canal" checked><span>Canal</span></label><label class="chip"><input type="checkbox" value="clac" checked><span>Clac</span></label><label class="chip"><input type="checkbox" value="clair" checked><span>Clair</span></label><label class="chip"><input type="checkbox" value="halo" checked><span>Halo</span></label><label class="chip"><input type="checkbox" value="ilot" checked><span>Ilot</span></label><label class="chip"><input type="checkbox" value="mirage" checked><span>Mirage</span></label><label class="chip"><input type="checkbox" value="onde" checked><span>Onde</span></label><label class="chip"><input type="checkbox" value="pastel" checked><span>Pastel</span></label></div>
+      <div class="chips" id="chips"><label class="chip"><input type="checkbox" value="atelier" checked><span>Atelier</span></label><label class="chip"><input type="checkbox" value="canal" checked><span>Canal</span></label><label class="chip"><input type="checkbox" value="clac" checked><span>Clac</span></label><label class="chip"><input type="checkbox" value="clair" checked><span>Clair</span></label><label class="chip"><input type="checkbox" value="givre" checked><span>Givre</span></label><label class="chip"><input type="checkbox" value="halo" checked><span>Halo</span></label><label class="chip"><input type="checkbox" value="ilot" checked><span>Ilot</span></label><label class="chip"><input type="checkbox" value="mirage" checked><span>Mirage</span></label><label class="chip"><input type="checkbox" value="onde" checked><span>Onde</span></label><label class="chip"><input type="checkbox" value="pastel" checked><span>Pastel</span></label></div>
       <div class="cmd">
-        <code id="cmd">curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s atelier canal clac clair halo ilot mirage onde pastel</code>
+        <code id="cmd">curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s atelier canal clac clair givre halo ilot mirage onde pastel</code>
         <button class="btn primary" id="copy-cmd">Copier</button>
       </div>
       <ol class="steps-mini">
@@ -190,6 +190,19 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
         <div class="actions">
           <a class="btn primary" href="https://github.com/rayanesabi/traffik-apps/releases/download/clair-v2.6-b1/Clair-2.6-b1.zip">Télécharger</a>
           <button class="btn" data-copy="curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s clair">Copier la commande</button>
+        </div>
+      </article>
+      <article class="glass app" id="givre">
+        <div class="app-head">
+          <img src="icons/givre.png" alt="" width="72" height="72" loading="lazy">
+          <div><h3>Givre</h3><p class="tagline">Rangez la barre des menus</p></div>
+        </div>
+        <p class="desc">Masquez, réorganisez et regroupez les icônes de la barre des menus. Raccourci ⌃⌥⌘B.</p>
+        <p class="perms"><span>Autorisation demandée :</span> Accessibilité (pour lister les icônes et ouvrir leurs menus)</p>
+        <ul class="badges"><li>v1.1</li><li>3,9 Mo</li><li>Universelle (Apple Silicon + Intel)</li><li>⌃⌥⌘B</li></ul>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/rayanesabi/traffik-apps/releases/download/givre-v1.1-b1/Givre-1.1-b1.zip">Télécharger</a>
+          <button class="btn" data-copy="curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s givre">Copier la commande</button>
         </div>
       </article>
       <article class="glass app" id="halo">

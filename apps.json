@@ -98,6 +98,31 @@
       "published": "2026-10-27T06:19:58Z"
     },
     {
+      "name": "Givre",
+      "tagline": "Rangez la barre des menus",
+      "description": "Masquez, réorganisez et regroupez les icônes de la barre des menus. Raccourci ⌃⌥⌘B.",
+      "shortcut": "⌃⌥⌘B",
+      "permissions": [
+        "Accessibilité (pour lister les icônes et ouvrir leurs menus)"
+      ],
+      "slug": "givre",
+      "icon": "icons/givre.png",
+      "bundleId": "com.traffikweb.givre",
+      "version": "1.1",
+      "build": 1,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/givre-v1.1-b1/Givre-1.1-b1.zip",
+      "size": 3853846,
+      "sha256": "78b33109125c2ffc207341a0e1718ad15c2804dc3442190378da6897035308f5",
+      "signature": "yGl6artY7BGZeF1dNco/YnPp6IKDZ7UGYeaytnN6R72s4+kyuaY2l7SdIVMVIXkdztInwHvLehDcEmEa7fotAg==",
+      "notes": "Nouveau panneau Liquid Glass au clic sur ❄︎ : apps masquées avec leurs icônes, ouverture de leur menu, réorganisation rapide. ⌥-clic révèle ou masque. Accueil au premier lancement et mises à jour automatiques.",
+      "minimumSystemVersion": "26.0",
+      "archs": [
+        "x86_64",
+        "arm64"
+      ],
+      "published": "2026-10-27T06:26:14Z"
+    },
+    {
       "name": "Halo",
       "tagline": "Lanceur, IA et outils du Mac au clavier",
       "description": "⌥ Espace pour lancer apps, fichiers, calculs et commandes ; l'IA de votre Mac (ou votre clé, ou un modèle local) ; « Ce que j'ai raté » qui résume vos Messages, WhatsApp et Discord avec des réponses dans votre style ; sélecteur de fenêtres, rangement, captures, gestes et dictée à activer au choix. Un accueil vous guide au premier lancement.",
