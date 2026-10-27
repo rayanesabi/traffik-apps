@@ -2,17 +2,17 @@
   "app": "givre",
   "name": "Givre",
   "bundleId": "com.traffikweb.givre",
-  "version": "1.1",
-  "build": 2,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/givre-v1.1-b2/Givre-1.1-b2.zip",
-  "size": 3977500,
-  "sha256": "773503708e62d974048114307e681c031b73534b84490cf7190914745d16181d",
-  "signature": "gLjyLfLqILbsgBA7zb3y5TixiaAJtaKL3xHIxtLG+q3ptYyw2QcOLznJOzdjzwR6mn1S7sJqSfDiChZ1qOkVBg==",
-  "notes": "Statistiques d'usage anonymes, pour savoir combien de Mac utilisent Givre : un signal par jour (identifiant tiré au hasard, version, macOS, modèle de Mac), jamais votre nom ni vos données. Désactivables dans les réglages (carte « Mises à jour »).",
+  "version": "1.2",
+  "build": 3,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/givre-v1.2-b3/Givre-1.2-b3.zip",
+  "size": 4170509,
+  "sha256": "c9946a9a0589cb8ba89427694b6067de23fbcc04ba6218f68b93d0ddb28f3426",
+  "signature": "I8yRd4i6xzYkm6tnTJ1qyHjU9412uax8XUwoo8/72WZiO1RpGOmLvuBJPai+V3kRTz45a86CPofgW9zonL6/Dw==",
+  "notes": "macOS 26 (Tahoe) et Mac Intel : Givre masque enfin vraiment vos icônes. Tout ce qui est à gauche du séparateur │ se range sous ❄︎ ; maintenez ⌘ et faites glisser une icône pour choisir. Aucune autorisation requise pour masquer ; l'Accessibilité (facultative) est détectée sans relancer. Diagnostic plus clair, avertissement si Ice, Bartender ou Hidden Bar est aussi ouvert.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "x86_64",
     "arm64"
   ],
-  "published": "2026-10-27T16:08:49Z"
+  "published": "2026-10-27T21:20:16Z"
 }
