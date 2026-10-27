@@ -137,17 +137,17 @@
       "icon": "icons/halo.png",
       "bundleId": "com.traffikweb.halo",
       "version": "1.1",
-      "build": 3,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.1-b3/Halo-1.1-b3.zip",
-      "size": 8080712,
-      "sha256": "0c567ef35241051722e5116e84c1ffc79fe3a1ca8f05bb9dd3dd5f498f34dcba",
-      "signature": "U3lcaLQXg0FUIn07DJuVqrtwisspKi9uVpAmZ1I4vGS+0GuBZnOSnpCSVpL8gJd5ksWSFt/l8wJjao2U8T8aBg==",
-      "notes": "Les icônes d'apps se mettent à jour dans la recherche quand elles changent (thème d'icônes, mise à jour d'app).",
+      "build": 4,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.1-b4/Halo-1.1-b4.zip",
+      "size": 8134137,
+      "sha256": "8e3d819513a3cf920dfe375384c708bd1ab9c630ac1fda7e37d989f989ee0d54",
+      "signature": "Y+apfpIV2QZMjOP25Q79rhgCo3AAMsATAXF5t1bOdgiwKo/wg5Vo/gX1nFJYRPAK5nnG6hmqHDZYKo1euPc+DA==",
+      "notes": "Statistiques d'usage anonymes, pour savoir combien de Mac utilisent Halo : un signal par jour (identifiant tiré au hasard, version, macOS, modèle de Mac), jamais votre nom ni vos données. Désactivables dans les réglages (carte « Mises à jour »).",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-10-27T06:41:14Z"
+      "published": "2026-10-27T16:18:37Z"
     },
     {
       "name": "Ilot",
