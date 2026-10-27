@@ -115,7 +115,7 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
       <li class="glass">macOS 26 Tahoe ou plus récent</li>
       <li class="glass">Mac Apple Silicon (M1 et suivants)</li>
       <li class="glass">Intel : apps marquées « Universelle »</li>
-      <li class="glass">5 app(s) disponible(s)</li>
+      <li class="glass">6 app(s) disponible(s)</li>
     </ul>
   </header>
 
@@ -123,9 +123,9 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
     <div class="glass install">
       <h2>Installer en une commande</h2>
       <p class="sub">La méthode la plus simple : aucun blocage de macOS, et chaque app est vérifiée avant d'être installée.</p>
-      <div class="chips" id="chips"><label class="chip"><input type="checkbox" value="atelier" checked><span>Atelier</span></label><label class="chip"><input type="checkbox" value="canal" checked><span>Canal</span></label><label class="chip"><input type="checkbox" value="clac" checked><span>Clac</span></label><label class="chip"><input type="checkbox" value="halo" checked><span>Halo</span></label><label class="chip"><input type="checkbox" value="ilot" checked><span>Ilot</span></label></div>
+      <div class="chips" id="chips"><label class="chip"><input type="checkbox" value="atelier" checked><span>Atelier</span></label><label class="chip"><input type="checkbox" value="canal" checked><span>Canal</span></label><label class="chip"><input type="checkbox" value="clac" checked><span>Clac</span></label><label class="chip"><input type="checkbox" value="halo" checked><span>Halo</span></label><label class="chip"><input type="checkbox" value="ilot" checked><span>Ilot</span></label><label class="chip"><input type="checkbox" value="onde" checked><span>Onde</span></label></div>
       <div class="cmd">
-        <code id="cmd">curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s atelier canal clac halo ilot</code>
+        <code id="cmd">curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s atelier canal clac halo ilot onde</code>
         <button class="btn primary" id="copy-cmd">Copier</button>
       </div>
       <ol class="steps-mini">
@@ -203,6 +203,19 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
         <div class="actions">
           <a class="btn primary" href="https://github.com/rayanesabi/traffik-apps/releases/download/ilot-v3.1-b1/Ilot-3.1-b1.zip">Télécharger</a>
           <button class="btn" data-copy="curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s ilot">Copier la commande</button>
+        </div>
+      </article>
+      <article class="glass app" id="onde">
+        <div class="app-head">
+          <img src="icons/onde.png" alt="" width="72" height="72" loading="lazy">
+          <div><h3>Onde</h3><p class="tagline">Le son du Mac, app par app</p></div>
+        </div>
+        <p class="desc">Volume de 0 à 400 %, sortie et égaliseur pour chaque app, depuis la barre des menus, sans pilote audio. Zéro traitement tant que vous ne réglez rien. Recommandé avec Îlot : son mixeur s&#x27;affiche aussi dans l&#x27;encoche. Un accueil vous guide au premier lancement.</p>
+        <p class="perms"><span>Autorisation demandée :</span> Enregistrement audio du système (capter le son d&#x27;une app pour le régler — rien n&#x27;est enregistré)</p>
+        <ul class="badges"><li>v1.2</li><li>3,6 Mo</li><li>Universelle (Apple Silicon + Intel)</li><li>⌃⌥⌘O</li></ul>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/rayanesabi/traffik-apps/releases/download/onde-v1.2-b1/Onde-1.2-b1.zip">Télécharger</a>
+          <button class="btn" data-copy="curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s onde">Copier la commande</button>
         </div>
       </article>
     </div>

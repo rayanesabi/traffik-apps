@@ -125,6 +125,31 @@
         "arm64"
       ],
       "published": "2026-10-27T05:10:42Z"
+    },
+    {
+      "name": "Onde",
+      "tagline": "Le son du Mac, app par app",
+      "description": "Volume de 0 à 400 %, sortie et égaliseur pour chaque app, depuis la barre des menus, sans pilote audio. Zéro traitement tant que vous ne réglez rien. Recommandé avec Îlot : son mixeur s'affiche aussi dans l'encoche. Un accueil vous guide au premier lancement.",
+      "shortcut": "⌃⌥⌘O",
+      "permissions": [
+        "Enregistrement audio du système (capter le son d'une app pour le régler — rien n'est enregistré)"
+      ],
+      "slug": "onde",
+      "icon": "icons/onde.png",
+      "bundleId": "com.traffikweb.onde",
+      "version": "1.2",
+      "build": 1,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/onde-v1.2-b1/Onde-1.2-b1.zip",
+      "size": 3556634,
+      "sha256": "e3f88cf1ee7736dc6e41bc9f8181972fd38596e1f536e2c8a29cbeca1f78c027",
+      "signature": "zZT0RX0Cq7Xp1NSikV7yo3KwhwB0AxFzCbrasOoBGk2PKF1fqPXR8PtHU6EGgjCrc9EvcaBFOwO9G0PS9OOmBw==",
+      "notes": "Onde 1.2 : son plus stable avec les AirPods et le Bluetooth (tampon adapté, plus de double lecture, son d'origine rendu aussitôt si la sortie se bloque), aimant à 100 % élargi. Accueil au premier lancement et mises à jour automatiques.",
+      "minimumSystemVersion": "26.0",
+      "archs": [
+        "x86_64",
+        "arm64"
+      ],
+      "published": "2026-10-27T05:11:56Z"
     }
   ]
 }
