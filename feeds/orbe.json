@@ -2,16 +2,16 @@
   "app": "orbe",
   "name": "Orbe",
   "bundleId": "com.traffikweb.orbe",
-  "version": "2.3",
-  "build": 202610270457,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.3-b202610270457/Orbe-2.3-b202610270457.zip",
-  "size": 5396082,
-  "sha256": "cca97631adb1fbd75d78192aca74a0968be36b4c085cc0f16d475b2a57a0714c",
-  "signature": "QAjqmXupgkfIX8/5JHtml46lVZ6P8fVK3fWQJ3PtUwt9ThDRjFc7lrF5Nq2HqB/9rutRKr4QAofvOMsqg1Q2BQ==",
-  "notes": "NordPass refonctionne : correction d'un gel des extensions.\n- Une extension qui ouvrait un WebSocket dans son service worker figeait pour toujours son processus (défaut de WebKit). NordPass le fait dès la connexion : plus de popup, plus d'icône dans les champs, lien « Connexion » de nordpass.com sans effet. Orbe fait maintenant passer ces WebSocket par une page cachée de l'extension. Relancez Orbe une fois : un NordPass déjà figé ne se débloque pas tout seul.\n- Extensions : menus contextuels recréés au réveil sans erreur, et toutes les API ajoutées en 2.2 (favoris, historique, téléchargements…).\n- Rappel : page Nord Account noire, retour de connexion NordPass et anti-robot Hetzner corrigés en 2.1.x.",
+  "version": "2.3.1",
+  "build": 202610270458,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.3.1-b202610270458/Orbe-2.3.1-b202610270458.zip",
+  "size": 5437565,
+  "sha256": "961814749b4b3079ff4e86cbbbabe9c341f6908f099bce931097d45467e0a0c5",
+  "signature": "ySZBA4sMBU7bjpsZFQFwgzXUHOXCHVYbFa6wk3cWrJUdH5NPEcxwwxToB6Y34hYIbD8XgQDrdvfNBJgEcKmUCg==",
+  "notes": "Payoneer et NordPass : la page ne se recharge plus en boucle.\n- Quand on cliquait dans un champ de connexion, NordPass ajoutait une petite page cachée dans le site. Cette page utilisait des fonctions réservées aux extensions. WebKit les refusait et arrêtait la page, qui se rechargeait plusieurs fois avant d'afficher « Impossible d'ouvrir la page ». Orbe exécute maintenant ces fonctions à la place de la page cachée, pour toutes les extensions.\n- Si WebKit arrête encore une page pour ce genre de raison, Orbe nomme l'extension en cause, recharge la page une seule fois, puis affiche une explication au lieu de recharger en boucle.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-10-27T17:35:56Z"
+  "published": "2026-10-27T18:22:49Z"
 }
