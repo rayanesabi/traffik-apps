@@ -113,18 +113,18 @@
       "icon": "icons/ilot.png",
       "bundleId": "com.traffikweb.ilot",
       "version": "3.1",
-      "build": 1,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/ilot-v3.1-b1/Ilot-3.1-b1.zip",
-      "size": 4311158,
-      "sha256": "1d96e99bf721bfce1f6a06addfc81c9a4fa09d3fc8b8ce98cca50e995cd36ab4",
-      "signature": "SBBiIxcSNdZuMf9H+XHXfHS+EXagz0pN3r9YovgVoSm/OV1mqrHmKAfWB8sa8l86zB8Z6mIUimU2y/SGzX9mCQ==",
+      "build": 2,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/ilot-v3.1-b2/Ilot-3.1-b2.zip",
+      "size": 4395462,
+      "sha256": "9d84a27c893d805f72ebcf59a628861ce21bf44daff0c46e0a0350ab72277160",
+      "signature": "pazgtj2iUMj8TxnFpPsOKt8izgilDFFz6NqJMWumrhnf9Cl5vJ7cXxQHsyypVgsKd2oHZWXC8DVbftiCR2J8Cg==",
       "notes": "Îlot 3.1 : l'interface de The Boring Notch, 18 personnages, HUD, paroles synchronisées (option), étagère avec sélection multiple, glisser de plusieurs fichiers et AirDrop par dépôt, mixeur d'Onde dans l'encoche, îlot flottant sur les écrans sans encoche. Accueil au premier lancement et mises à jour automatiques.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-27T05:10:42Z"
+      "published": "2026-10-27T05:36:39Z"
     },
     {
       "name": "Mirage",
