@@ -35,17 +35,17 @@
       "icon": "icons/canal.png",
       "bundleId": "com.traffikweb.canal",
       "version": "1.2",
-      "build": 2,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.2-b2/Canal-1.2-b2.zip",
-      "size": 12014960,
-      "sha256": "6c224562300ec2adc9dd941002338cc832f48c7d41172f7864e7dc1ef5ad05a2",
-      "signature": "gfqcJsGEW68uFV8AeKPjkwO4vqSPJ9OWfHZ1+7cxEg85tBwRxh5vO/S/TsVUfqtNFt3O5B0RKnFHYcPH5pDWCQ==",
+      "build": 3,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.2-b3/Canal-1.2-b3.zip",
+      "size": 12071586,
+      "sha256": "373375289f7eeaf0a6ec3f95a7fcfeb40069901a104df6136bae7fa0dbfb9e1b",
+      "signature": "Lze0qj56+IHDN0V52NFuiXRIlahZZC2DSARFwOMD6sJDhcBOOtq/JbnfMSperdz/sFrzjOFegjmxm++sALQgAQ==",
       "notes": "Listes M3U en plus des comptes Xtream, clé TMDB dans Compte, accueil au premier lancement avec test de connexion en direct, mises à jour automatiques.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-10-27T05:04:04Z"
+      "published": "2026-10-27T06:36:50Z"
     },
     {
       "name": "Clac",
