@@ -2,16 +2,16 @@
   "app": "orbe",
   "name": "Orbe",
   "bundleId": "com.traffikweb.orbe",
-  "version": "2.2",
-  "build": 202610270455,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.2-b202610270455/Orbe-2.2-b202610270455.zip",
-  "size": 5294668,
-  "sha256": "6ab81f1b8d81bfc181ef7285ebc89ed9342469fd773c1626d531753172a547f5",
-  "signature": "RlUFliVOZzfzAgVd3HVcjPKUH9XxZVqAjd8H7U/LDAVy0TZX8/UJnb1hvyUqRAxtJOfM6qwrMoSrvbvnto/QDQ==",
-  "notes": "Extensions : bouton NordPass réparé, et beaucoup plus d'API Chrome.\n- NordPass : le clic sur l'extension ouvre de nouveau l'application NordPass. Il n'avait plus d'effet une fois le compte connecté. NordPass attend un message d'erreur précis de Chrome quand l'application de bureau est absente, et WebKit en renvoyait un autre. Une popup qui se ferme elle-même (window.close) se ferme maintenant vraiment.\n- Toutes les extensions : les API Chrome absentes de WebKit sont fournies dans le service worker ET dans les pages (popup, options) : favoris (épinglés d'Orbe), historique, téléchargements, « À lire », sessions, sites fréquents, recherche, panneau latéral (ouvert en onglet), notifications, synthèse vocale, infos système, polices, DNS, et d'autres.\n- Rappel 2.1.x : page Nord Account noire corrigée, retour de connexion NordPass, vérification anti-robot Hetzner.",
+  "version": "2.2.2",
+  "build": 202610270456,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.2.2-b202610270456/Orbe-2.2.2-b202610270456.zip",
+  "size": 5355327,
+  "sha256": "0825608eb53424e9ee91947d001a34ffe45df02c916718ccbb6cf08b425cbdfc",
+  "signature": "LFPV/hYpZ/yEVslAXUjRn7mfD5/AaLadT6HBO6uCuyiUOuUR9fys62FafO+vVX+gaIDJkUEvZw5koREmYKn9Ag==",
+  "notes": "Extensions et sites protégés : corrections.\n- Extensions : Claude, Picture-in-Picture, WebCRX, EditThisCookie, React Developer Tools, Loom et Bitwarden démarrent maintenant sans erreur. Orbe ajoute des API Chrome manquantes : runtime.onUpdateAvailable, action.setBadgeTextColor, constantes de declarativeNetRequest, en-têtes non pris en charge ignorés au lieu de tout refuser.\n- Popups d'extension : elles s'affichent aussi quand la barre latérale est masquée (⌘S).\n- Pages web : Orbe ne laisse plus de trace propre aux apps WebKit (window.webkit). Les notifications des sites passent par l'objet Notification d'origine, comme dans Safari.\n- Bloqueur : les services de vérification anti-robot (Cloudflare, hCaptcha, reCAPTCHA, DataDome, Hetzner…) ne sont jamais bloqués.\n- Diagnostic (désactivé par défaut) : `defaults write com.traffikweb.orbe debug.extensions -bool true` puis relancer Orbe → ~/Library/Logs/Orbe/extensions.log.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-10-27T15:04:46Z"
+  "published": "2026-10-27T16:01:53Z"
 }
