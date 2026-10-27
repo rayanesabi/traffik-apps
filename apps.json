@@ -236,18 +236,18 @@
       "slug": "orbe",
       "icon": "icons/orbe.png",
       "bundleId": "com.traffikweb.orbe",
-      "version": "2.3.1",
-      "build": 202610270458,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.3.1-b202610270458/Orbe-2.3.1-b202610270458.zip",
-      "size": 5437565,
-      "sha256": "961814749b4b3079ff4e86cbbbabe9c341f6908f099bce931097d45467e0a0c5",
-      "signature": "ySZBA4sMBU7bjpsZFQFwgzXUHOXCHVYbFa6wk3cWrJUdH5NPEcxwwxToB6Y34hYIbD8XgQDrdvfNBJgEcKmUCg==",
-      "notes": "Payoneer et NordPass : la page ne se recharge plus en boucle.\n- Quand on cliquait dans un champ de connexion, NordPass ajoutait une petite page cachée dans le site. Cette page utilisait des fonctions réservées aux extensions. WebKit les refusait et arrêtait la page, qui se rechargeait plusieurs fois avant d'afficher « Impossible d'ouvrir la page ». Orbe exécute maintenant ces fonctions à la place de la page cachée, pour toutes les extensions.\n- Si WebKit arrête encore une page pour ce genre de raison, Orbe nomme l'extension en cause, recharge la page une seule fois, puis affiche une explication au lieu de recharger en boucle.",
+      "version": "2.3.2",
+      "build": 202610270459,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.3.2-b202610270459/Orbe-2.3.2-b202610270459.zip",
+      "size": 5591740,
+      "sha256": "e9a0369c29198080e5f822f3c62f70c67eab4eff3be541c36cf86f01334082cc",
+      "signature": "gKrROnULf9CLHcS0/RybjBnt9viepeDY/+iWXs6R0bm0v7ZxB8pnGeAIGbN5iBTtWjyr2V6WKbcoUq8Qq5cNAQ==",
+      "notes": "Les bonnes icônes de sites, comme dans Arc et Safari.\n- Gmail, Google Sheets, Docs, Drive ou Agenda n'affichent plus le « G » de Google : chaque page garde sa propre icône, même dans les favoris et les onglets épinglés jamais rouverts.\n- Les icônes qui changent toutes seules (compteur de Gmail, date du jour dans Agenda) se mettent à jour dans la barre latérale.\n- Un site sans icône à lui prend celle de son domaine principal quand elle existe (ex. « Payout Portal »), sinon le globe.\n- Les icônes sont téléchargées une seule fois et le cache reste petit.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-10-27T18:22:49Z"
+      "published": "2026-10-27T18:55:50Z"
     },
     {
       "name": "Pastel",
