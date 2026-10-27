@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Traffik Apps — des apps Mac maison</title>
+<meta name="description" content="Apps Mac natives, légères et gratuites, avec mises à jour automatiques.">
+<meta name="color-scheme" content="dark light">
+<link rel="icon" href="">
+<style>
+:root{
+  --bg:#0b0b10; --ink:#f5f5f7; --soft:#a1a1aa; --line:rgba(255,255,255,.10); --glass:rgba(255,255,255,.06);
+  --glass-strong:rgba(255,255,255,.10); --accent:#ff8a3d; --accent2:#b58cff; --ok:#34c759; --radius:22px;
+}
+@media (prefers-color-scheme: light){
+  :root{ --bg:#f4f3f7; --ink:#1d1d1f; --soft:#5f5f68; --line:rgba(0,0,0,.08); --glass:rgba(255,255,255,.55); --glass-strong:rgba(255,255,255,.75); }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","Helvetica Neue",sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.aura{position:fixed;inset:-20vmax;z-index:-1;pointer-events:none;
+  background:radial-gradient(40vmax 40vmax at 15% 10%,rgba(255,138,61,.28),transparent 60%),
+             radial-gradient(38vmax 38vmax at 85% 20%,rgba(181,140,255,.25),transparent 60%),
+             radial-gradient(45vmax 45vmax at 60% 95%,rgba(60,198,185,.16),transparent 60%);filter:blur(10px)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+.glass{background:var(--glass);border:1px solid var(--line);border-radius:var(--radius);
+  backdrop-filter:blur(28px) saturate(170%);-webkit-backdrop-filter:blur(28px) saturate(170%);
+  box-shadow:0 1px 0 rgba(255,255,255,.08) inset,0 20px 50px rgba(0,0,0,.18)}
+header.hero{padding:96px 0 40px;text-align:center}
+.logo{display:inline-flex;gap:10px;align-items:center;font-weight:600;letter-spacing:.02em;color:var(--soft);font-size:14px}
+.logo i{width:12px;height:12px;border-radius:4px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:inline-block}
+h1{font-size:clamp(40px,6vw,68px);line-height:1.04;letter-spacing:-.035em;margin:18px 0 14px;font-weight:700}
+h1 em{font-style:normal;background:linear-gradient(100deg,var(--accent),#ff5f8a 45%,var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:19px;color:var(--soft);max-width:640px;margin:0 auto}
+.reqs{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:26px;padding:0;list-style:none}
+.reqs li{padding:7px 14px;border-radius:999px;font-size:13.5px}
+section{padding:34px 0}
+h2{font-size:30px;letter-spacing:-.02em;margin:0 0 6px}
+.sub{color:var(--soft);margin:0 0 22px}
+/* Commande */
+.install{padding:28px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 18px}
+.chip input{position:absolute;opacity:0;pointer-events:none}
+.chip span{display:inline-block;padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--glass);cursor:pointer;font-size:14px;transition:all .2s}
+.chip input:checked+span{background:linear-gradient(135deg,rgba(255,138,61,.9),rgba(255,95,138,.85));color:#fff;border-color:transparent}
+.cmd{display:flex;gap:10px;align-items:stretch}
+.cmd code{flex:1;display:block;padding:14px 16px;border-radius:14px;background:rgba(0,0,0,.35);color:#fff;font:14px/1.5 ui-monospace,"SF Mono",Menlo,monospace;overflow-x:auto;white-space:nowrap;border:1px solid var(--line)}
+@media (prefers-color-scheme: light){.cmd code{background:#1d1d1f}}
+.btn{appearance:none;border:1px solid var(--line);background:var(--glass-strong);color:var(--ink);padding:10px 16px;border-radius:999px;font-family:inherit;font-size:14px;font-weight:600;line-height:1;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px;transition:transform .15s,background .2s}
+.btn:hover{transform:translateY(-1px)}
+.btn.primary{background:linear-gradient(135deg,var(--accent),#ff5f8a);color:#fff;border-color:transparent}
+.steps-mini{margin:16px 0 0;padding-left:20px;color:var(--soft);font-size:14.5px}
+.steps-mini b{color:var(--ink)}
+/* Apps */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:18px}
+.app{padding:22px;display:flex;flex-direction:column;gap:12px}
+.app-head{display:flex;gap:14px;align-items:center}
+.app-head img{border-radius:18px;filter:drop-shadow(0 8px 18px rgba(0,0,0,.25))}
+.app h3{margin:0;font-size:21px;letter-spacing:-.01em}
+.tagline{margin:2px 0 0;color:var(--soft);font-size:14px}
+.desc{margin:0;font-size:14.5px}
+.perms{margin:0;font-size:13px;color:var(--soft)}
+.perms span{color:var(--ink);font-weight:600}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
+.badges li{font-size:12px;padding:4px 10px;border-radius:999px;border:1px solid var(--line);color:var(--soft)}
+.actions{display:flex;gap:8px;margin-top:auto;flex-wrap:wrap}
+.empty{color:var(--soft)}
+/* Manuel */
+.manual{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.step{padding:22px}
+.step h3{margin:0 0 6px;font-size:17px;display:flex;gap:10px;align-items:center}
+.num{width:26px;height:26px;border-radius:50%;display:inline-grid;place-items:center;font-size:13px;font-weight:700;color:#fff;background:linear-gradient(135deg,var(--accent),var(--accent2))}
+.step p{margin:0 0 12px;color:var(--soft);font-size:14.5px}
+.caption{font-size:11.5px;color:var(--soft);text-align:center;margin-top:8px;opacity:.8}
+/* Maquettes macOS */
+.mock{border-radius:20px;background:#2a2a2e;color:#f2f2f2;border:1px solid rgba(255,255,255,.12);box-shadow:0 18px 40px rgba(0,0,0,.35);font-size:12.5px}
+.mock-dialog{padding:18px 18px 14px;max-width:290px;margin:0 auto;text-align:left}
+.mock-dialog img{width:46px;height:46px}
+.mock-dialog strong{display:block;margin:10px 0 6px;font-size:13.5px}
+.mock-dialog p{margin:0 0 14px;color:#c9c9cf;font-size:12px}
+.mock-buttons{display:flex;flex-direction:column;gap:6px}
+.mock-buttons span{display:block;text-align:center;padding:7px;border-radius:999px;background:rgba(255,255,255,.12);font-weight:500}
+.mock-buttons .blue{background:#0a84ff;color:#fff}
+.mock-settings{display:flex;overflow:hidden}
+.mock-side{width:38%;padding:12px 8px;background:rgba(255,255,255,.04);border-right:1px solid rgba(255,255,255,.08)}
+.mock-side div{padding:5px 8px;border-radius:8px;color:#bdbdc4;font-size:11.5px}
+.mock-side .sel{background:#0a84ff;color:#fff}
+.mock-main{flex:1;padding:14px}
+.mock-main h4{margin:0 0 8px;font-size:12.5px}
+.mock-main p{margin:0 0 10px;color:#c9c9cf;font-size:11.5px}
+.mock-row{border-radius:12px;background:rgba(255,255,255,.06);padding:10px}
+.mock-btn{display:inline-block;margin-top:6px;padding:5px 12px;border-radius:999px;background:rgba(255,255,255,.16);font-weight:600;outline:2px solid #ff8a3d;outline-offset:2px}
+.terminal{border-radius:16px;background:#141416;border:1px solid rgba(255,255,255,.1);padding:12px 14px;font:12px/1.6 ui-monospace,Menlo,monospace;color:#e5e5ea}
+.terminal .ok{color:#34c759}
+/* FAQ */
+.faq{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.faq .glass{padding:22px}
+.faq h3{margin:0 0 8px;font-size:17px}
+.faq p{margin:0;color:var(--soft);font-size:14.5px}
+footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
+.toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(20px);opacity:0;padding:10px 18px;border-radius:999px;transition:all .3s;font-size:14px}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+@media (max-width:760px){.manual,.faq{grid-template-columns:1fr} .cmd{flex-direction:column} header.hero{padding-top:64px}}
+</style>
+</head>
+<body>
+<div class="aura"></div>
+<div class="wrap">
+  <header class="hero">
+    <div class="logo"><i></i> Traffik Apps</div>
+    <h1>Des apps Mac <em>maison</em>,<br>natives et légères.</h1>
+    <p class="lead">Gratuites, sans abonnement, sans pub. Elles se mettent à jour toutes seules, en silence, avec des versions signées.</p>
+    <ul class="reqs">
+      <li class="glass">macOS 26 Tahoe ou plus récent</li>
+      <li class="glass">Mac Apple Silicon (M1 et suivants)</li>
+      <li class="glass">Intel : apps marquées « Universelle »</li>
+      <li class="glass">0 app(s) disponible(s)</li>
+    </ul>
+  </header>
+
+  <section id="installer">
+    <div class="glass install">
+      <h2>Installer en une commande</h2>
+      <p class="sub">La méthode la plus simple : aucun blocage de macOS, et chaque app est vérifiée avant d'être installée.</p>
+      <div class="chips" id="chips"></div>
+      <div class="cmd">
+        <code id="cmd">curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s </code>
+        <button class="btn primary" id="copy-cmd">Copier</button>
+      </div>
+      <ol class="steps-mini">
+        <li>Ouvrez <b>Terminal</b> (⌘ Espace, tapez « Terminal », Entrée).</li>
+        <li>Collez la commande (⌘ V) puis <b>Entrée</b>.</li>
+        <li>Le script télécharge, vérifie la signature, installe dans Applications et ouvre l'app. C'est tout.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="apps">
+    <h2>Les apps</h2>
+    <p class="sub">Chaque app explique à son premier lancement ce dont elle a besoin.</p>
+    <div class="grid"><p class="empty">Les premières apps arrivent bientôt.</p>
+    </div>
+  </section>
+
+  <section id="manuel">
+    <h2>Installation à la main (fichier .zip)</h2>
+    <p class="sub">Les apps ne passent pas par l'App Store : la première fois, macOS demande votre accord. Une seule fois par app.</p>
+    <div class="manual">
+      <div class="glass step">
+        <h3><span class="num">1</span> Télécharger et ranger</h3>
+        <p>Cliquez sur « Télécharger », ouvrez le .zip, puis glissez l'app dans le dossier <b>Applications</b>.</p>
+        <div class="terminal">~/Téléchargements<br>└─ Clac.app → <span class="ok">Applications</span></div>
+      </div>
+      <div class="glass step">
+        <h3><span class="num">2</span> Premier essai</h3>
+        <p>Double-cliquez sur l'app. macOS refuse de l'ouvrir : c'est normal, cliquez sur <b>Terminé</b>.</p>
+        <div class="mock mock-dialog">
+          <img src="" alt="" onerror="this.style.visibility='hidden'">
+          <strong>« Clac » n'a pas été ouvert</strong>
+          <p>Apple n'a pas pu confirmer que « Clac » ne contenait pas de logiciel malveillant susceptible de nuire à votre Mac ou de compromettre votre confidentialité.</p>
+          <div class="mock-buttons"><span class="blue">Terminé</span><span>Placer dans la corbeille</span></div>
+        </div>
+        <div class="caption">Illustration de la fenêtre de macOS</div>
+      </div>
+      <div class="glass step">
+        <h3><span class="num">3</span> Ouvrir quand même</h3>
+        <p>Ouvrez <b>Réglages Système › Confidentialité et sécurité</b>, descendez jusqu'à « Sécurité » et cliquez sur <b>Ouvrir quand même</b>, puis saisissez votre mot de passe.</p>
+        <div class="mock mock-settings">
+          <div class="mock-side"><div>Général</div><div>Apparence</div><div class="sel">Confidentialité et sécurité</div><div>Bureau et Dock</div></div>
+          <div class="mock-main">
+            <h4>Sécurité</h4>
+            <div class="mock-row">L'ouverture de « Clac » a été bloquée pour protéger votre Mac.<br><span class="mock-btn">Ouvrir quand même</span></div>
+          </div>
+        </div>
+        <div class="caption">Illustration des Réglages Système</div>
+      </div>
+      <div class="glass step">
+        <h3><span class="num">4</span> Confirmer</h3>
+        <p>macOS demande une dernière fois : cliquez sur <b>Ouvrir quand même</b>. Ensuite l'app s'ouvre normalement, et ses mises à jour s'installent sans rien redemander.</p>
+        <div class="mock mock-dialog">
+          <img src="" alt="" onerror="this.style.visibility='hidden'">
+          <strong>Ouvrir « Clac » ?</strong>
+          <p>Apple n'a pas pu confirmer que « Clac » ne contenait pas de logiciel malveillant.</p>
+          <div class="mock-buttons"><span class="blue">Ouvrir quand même</span><span>Terminé</span></div>
+        </div>
+        <div class="caption">Illustration de la fenêtre de macOS</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>Bon à savoir</h2>
+    <div class="faq">
+      <div class="glass"><h3>Mises à jour automatiques</h3><p>Chaque app vérifie toutes les 6 heures s'il existe une nouvelle version, la télécharge en arrière-plan et l'installe quand vous la quittez (ou tout de suite avec « Redémarrer »). Vos réglages et autorisations sont conservés. Désactivable dans les réglages de l'app.</p></div>
+      <div class="glass"><h3>Sécurité</h3><p>Chaque version est signée (Ed25519) et toujours par le même certificat. Une archive modifiée, ou signée par quelqu'un d'autre, est refusée — par l'installateur comme par les mises à jour.</p></div>
+      <div class="glass"><h3>Autorisations</h3><p>Au premier lancement, l'app montre chaque autorisation utile avec un bouton qui ouvre le bon réglage, et coche la ligne dès que c'est accordé. Rien n'est envoyé nulle part.</p></div>
+      <div class="glass"><h3>Désinstaller</h3><p>Quittez l'app puis glissez-la du dossier Applications à la corbeille. C'est tout.</p></div>
+    </div>
+  </section>
+
+  <footer>Traffik Web · apps faites avec soin, pour les amis.</footer>
+</div>
+<div class="toast glass" id="toast">Copié ✓</div>
+<script>
+(function(){
+  var base = "curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s ";
+  var chips = document.querySelectorAll('#chips input');
+  var cmd = document.getElementById('cmd');
+  function update(){
+    var s = [];
+    chips.forEach(function(c){ if (c.checked) s.push(c.value); });
+    cmd.textContent = base + (s.length === chips.length && s.length > 1 ? "toutes" : (s.join(" ") || "…"));
+  }
+  chips.forEach(function(c){ c.addEventListener('change', update); });
+  update();
+  var toast = document.getElementById('toast');
+  function copy(text){
+    (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).catch(function(){
+      var t = document.createElement('textarea'); t.value = text; document.body.appendChild(t); t.select(); document.execCommand('copy'); t.remove();
+    });
+    toast.classList.add('show'); setTimeout(function(){ toast.classList.remove('show'); }, 1400);
+  }
+  document.getElementById('copy-cmd').addEventListener('click', function(){ copy(cmd.textContent); });
+  document.querySelectorAll('[data-copy]').forEach(function(b){ b.addEventListener('click', function(){ copy(b.getAttribute('data-copy')); }); });
+})();
+</script>
+</body>
+</html>
