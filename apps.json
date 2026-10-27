@@ -87,17 +87,17 @@
       "icon": "icons/halo.png",
       "bundleId": "com.traffikweb.halo",
       "version": "1.1",
-      "build": 1,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.1-b1/Halo-1.1-b1.zip",
-      "size": 8037576,
-      "sha256": "34a9b8b6450022737893f9d1c8395e6fa09524a26c0bb2ffb1b1c7ee45366434",
-      "signature": "lzEZAIRPtjAfkimnNoXCJEYV0lTUWywMUdDunoadFlVc2QUA4llPl71IF60IiP0xHhQs3u5poEdI95FqTY/MAQ==",
-      "notes": "Nouvelle icône. Accueil au premier lancement : modules au choix (fenêtres, rangement, captures, gestes, dictée), autorisations expliquées, IA du Mac par défaut (ou votre clé, ou Ollama / LM Studio). « Ce que j'ai raté », vocaux et style lisent VOS messages, sur votre Mac. Modèle de dictée téléchargé au premier usage (vérifié), mises à jour automatiques.",
+      "build": 2,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.1-b2/Halo-1.1-b2.zip",
+      "size": 8079086,
+      "sha256": "250ce5f4cd72e9cf3d11809dee65c69e9def8c25ee7d33d9619129fe05ad4a01",
+      "signature": "Xh6CZ3HTXMILArEf6VkLAquQ4CgJXrnB4anLn116VPixb6S5aB7z9npsaiZqW1lhDQLFriUzJwGkIFRo4tKSAg==",
+      "notes": "Les icônes d'apps se mettent à jour dans la recherche quand elles changent (thème d'icônes, mise à jour d'app).",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-10-27T04:55:27Z"
+      "published": "2026-10-27T06:01:40Z"
     },
     {
       "name": "Ilot",
