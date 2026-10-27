@@ -6,7 +6,7 @@
 <title>Traffik Apps — des apps Mac maison</title>
 <meta name="description" content="Apps Mac natives, légères et gratuites, avec mises à jour automatiques.">
 <meta name="color-scheme" content="dark light">
-<link rel="icon" href="">
+<link rel="icon" href="icons/clac.png">
 <style>
 :root{
   --bg:#0b0b10; --ink:#f5f5f7; --soft:#a1a1aa; --line:rgba(255,255,255,.10); --glass:rgba(255,255,255,.06);
@@ -115,7 +115,7 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
       <li class="glass">macOS 26 Tahoe ou plus récent</li>
       <li class="glass">Mac Apple Silicon (M1 et suivants)</li>
       <li class="glass">Intel : apps marquées « Universelle »</li>
-      <li class="glass">0 app(s) disponible(s)</li>
+      <li class="glass">1 app(s) disponible(s)</li>
     </ul>
   </header>
 
@@ -123,9 +123,9 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
     <div class="glass install">
       <h2>Installer en une commande</h2>
       <p class="sub">La méthode la plus simple : aucun blocage de macOS, et chaque app est vérifiée avant d'être installée.</p>
-      <div class="chips" id="chips"></div>
+      <div class="chips" id="chips"><label class="chip"><input type="checkbox" value="clac" checked><span>Clac</span></label></div>
       <div class="cmd">
-        <code id="cmd">curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s </code>
+        <code id="cmd">curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s clac</code>
         <button class="btn primary" id="copy-cmd">Copier</button>
       </div>
       <ol class="steps-mini">
@@ -139,7 +139,20 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
   <section id="apps">
     <h2>Les apps</h2>
     <p class="sub">Chaque app explique à son premier lancement ce dont elle a besoin.</p>
-    <div class="grid"><p class="empty">Les premières apps arrivent bientôt.</p>
+    <div class="grid">
+      <article class="glass app" id="clac">
+        <div class="app-head">
+          <img src="icons/clac.png" alt="" width="72" height="72" loading="lazy">
+          <div><h3>Clac</h3><p class="tagline">Le son d&#x27;un clavier mécanique à chaque frappe</p></div>
+        </div>
+        <p class="desc">De vrais claviers enregistrés (Crème, Thock, Tactile, Clicky, Topre, machine à écrire), une latence de quelques millisecondes, et Clac se tait tout seul pendant vos appels. Vit dans la barre des menus.</p>
+        <p class="perms"><span>Autorisation demandée :</span> Surveillance de l&#x27;entrée (savoir quelle touche est pressée — rien n&#x27;est enregistré)</p>
+        <ul class="badges"><li>v1.2</li><li>8,2 Mo</li><li>Universelle (Apple Silicon + Intel)</li><li>⌃⌥⌘K</li></ul>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/rayanesabi/traffik-apps/releases/download/clac-v1.2-b2/Clac-1.2-b2.zip">Télécharger</a>
+          <button class="btn" data-copy="curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s clac">Copier la commande</button>
+        </div>
+      </article>
     </div>
   </section>
 
@@ -156,7 +169,7 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
         <h3><span class="num">2</span> Premier essai</h3>
         <p>Double-cliquez sur l'app. macOS refuse de l'ouvrir : c'est normal, cliquez sur <b>Terminé</b>.</p>
         <div class="mock mock-dialog">
-          <img src="" alt="" onerror="this.style.visibility='hidden'">
+          <img src="icons/clac.png" alt="" onerror="this.style.visibility='hidden'">
           <strong>« Clac » n'a pas été ouvert</strong>
           <p>Apple n'a pas pu confirmer que « Clac » ne contenait pas de logiciel malveillant susceptible de nuire à votre Mac ou de compromettre votre confidentialité.</p>
           <div class="mock-buttons"><span class="blue">Terminé</span><span>Placer dans la corbeille</span></div>
@@ -179,7 +192,7 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
         <h3><span class="num">4</span> Confirmer</h3>
         <p>macOS demande une dernière fois : cliquez sur <b>Ouvrir quand même</b>. Ensuite l'app s'ouvre normalement, et ses mises à jour s'installent sans rien redemander.</p>
         <div class="mock mock-dialog">
-          <img src="" alt="" onerror="this.style.visibility='hidden'">
+          <img src="icons/clac.png" alt="" onerror="this.style.visibility='hidden'">
           <strong>Ouvrir « Clac » ?</strong>
           <p>Apple n'a pas pu confirmer que « Clac » ne contenait pas de logiciel malveillant.</p>
           <div class="mock-buttons"><span class="blue">Ouvrir quand même</span><span>Terminé</span></div>

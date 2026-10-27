@@ -1,0 +1,18 @@
+{
+  "app": "clac",
+  "name": "Clac",
+  "bundleId": "com.traffikweb.clac",
+  "version": "1.2",
+  "build": 2,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clac-v1.2-b2/Clac-1.2-b2.zip",
+  "size": 8183770,
+  "sha256": "710d7b9f24ab35575a5dd43abdc438de465e34dfc12b10d637d0108ab1d64d6e",
+  "signature": "/ma83CQ3w3r19e2ZdRM5N4G7cGaEvyneS3Rq3+WkhZEl7pZaQzv4v1gt+G9O0C1isfUs3zIuHWDwAKynmJXcBQ==",
+  "notes": "Première version publique : sons de clavier mécanique, accueil, mises à jour automatiques.",
+  "minimumSystemVersion": "26.0",
+  "archs": [
+    "x86_64",
+    "arm64"
+  ],
+  "published": "2026-10-27T04:04:31Z"
+}
