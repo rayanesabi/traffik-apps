@@ -2,16 +2,16 @@
   "app": "orbe",
   "name": "Orbe",
   "bundleId": "com.traffikweb.orbe",
-  "version": "2.1.1",
-  "build": 202610270453,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.1.1-b202610270453/Orbe-2.1.1-b202610270453.zip",
-  "size": 5187057,
-  "sha256": "e77a6b7981d9ca5e20cbe8a596971f01d76a508f4e96bc9367f9f1325a262c0e",
-  "signature": "L4CtTW7ZvI6DkzucVq3rJjG5A9fff5J30W+oT/jNyEmlW3WtbI7FYXQfRovtrvWWAhEVTC0M50Yb5BNQ49L7Dg==",
-  "notes": "Correctifs connexion NordPass et pages anti-robot.\n- NordPass : la page Nord Account ne reste plus noire. Quand un onglet passait d'une page d'extension à une page web, la nouvelle page se chargeait mais n'était jamais affichée.\n- Pages anti-robot (Hetzner « Checking that you are not a robot ») : Orbe donne maintenant aux pages la vraie taille de la fenêtre (window.outerWidth/outerHeight valaient 0, comme un navigateur sans écran). La vérification tournait en boucle puis Hetzner affichait « Request on Hold ».\n- Icônes de sites et suggestions : téléchargées sans cookies.",
+  "version": "2.1.2",
+  "build": 202610270454,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.1.2-b202610270454/Orbe-2.1.2-b202610270454.zip",
+  "size": 5194459,
+  "sha256": "0904bea4ef94f65c325f4eab85baf65b79269f537e393e1f5cf9aad2823eb00f",
+  "signature": "cl8xdcU0+mZOLBVpTSidBez8V3hQ0aNjmGiUu+HmjC2v1y+S76zyzycEvEhq5o4ur0O2NHTYXBtG9S3JfvhLCQ==",
+  "notes": "Connexion NordPass : le retour depuis Nord Account fonctionne.\n- Après la connexion sur Nord Account, la page de l'extension (app.html) restait blanche : Orbe refusait la redirection vers l'extension, parce qu'il vérifiait l'adresse d'arrivée au lieu du site d'origine. C'est corrigé, comme dans Chrome.\n- Rappel 2.1.1 : page Nord Account noire corrigée, vérification anti-robot Hetzner qui aboutit.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-10-27T14:14:38Z"
+  "published": "2026-10-27T14:43:05Z"
 }
