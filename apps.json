@@ -12,18 +12,18 @@
       "icon": "icons/atelier.png",
       "bundleId": "com.traffikweb.atelier",
       "version": "1.1",
-      "build": 3,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/atelier-v1.1-b3/Atelier-1.1-b3.zip",
-      "size": 5209779,
-      "sha256": "71d7a5a41f79d3afba5529f5c1fa5cee7d524169c560ae4c8e80663d21638210",
-      "signature": "Z9X1O7YKsULxXvlECVMcbLIiHpEYqIs6rJlyPNMtncCq+hMZrcxQvaoqBZyXqgoIp4t009mj4dAkTa2zrCU9CA==",
-      "notes": "« Tout restaurer » et « Revenir à macOS » remettent vraiment chaque icône d'origine (fichier d'icône et drapeau Finder), avec un compte rendu app par app. Une icône retirée à la main n'est plus jamais remise ; une app mise à jour avec une nouvelle icône reçoit un thème recalculé à partir d'elle. La taille des curseurs choisie dans l'éditeur est enregistrée et appliquée tout de suite. Textes toujours à l'endroit sur le verre.",
+      "build": 4,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/atelier-v1.1-b4/Atelier-1.1-b4.zip",
+      "size": 5333050,
+      "sha256": "a4b3dfa7cb5003018705bda12b5c7f8c3bcdddcbc3dd6d2b4f895e46ffff559e",
+      "signature": "WtKtqMkQ2UcKvHpkYj2UN/Ty9m/+PxvTFHJQ5qgLubC2VonQoPSGsKvmgKr8rq1aaDz+Y5MBMBeOsyZ95wFTAA==",
+      "notes": "Statistiques d'usage anonymes, pour savoir combien de Mac utilisent Atelier : un signal par jour (identifiant tiré au hasard, version, macOS, modèle de Mac), jamais votre nom ni vos données. Désactivables dans les réglages (carte « Mises à jour »).",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-27T06:03:11Z"
+      "published": "2026-10-27T16:19:19Z"
     },
     {
       "name": "Canal",
