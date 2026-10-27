@@ -2,17 +2,17 @@
   "app": "clair",
   "name": "Clair",
   "bundleId": "com.traffikweb.clair",
-  "version": "2.6",
-  "build": 1,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v2.6-b1/Clair-2.6-b1.zip",
-  "size": 7165473,
-  "sha256": "ce1b6d799a52854b9ff17d1ed76fa65079ebe25cd54c74661fafdecd2fd4edaf",
-  "signature": "utniLDcWtxk6TznOSufe8nzgwGX5OaKEjB2rq5j5DrXgqySsP+iPUz6tQntoZNos+6mfHnIUCISyrlWOW3V2Bw==",
-  "notes": "Accueil au premier lancement : présentation, Accès complet au disque vérifié en direct, choix des alertes, rangement, ouverture à la connexion.\nMises à jour automatiques et signées, installées quand Clair n'est pas utilisé.\nFenêtre étroite : la barre latérale, la page Autorisations et la page Applications ne sont plus coupées ; plus de page précédente visible en transparence.",
+  "version": "3.0",
+  "build": 2,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.0-b2/Clair-3.0-b2.zip",
+  "size": 15982788,
+  "sha256": "1f23bc549cf7f04526db09fa419f46a713099f010b5c1c4e797abf74f9789eef",
+  "signature": "JG/OssizmRzcoKx4iS9/V6ofnYlBysHX3KxERaBcSNE1sgrFOZWS8qfWo0q4ihV3HnKCNDfxzegwI8ufAGsqAw==",
+  "notes": "Nouvelle apparence « Nacre & Pinceau » : chaque module a son objet 3D peint, un fond d'encre teinté et des icônes en relief.\nAnimations réelles et légères : arrivée de chaque écran, analyse avec balayage et puces trouvées, nettoyage en bulles, écran de succès. Rien ne bouge au repos.\n« Réduire les animations » de macOS est respecté (images fixes). Statistiques anonymes désactivables dans les réglages.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "x86_64",
     "arm64"
   ],
-  "published": "2026-10-27T06:19:58Z"
+  "published": "2026-10-27T08:08:55Z"
 }
