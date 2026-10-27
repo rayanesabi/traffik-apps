@@ -3,16 +3,16 @@
   "name": "Atelier",
   "bundleId": "com.traffikweb.atelier",
   "version": "1.0",
-  "build": 1,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/atelier-v1.0-b1/Atelier-1.0-b1.zip",
-  "size": 4880229,
-  "sha256": "49c831cae21b758a5f8b9c99eb023abd6a3007a58b8a990d0d81f140e4314808",
-  "signature": "oTSC3CWQLr3ejMxLdHuJHf1kicLwTTw6yeXROB89LCZ2I6lwLDrIoRzQDIHGaCg7tzyrZUkpwgoBN7SzYHxqDg==",
+  "build": 2,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/atelier-v1.0-b2/Atelier-1.0-b2.zip",
+  "size": 4946263,
+  "sha256": "e487d1a5789515049f3d8c73bd78f81e7e0f4e3f41d37fcf01c73d5c2e6c187b",
+  "signature": "SmMMrF4X06ILmCFW3Pa1VOc7fTA2w2JW3BTTn3Q+qxPBcKauu4VFc5DUCka9x7Wg0RGmAGoUE2zYeOhubV2cDQ==",
   "notes": "Corrections et améliorations.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "x86_64",
     "arm64"
   ],
-  "published": "2026-10-27T04:33:52Z"
+  "published": "2026-10-27T04:51:14Z"
 }
