@@ -197,6 +197,31 @@
         "arm64"
       ],
       "published": "2026-10-27T05:36:49Z"
+    },
+    {
+      "name": "Pastel",
+      "tagline": "Historique du presse-papiers",
+      "description": "Retrouvez tout ce que vous avez copié avec ⌘⇧V : textes, images, liens, épinglés et recherchables.",
+      "shortcut": "⌘⇧V",
+      "permissions": [
+        "Accessibilité (pour coller à votre place)"
+      ],
+      "slug": "pastel",
+      "icon": "icons/pastel.png",
+      "bundleId": "com.traffikweb.pastel",
+      "version": "1.6",
+      "build": 1,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/pastel-v1.6-b1/Pastel-1.6-b1.zip",
+      "size": 4779146,
+      "sha256": "6c1fe96f8b648d938e009c620de79de89e75941d1a0b23c49badfb14111a0f7e",
+      "signature": "jTCfsRTa2mIhbmEidSrU7n+d8cq3SqIqboSk/IM0Z4tn5fMkMBzkdwBMPUu7FOz4NVJGZ58s+bI2MYMDLi3cDA==",
+      "notes": "Nouveau panneau dans la barre des menus : derniers éléments avec aperçu, recherche, épinglés, pause.\nAccueil au premier lancement (autorisations expliquées, choix du raccourci).\nMises à jour automatiques.",
+      "minimumSystemVersion": "26.0",
+      "archs": [
+        "x86_64",
+        "arm64"
+      ],
+      "published": "2026-10-27T06:26:07Z"
     }
   ]
 }
