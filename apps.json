@@ -224,6 +224,32 @@
       "published": "2026-10-27T05:36:49Z"
     },
     {
+      "name": "Orbe",
+      "tagline": "Le navigateur d'Arc, natif et léger",
+      "description": "Onglets verticaux, espaces et favoris comme dans Arc, ⌘T pour tout, mode lecture, bloqueur de pubs intégré et assistant IA (l'IA d'Apple de votre Mac, ou votre propre clé). Importe vos favoris, historique, mots de passe et sessions depuis Arc, Chrome ou Safari. Un accueil vous guide au premier lancement.",
+      "shortcut": "⌥⌘N (petite fenêtre)",
+      "permissions": [
+        "Caméra et micro (seulement quand un site de visio les demande)",
+        "Accès complet au disque (facultatif : importer depuis Safari)",
+        "Notifications (seulement pour les sites que vous autorisez)"
+      ],
+      "slug": "orbe",
+      "icon": "icons/orbe.png",
+      "bundleId": "com.traffikweb.orbe",
+      "version": "2.0",
+      "build": 202610270451,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.0-b202610270451/Orbe-2.0-b202610270451.zip",
+      "size": 5029065,
+      "sha256": "638e3e10e83ed174e3eedeeafe1c110422f886ff7da196250d6a8e30c6dd10e8",
+      "signature": "94IaN5/b4il9XaiHQDeLOgE7mHfJpNQgiQbGdo93w1N32kl6wqJ08vPQuVdGxw85kAcqRmdQjiF0UATJUMUUCw==",
+      "notes": "Orbe rejoint Traffik Apps : mises à jour automatiques signées, installées quand vous quittez Orbe.\n- Accueil au premier lancement : import depuis Arc, Chrome ou Safari, navigateur par défaut, bloqueur, IA.\n- IA : celle de votre Mac (Apple Intelligence) par défaut, ou votre clé ; sans IA, les fonctions sont simplement masquées.\n- Extensions Chrome : NordPass et les extensions qui utilisent privacy, idle ou offscreen fonctionnent maintenant.\n- Liquid Glass : textes toujours nets et à l'endroit.",
+      "minimumSystemVersion": "26.0",
+      "archs": [
+        "arm64"
+      ],
+      "published": "2026-10-27T07:02:00Z"
+    },
+    {
       "name": "Pastel",
       "tagline": "Historique du presse-papiers",
       "description": "Retrouvez tout ce que vous avez copié avec ⌘⇧V : textes, images, liens, épinglés et recherchables.",

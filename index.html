@@ -98,9 +98,23 @@ h2{font-size:30px;letter-spacing:-.02em;margin:0 0 6px}
 .faq .glass{padding:22px}
 .faq h3{margin:0 0 8px;font-size:17px}
 .faq p{margin:0;color:var(--soft);font-size:14.5px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.stats .glass{padding:22px}
+.stats h3{margin:0 0 8px;font-size:17px;display:flex;gap:9px;align-items:center}
+.stats p{margin:0 0 10px;color:var(--soft);font-size:14.5px}
+.stats p b,.list b{color:var(--ink)}
+.list{margin:0 0 12px;padding-left:18px;color:var(--soft);font-size:14px}
+.list li{margin:3px 0}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--accent2);display:inline-block}
+.dot.ok{background:var(--ok)}.dot.no{background:#ff5f57}
+.sample{margin:0;padding:10px 12px;border-radius:12px;background:rgba(0,0,0,.35);color:#fff;font:11.5px/1.5 ui-monospace,"SF Mono",Menlo,monospace;white-space:pre-wrap;overflow-wrap:anywhere;border:1px solid var(--line)}
+@media (prefers-color-scheme: light){.sample{background:#1d1d1f}}
+.stats .cmd{margin:0 0 10px;flex-direction:column;align-items:flex-start}.stats .cmd code{font-size:11.5px;white-space:normal;word-break:break-all}
+.small{font-size:13px!important}.small code{font:12px ui-monospace,Menlo,monospace}
 footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
 .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(20px);opacity:0;padding:10px 18px;border-radius:999px;transition:all .3s;font-size:14px}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+@media (max-width:980px){.stats{grid-template-columns:1fr}}
 @media (max-width:760px){.manual,.faq{grid-template-columns:1fr} .cmd{flex-direction:column} header.hero{padding-top:64px}}
 </style>
 </head>
@@ -115,7 +129,7 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
       <li class="glass">macOS 26 Tahoe ou plus récent</li>
       <li class="glass">Mac Apple Silicon (M1 et suivants)</li>
       <li class="glass">Intel : apps marquées « Universelle »</li>
-      <li class="glass">10 app(s) disponible(s)</li>
+      <li class="glass">11 app(s) disponible(s)</li>
     </ul>
   </header>
 
@@ -123,9 +137,9 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
     <div class="glass install">
       <h2>Installer en une commande</h2>
       <p class="sub">La méthode la plus simple : aucun blocage de macOS, et chaque app est vérifiée avant d'être installée.</p>
-      <div class="chips" id="chips"><label class="chip"><input type="checkbox" value="atelier" checked><span>Atelier</span></label><label class="chip"><input type="checkbox" value="canal" checked><span>Canal</span></label><label class="chip"><input type="checkbox" value="clac" checked><span>Clac</span></label><label class="chip"><input type="checkbox" value="clair" checked><span>Clair</span></label><label class="chip"><input type="checkbox" value="givre" checked><span>Givre</span></label><label class="chip"><input type="checkbox" value="halo" checked><span>Halo</span></label><label class="chip"><input type="checkbox" value="ilot" checked><span>Ilot</span></label><label class="chip"><input type="checkbox" value="mirage" checked><span>Mirage</span></label><label class="chip"><input type="checkbox" value="onde" checked><span>Onde</span></label><label class="chip"><input type="checkbox" value="pastel" checked><span>Pastel</span></label></div>
+      <div class="chips" id="chips"><label class="chip"><input type="checkbox" value="atelier" checked><span>Atelier</span></label><label class="chip"><input type="checkbox" value="canal" checked><span>Canal</span></label><label class="chip"><input type="checkbox" value="clac" checked><span>Clac</span></label><label class="chip"><input type="checkbox" value="clair" checked><span>Clair</span></label><label class="chip"><input type="checkbox" value="givre" checked><span>Givre</span></label><label class="chip"><input type="checkbox" value="halo" checked><span>Halo</span></label><label class="chip"><input type="checkbox" value="ilot" checked><span>Ilot</span></label><label class="chip"><input type="checkbox" value="mirage" checked><span>Mirage</span></label><label class="chip"><input type="checkbox" value="onde" checked><span>Onde</span></label><label class="chip"><input type="checkbox" value="orbe" checked><span>Orbe</span></label><label class="chip"><input type="checkbox" value="pastel" checked><span>Pastel</span></label></div>
       <div class="cmd">
-        <code id="cmd">curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s atelier canal clac clair givre halo ilot mirage onde pastel</code>
+        <code id="cmd">curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s atelier canal clac clair givre halo ilot mirage onde orbe pastel</code>
         <button class="btn primary" id="copy-cmd">Copier</button>
       </div>
       <ol class="steps-mini">
@@ -257,6 +271,19 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
           <button class="btn" data-copy="curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s onde">Copier la commande</button>
         </div>
       </article>
+      <article class="glass app" id="orbe">
+        <div class="app-head">
+          <img src="icons/orbe.png" alt="" width="72" height="72" loading="lazy">
+          <div><h3>Orbe</h3><p class="tagline">Le navigateur d&#x27;Arc, natif et léger</p></div>
+        </div>
+        <p class="desc">Onglets verticaux, espaces et favoris comme dans Arc, ⌘T pour tout, mode lecture, bloqueur de pubs intégré et assistant IA (l&#x27;IA d&#x27;Apple de votre Mac, ou votre propre clé). Importe vos favoris, historique, mots de passe et sessions depuis Arc, Chrome ou Safari. Un accueil vous guide au premier lancement.</p>
+        <p class="perms"><span>Autorisation demandée :</span> Caméra et micro (seulement quand un site de visio les demande) · Accès complet au disque (facultatif : importer depuis Safari) · Notifications (seulement pour les sites que vous autorisez)</p>
+        <ul class="badges"><li>v2.0</li><li>5,0 Mo</li><li>Apple Silicon</li><li>⌥⌘N (petite fenêtre)</li></ul>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.0-b202610270451/Orbe-2.0-b202610270451.zip">Télécharger</a>
+          <button class="btn" data-copy="curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s orbe">Copier la commande</button>
+        </div>
+      </article>
       <article class="glass app" id="pastel">
         <div class="app-head">
           <img src="icons/pastel.png" alt="" width="72" height="72" loading="lazy">
@@ -324,8 +351,45 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
     <div class="faq">
       <div class="glass"><h3>Mises à jour automatiques</h3><p>Chaque app vérifie toutes les 6 heures s'il existe une nouvelle version, la télécharge en arrière-plan et l'installe quand vous la quittez (ou tout de suite avec « Redémarrer »). Vos réglages et autorisations sont conservés. Désactivable dans les réglages de l'app.</p></div>
       <div class="glass"><h3>Sécurité</h3><p>Chaque version est signée (Ed25519) et toujours par le même certificat. Une archive modifiée, ou signée par quelqu'un d'autre, est refusée — par l'installateur comme par les mises à jour.</p></div>
-      <div class="glass"><h3>Autorisations</h3><p>Au premier lancement, l'app montre chaque autorisation utile avec un bouton qui ouvre le bon réglage, et coche la ligne dès que c'est accordé. Rien n'est envoyé nulle part.</p></div>
+      <div class="glass"><h3>Autorisations</h3><p>Au premier lancement, l'app montre chaque autorisation utile avec un bouton qui ouvre le bon réglage, et coche la ligne dès que c'est accordé. Ce que vous faites dans les apps reste sur votre Mac (voir « Statistiques anonymes » ci-dessous).</p></div>
       <div class="glass"><h3>Désinstaller</h3><p>Quittez l'app puis glissez-la du dossier Applications à la corbeille. C'est tout.</p></div>
+    </div>
+  </section>
+
+  <section id="statistiques">
+    <h2>Statistiques anonymes</h2>
+    <p class="sub">Pour savoir combien de Mac utilisent chaque app et si les mises à jour arrivent bien — compter, sans savoir qui. Activées par défaut, désactivables en un clic.</p>
+    <div class="stats">
+      <div class="glass">
+        <h3><span class="dot ok"></span> Ce qui est envoyé</h3>
+        <p>Au lancement de l'app, <b>au plus une fois par jour</b> (et une fois par jour si elle reste ouverte), un petit message de 8 champs, rien d'autre&nbsp;:</p>
+        <ul class="list">
+          <li>un <b>identifiant tiré au hasard</b> sur votre Mac (le même pour toutes ces apps, jamais tiré du matériel)</li>
+          <li>le <b>nom de l'app</b>, sa <b>version</b> et son numéro de build</li>
+          <li>la <b>version de macOS</b></li>
+          <li>le <b>modèle de Mac</b> (ex. «&nbsp;Mac16,7&nbsp;», le même pour tous les Mac de ce modèle) et le <b>processeur</b> (Apple Silicon ou Intel)</li>
+          <li>un indicateur «&nbsp;Mac du développeur&nbsp;», toujours «&nbsp;non&nbsp;» chez vous</li>
+        </ul>
+        <pre class="sample">{"id":"3f2b8c1e-…","app":"clac","version":"1.2","build":3,"os":"26.1","model":"Mac16,7","arch":"arm64","owner":false}</pre>
+      </div>
+      <div class="glass">
+        <h3><span class="dot no"></span> Ce qui n'est jamais envoyé</h3>
+        <ul class="list">
+          <li>votre nom, votre nom de compte, votre e-mail</li>
+          <li>le nom de votre ordinateur, son numéro de série</li>
+          <li>la liste de vos apps, vos fichiers, vos réglages, ce que vous faites dans l'app</li>
+          <li>votre adresse IP&nbsp;: le serveur ne la lit pas et ne la garde pas (ni en clair, ni «&nbsp;hachée&nbsp;»), aucun journal, aucun cookie</li>
+        </ul>
+        <p>Seul le développeur voit les totaux («&nbsp;7 Mac utilisent Clac, dont 5 en 1.2&nbsp;»). Un identifiant qui ne donne plus signe de vie pendant 90 jours est effacé.</p>
+      </div>
+      <div class="glass">
+        <h3><span class="dot"></span> Comment les couper</h3>
+        <p><b>Dans une app</b>&nbsp;: ses réglages › carte «&nbsp;Mises à jour&nbsp;» › interrupteur <b>Statistiques anonymes</b> (aussi proposé au premier lancement, page «&nbsp;Toujours à jour&nbsp;»).</p>
+        <p><b>Pour toutes les apps d'un coup</b>, dans Terminal&nbsp;:</p>
+        <div class="cmd"><code>mkdir -p ~/Library/Application\ Support/TraffikWeb &amp;&amp; touch ~/Library/Application\ Support/TraffikWeb/no-stats</code>
+          <button class="btn" data-copy="mkdir -p ~/Library/Application\ Support/TraffikWeb &amp;&amp; touch ~/Library/Application\ Support/TraffikWeb/no-stats">Copier</button></div>
+        <p class="small">Changer d'identifiant&nbsp;: supprimez le fichier <code>~/Library/Application Support/TraffikWeb/machine-id</code>, un nouveau sera tiré au hasard.</p>
+      </div>
     </div>
   </section>
 

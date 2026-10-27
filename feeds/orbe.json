@@ -1,0 +1,17 @@
+{
+  "app": "orbe",
+  "name": "Orbe",
+  "bundleId": "com.traffikweb.orbe",
+  "version": "2.0",
+  "build": 202610270451,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.0-b202610270451/Orbe-2.0-b202610270451.zip",
+  "size": 5029065,
+  "sha256": "638e3e10e83ed174e3eedeeafe1c110422f886ff7da196250d6a8e30c6dd10e8",
+  "signature": "94IaN5/b4il9XaiHQDeLOgE7mHfJpNQgiQbGdo93w1N32kl6wqJ08vPQuVdGxw85kAcqRmdQjiF0UATJUMUUCw==",
+  "notes": "Orbe rejoint Traffik Apps : mises à jour automatiques signées, installées quand vous quittez Orbe.\n- Accueil au premier lancement : import depuis Arc, Chrome ou Safari, navigateur par défaut, bloqueur, IA.\n- IA : celle de votre Mac (Apple Intelligence) par défaut, ou votre clé ; sans IA, les fonctions sont simplement masquées.\n- Extensions Chrome : NordPass et les extensions qui utilisent privacy, idle ou offscreen fonctionnent maintenant.\n- Liquid Glass : textes toujours nets et à l'endroit.",
+  "minimumSystemVersion": "26.0",
+  "archs": [
+    "arm64"
+  ],
+  "published": "2026-10-27T07:02:00Z"
+}
