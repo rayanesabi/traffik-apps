@@ -59,18 +59,18 @@
       "icon": "icons/clac.png",
       "bundleId": "com.traffikweb.clac",
       "version": "1.2",
-      "build": 3,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clac-v1.2-b3/Clac-1.2-b3.zip",
-      "size": 8169722,
-      "sha256": "80f30478c37aea25cf98a1fe9312e57286610ea2f203eac5e0366e80fc6a2b50",
-      "signature": "yjpMnIaj1TKhHQrly7Z7ccYvpCK3I9KnsctZoFv2j8KzKn351DwDtmsKhSY1DYS5aEz/PZAoG+6aw/ccQqTKDQ==",
-      "notes": "Clac 1.2\n• Mises à jour automatiques : les nouvelles versions arrivent toutes seules, vérifiées et signées.\n• Nouvel accueil au premier lancement : autorisation guidée, choix du son.\n• App universelle (Apple Silicon et Intel).",
+      "build": 4,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clac-v1.2-b4/Clac-1.2-b4.zip",
+      "size": 8294093,
+      "sha256": "7db77778b4202620ea76b24799dc3bc17e4b995336445c4fbf855a2c73486a7f",
+      "signature": "g4ep1Vzx4BzBy7SC6q7sRAT/8Z69W361p4Xr4vnYD5sy69HmbCVhj1NRCo0pwBSoCX4tg0Keszns/A0PzUenCQ==",
+      "notes": "Statistiques d'usage anonymes, pour savoir combien de Mac utilisent Clac : un signal par jour (identifiant tiré au hasard, version, macOS, modèle de Mac), jamais votre nom ni vos données. Désactivables dans les réglages (carte « Mises à jour »).",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-27T06:41:06Z"
+      "published": "2026-10-27T16:20:29Z"
     },
     {
       "name": "Clair",
