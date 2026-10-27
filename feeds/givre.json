@@ -3,16 +3,16 @@
   "name": "Givre",
   "bundleId": "com.traffikweb.givre",
   "version": "1.1",
-  "build": 1,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/givre-v1.1-b1/Givre-1.1-b1.zip",
-  "size": 3853846,
-  "sha256": "78b33109125c2ffc207341a0e1718ad15c2804dc3442190378da6897035308f5",
-  "signature": "yGl6artY7BGZeF1dNco/YnPp6IKDZ7UGYeaytnN6R72s4+kyuaY2l7SdIVMVIXkdztInwHvLehDcEmEa7fotAg==",
-  "notes": "Nouveau panneau Liquid Glass au clic sur ❄︎ : apps masquées avec leurs icônes, ouverture de leur menu, réorganisation rapide. ⌥-clic révèle ou masque. Accueil au premier lancement et mises à jour automatiques.",
+  "build": 2,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/givre-v1.1-b2/Givre-1.1-b2.zip",
+  "size": 3977500,
+  "sha256": "773503708e62d974048114307e681c031b73534b84490cf7190914745d16181d",
+  "signature": "gLjyLfLqILbsgBA7zb3y5TixiaAJtaKL3xHIxtLG+q3ptYyw2QcOLznJOzdjzwR6mn1S7sJqSfDiChZ1qOkVBg==",
+  "notes": "Statistiques d'usage anonymes, pour savoir combien de Mac utilisent Givre : un signal par jour (identifiant tiré au hasard, version, macOS, modèle de Mac), jamais votre nom ni vos données. Désactivables dans les réglages (carte « Mises à jour »).",
   "minimumSystemVersion": "26.0",
   "archs": [
     "x86_64",
     "arm64"
   ],
-  "published": "2026-10-27T06:26:14Z"
+  "published": "2026-10-27T16:08:49Z"
 }
