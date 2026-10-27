@@ -160,18 +160,18 @@
       "icon": "icons/onde.png",
       "bundleId": "com.traffikweb.onde",
       "version": "1.2",
-      "build": 1,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/onde-v1.2-b1/Onde-1.2-b1.zip",
-      "size": 3556634,
-      "sha256": "e3f88cf1ee7736dc6e41bc9f8181972fd38596e1f536e2c8a29cbeca1f78c027",
-      "signature": "zZT0RX0Cq7Xp1NSikV7yo3KwhwB0AxFzCbrasOoBGk2PKF1fqPXR8PtHU6EGgjCrc9EvcaBFOwO9G0PS9OOmBw==",
+      "build": 2,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/onde-v1.2-b2/Onde-1.2-b2.zip",
+      "size": 3644401,
+      "sha256": "0e12d7d12f0a5310e5ed82f06c00016fb76e3925b48a4dfa8a00b19f26184190",
+      "signature": "98p9v2jJW//TvezRf9ZE4gXOs8TJx1iu1vKnxF/jWKeqi+CtpA/Rc3OOzwYeZSPVySNAe2pSLBEVkDmnqW3cDw==",
       "notes": "Onde 1.2 : son plus stable avec les AirPods et le Bluetooth (tampon adapté, plus de double lecture, son d'origine rendu aussitôt si la sortie se bloque), aimant à 100 % élargi. Accueil au premier lancement et mises à jour automatiques.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-27T05:11:56Z"
+      "published": "2026-10-27T05:36:49Z"
     }
   ]
 }
