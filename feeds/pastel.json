@@ -3,16 +3,16 @@
   "name": "Pastel",
   "bundleId": "com.traffikweb.pastel",
   "version": "1.6",
-  "build": 1,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/pastel-v1.6-b1/Pastel-1.6-b1.zip",
-  "size": 4779146,
-  "sha256": "6c1fe96f8b648d938e009c620de79de89e75941d1a0b23c49badfb14111a0f7e",
-  "signature": "jTCfsRTa2mIhbmEidSrU7n+d8cq3SqIqboSk/IM0Z4tn5fMkMBzkdwBMPUu7FOz4NVJGZ58s+bI2MYMDLi3cDA==",
-  "notes": "Nouveau panneau dans la barre des menus : derniers éléments avec aperçu, recherche, épinglés, pause.\nAccueil au premier lancement (autorisations expliquées, choix du raccourci).\nMises à jour automatiques.",
+  "build": 2,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/pastel-v1.6-b2/Pastel-1.6-b2.zip",
+  "size": 4901586,
+  "sha256": "00d39b2c3d5f3364900aca32ce65a2f09cfb3c54ea99cc0b1c7c648c9d076538",
+  "signature": "R8I58fpjuutO/3fDkEklw4PjlSJpLWdRDv/s8UGGxsTiQ4cRblUvKt+rO1AhcbR0A8c8duw+hhYRY6/GkMOJDw==",
+  "notes": "Statistiques d'usage anonymes, pour savoir combien de Mac utilisent Pastel : un signal par jour (identifiant tiré au hasard, version, macOS, modèle de Mac), jamais votre nom ni vos données. Désactivables dans les réglages (carte « Mises à jour »).",
   "minimumSystemVersion": "26.0",
   "archs": [
     "x86_64",
     "arm64"
   ],
-  "published": "2026-10-27T06:26:07Z"
+  "published": "2026-10-27T13:32:34Z"
 }
