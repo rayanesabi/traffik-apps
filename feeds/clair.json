@@ -1,0 +1,18 @@
+{
+  "app": "clair",
+  "name": "Clair",
+  "bundleId": "com.traffikweb.clair",
+  "version": "2.6",
+  "build": 1,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v2.6-b1/Clair-2.6-b1.zip",
+  "size": 7165473,
+  "sha256": "ce1b6d799a52854b9ff17d1ed76fa65079ebe25cd54c74661fafdecd2fd4edaf",
+  "signature": "utniLDcWtxk6TznOSufe8nzgwGX5OaKEjB2rq5j5DrXgqySsP+iPUz6tQntoZNos+6mfHnIUCISyrlWOW3V2Bw==",
+  "notes": "Accueil au premier lancement : présentation, Accès complet au disque vérifié en direct, choix des alertes, rangement, ouverture à la connexion.\nMises à jour automatiques et signées, installées quand Clair n'est pas utilisé.\nFenêtre étroite : la barre latérale, la page Autorisations et la page Applications ne sont plus coupées ; plus de page précédente visible en transparence.",
+  "minimumSystemVersion": "26.0",
+  "archs": [
+    "x86_64",
+    "arm64"
+  ],
+  "published": "2026-10-27T06:19:58Z"
+}

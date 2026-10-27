@@ -115,7 +115,7 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
       <li class="glass">macOS 26 Tahoe ou plus récent</li>
       <li class="glass">Mac Apple Silicon (M1 et suivants)</li>
       <li class="glass">Intel : apps marquées « Universelle »</li>
-      <li class="glass">7 app(s) disponible(s)</li>
+      <li class="glass">8 app(s) disponible(s)</li>
     </ul>
   </header>
 
@@ -123,9 +123,9 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
     <div class="glass install">
       <h2>Installer en une commande</h2>
       <p class="sub">La méthode la plus simple : aucun blocage de macOS, et chaque app est vérifiée avant d'être installée.</p>
-      <div class="chips" id="chips"><label class="chip"><input type="checkbox" value="atelier" checked><span>Atelier</span></label><label class="chip"><input type="checkbox" value="canal" checked><span>Canal</span></label><label class="chip"><input type="checkbox" value="clac" checked><span>Clac</span></label><label class="chip"><input type="checkbox" value="halo" checked><span>Halo</span></label><label class="chip"><input type="checkbox" value="ilot" checked><span>Ilot</span></label><label class="chip"><input type="checkbox" value="mirage" checked><span>Mirage</span></label><label class="chip"><input type="checkbox" value="onde" checked><span>Onde</span></label></div>
+      <div class="chips" id="chips"><label class="chip"><input type="checkbox" value="atelier" checked><span>Atelier</span></label><label class="chip"><input type="checkbox" value="canal" checked><span>Canal</span></label><label class="chip"><input type="checkbox" value="clac" checked><span>Clac</span></label><label class="chip"><input type="checkbox" value="clair" checked><span>Clair</span></label><label class="chip"><input type="checkbox" value="halo" checked><span>Halo</span></label><label class="chip"><input type="checkbox" value="ilot" checked><span>Ilot</span></label><label class="chip"><input type="checkbox" value="mirage" checked><span>Mirage</span></label><label class="chip"><input type="checkbox" value="onde" checked><span>Onde</span></label></div>
       <div class="cmd">
-        <code id="cmd">curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s atelier canal clac halo ilot mirage onde</code>
+        <code id="cmd">curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s atelier canal clac clair halo ilot mirage onde</code>
         <button class="btn primary" id="copy-cmd">Copier</button>
       </div>
       <ol class="steps-mini">
@@ -177,6 +177,19 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
         <div class="actions">
           <a class="btn primary" href="https://github.com/rayanesabi/traffik-apps/releases/download/clac-v1.2-b2/Clac-1.2-b2.zip">Télécharger</a>
           <button class="btn" data-copy="curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s clac">Copier la commande</button>
+        </div>
+      </article>
+      <article class="glass app" id="clair">
+        <div class="app-head">
+          <img src="icons/clair.png" alt="" width="72" height="72" loading="lazy">
+          <div><h3>Clair</h3><p class="tagline">Nettoyage et entretien du Mac, sans abonnement</p></div>
+        </div>
+        <p class="desc">Un clic pour vérifier tout le Mac : caches, fichiers oubliés, doublons, applications et leurs restes, mises à jour des apps. Tout part à la Corbeille et se restaure depuis l&#x27;Historique. Rangement automatique des téléchargements (désactivé tant que vous ne le choisissez pas), petites alertes discrètes (Corbeille pleine, app figée, disque saturé) et une goutte dans la barre des menus. Tout reste sur votre Mac. Un accueil vous guide au premier lancement.</p>
+        <p class="perms"><span>Autorisation demandée :</span> Accès complet au disque (facultatif, conseillé) : sans lui, macOS cache à Clair la Corbeille, les pièces jointes Mail, les fichiers cloud et une partie de la carte du disque. Clair ne lit jamais vos mails, messages, photos ni mots de passe. À activer dans Réglages Système › Confidentialité et sécurité › Accès complet au disque (l&#x27;accueil vous y emmène et voit la coche en direct).</p>
+        <ul class="badges"><li>v2.6</li><li>7,2 Mo</li><li>Universelle (Apple Silicon + Intel)</li></ul>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/rayanesabi/traffik-apps/releases/download/clair-v2.6-b1/Clair-2.6-b1.zip">Télécharger</a>
+          <button class="btn" data-copy="curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s clair">Copier la commande</button>
         </div>
       </article>
       <article class="glass app" id="halo">

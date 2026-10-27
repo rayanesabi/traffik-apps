@@ -1,6 +1,7 @@
 atelier
 canal
 clac
+clair
 halo
 ilot
 mirage

@@ -73,6 +73,31 @@
       "published": "2026-10-27T04:04:31Z"
     },
     {
+      "name": "Clair",
+      "tagline": "Nettoyage et entretien du Mac, sans abonnement",
+      "description": "Un clic pour vérifier tout le Mac : caches, fichiers oubliés, doublons, applications et leurs restes, mises à jour des apps. Tout part à la Corbeille et se restaure depuis l'Historique. Rangement automatique des téléchargements (désactivé tant que vous ne le choisissez pas), petites alertes discrètes (Corbeille pleine, app figée, disque saturé) et une goutte dans la barre des menus. Tout reste sur votre Mac. Un accueil vous guide au premier lancement.",
+      "shortcut": "",
+      "permissions": [
+        "Accès complet au disque (facultatif, conseillé) : sans lui, macOS cache à Clair la Corbeille, les pièces jointes Mail, les fichiers cloud et une partie de la carte du disque. Clair ne lit jamais vos mails, messages, photos ni mots de passe. À activer dans Réglages Système › Confidentialité et sécurité › Accès complet au disque (l'accueil vous y emmène et voit la coche en direct)."
+      ],
+      "slug": "clair",
+      "icon": "icons/clair.png",
+      "bundleId": "com.traffikweb.clair",
+      "version": "2.6",
+      "build": 1,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v2.6-b1/Clair-2.6-b1.zip",
+      "size": 7165473,
+      "sha256": "ce1b6d799a52854b9ff17d1ed76fa65079ebe25cd54c74661fafdecd2fd4edaf",
+      "signature": "utniLDcWtxk6TznOSufe8nzgwGX5OaKEjB2rq5j5DrXgqySsP+iPUz6tQntoZNos+6mfHnIUCISyrlWOW3V2Bw==",
+      "notes": "Accueil au premier lancement : présentation, Accès complet au disque vérifié en direct, choix des alertes, rangement, ouverture à la connexion.\nMises à jour automatiques et signées, installées quand Clair n'est pas utilisé.\nFenêtre étroite : la barre latérale, la page Autorisations et la page Applications ne sont plus coupées ; plus de page précédente visible en transparence.",
+      "minimumSystemVersion": "26.0",
+      "archs": [
+        "x86_64",
+        "arm64"
+      ],
+      "published": "2026-10-27T06:19:58Z"
+    },
+    {
       "name": "Halo",
       "tagline": "Lanceur, IA et outils du Mac au clavier",
       "description": "⌥ Espace pour lancer apps, fichiers, calculs et commandes ; l'IA de votre Mac (ou votre clé, ou un modèle local) ; « Ce que j'ai raté » qui résume vos Messages, WhatsApp et Discord avec des réponses dans votre style ; sélecteur de fenêtres, rangement, captures, gestes et dictée à activer au choix. Un accueil vous guide au premier lancement.",
