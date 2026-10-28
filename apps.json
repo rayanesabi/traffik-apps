@@ -109,18 +109,18 @@
       "icon": "icons/givre.png",
       "bundleId": "com.traffikweb.givre",
       "version": "1.3",
-      "build": 4,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/givre-v1.3-b4/Givre-1.3-b4.zip",
-      "size": 4719642,
-      "sha256": "460abdb64fe02fe52b81727ccd0f977218fe182550666ffb4ba44a6db9952a80",
-      "signature": "I1w1xMr2T4H/BR1INO4HD00tWukcP5PAOBDY3NVsTDXzXNCc/CYbWbqZUdfHX8eMXnxrbrXxKh307/0wxrflDg==",
+      "build": 5,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/givre-v1.3-b5/Givre-1.3-b5.zip",
+      "size": 4783835,
+      "sha256": "490f0afd3800987d3b2ffdeee71e8d387878d7fdb6f51919f36d4c30445448f3",
+      "signature": "sRNHEIZONB06H0nIZdZbfdslkeb96wmFprBlnXjDxS/p9oJs0zPOFlIZFQ6pIb1MA6vViD9lCGrpKwJMXvAWAQ==",
       "notes": "Nouveau : « Signaler un problème… » (panneau ❄︎, menu Aide, Réglages) pour envoyer un bug à Rayane avec le diagnostic de Givre (macOS, méthode de masquage, Accessibilité, séparateur, dernière tentative), que vous pouvez relire avant l'envoi ; si Givre plante, il vous propose d'envoyer le rapport au prochain lancement. Le bouton « Réglages » du panneau ouvre la fenêtre devant les autres de façon fiable.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-28T10:31:48Z"
+      "published": "2026-10-28T12:56:28Z"
     },
     {
       "name": "Halo",
