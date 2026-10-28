@@ -2,17 +2,17 @@
   "app": "atelier",
   "name": "Atelier",
   "bundleId": "com.traffikweb.atelier",
-  "version": "1.1",
-  "build": 4,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/atelier-v1.1-b4/Atelier-1.1-b4.zip",
-  "size": 5333050,
-  "sha256": "a4b3dfa7cb5003018705bda12b5c7f8c3bcdddcbc3dd6d2b4f895e46ffff559e",
-  "signature": "WtKtqMkQ2UcKvHpkYj2UN/Ty9m/+PxvTFHJQ5qgLubC2VonQoPSGsKvmgKr8rq1aaDz+Y5MBMBeOsyZ95wFTAA==",
-  "notes": "Statistiques d'usage anonymes, pour savoir combien de Mac utilisent Atelier : un signal par jour (identifiant tiré au hasard, version, macOS, modèle de Mac), jamais votre nom ni vos données. Désactivables dans les réglages (carte « Mises à jour »).",
+  "version": "1.2",
+  "build": 5,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/atelier-v1.2-b5/Atelier-1.2-b5.zip",
+  "size": 5916059,
+  "sha256": "599492e608f081160f9911fa6b30605ad7a6e6f3610064b312b94dd978ea0638",
+  "signature": "GHJSlsgwnSFQIzpG4waBjUbdYVpLJMfaFY/yzpBDe/B89i5GuwSOoCNwo1he/0gukZvb1bkjFPyipAPiF6e/Cw==",
+  "notes": "Nouveau : « Signaler un problème… » (menu Aide, panneau, Réglages) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Atelier plante, il vous propose d'envoyer le rapport au prochain lancement. Corrigé : « Ouvrir Atelier » et « Réglages » du panneau amènent maintenant la fenêtre devant à coup sûr.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "x86_64",
     "arm64"
   ],
-  "published": "2026-10-27T16:19:19Z"
+  "published": "2026-10-28T10:31:39Z"
 }
