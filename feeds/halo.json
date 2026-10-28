@@ -2,16 +2,16 @@
   "app": "halo",
   "name": "Halo",
   "bundleId": "com.traffikweb.halo",
-  "version": "1.3",
-  "build": 8,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.3-b8/Halo-1.3-b8.zip",
-  "size": 8975524,
-  "sha256": "78073b05553e6dd833b5a786243cd96d7aae9039255b42abeab8fd401de2123f",
-  "signature": "TMiuZzDJ4BkkDf3VRqlFN4hfhSbBXTUMgzbOjjBql4zlWE3knMjtQoVwgAY1NecbJujFN3XPGIWsu0arYztPBg==",
-  "notes": "Nouveau : envoyez des images dans la Discussion IA (⌘J dans Halo). Trombone (choisir un fichier, coller, capturer une zone de l'écran), glisser-déposer ou ⌘V d'une image ; HEIC, PNG, JPEG, WebP, jusqu'à 6 images réduites avant l'envoi. Claude, ChatGPT et GPT Luna voient l'image ; l'IA du Mac aussi sous macOS 27, sinon Halo fait une analyse locale limitée (texte lu, objets, codes-barres, couleurs) et le dit. Mode privé : une image ne part dans le cloud qu'avec votre accord (« Envoyer au cloud cette fois » ou « Analyser sur ce Mac »), et chaque réponse indique « Sur ce Mac » ou « Cloud ». Sous la réponse : « Rechercher cette image sur le web » (Google Lens ou Bing, dans votre navigateur) et des liens Google Shopping, StockX, Vinted, eBay pour le produit trouvé. Les discussions gardent un petit aperçu des images, supprimé avec la discussion.",
+  "version": "1.4",
+  "build": 9,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.4-b9/Halo-1.4-b9.zip",
+  "size": 9071422,
+  "sha256": "742138fae762a71c9f3e91127917586247285a16e2e02f28b1854f2705870f6b",
+  "signature": "qeJh8AlS0TBxtuZTcD/dCg+my5NhUGP0fXt4JgjbIE3sx3b4mHhA7HwE56D5AaN+ZHfx0su0FRqBe+7/erwzCA==",
+  "notes": "Halo choisit maintenant la bonne IA selon la demande. L'IA du Mac (petit modèle d'Apple, sans culture générale) ne sert plus qu'à retoucher un texte que vous fournissez : corriger, résumer, traduire, reformuler. Les questions (définitions, faits, explications) partent vers vos clés (GPT-6 Luna, OpenAI, Claude Haiku) ou vers un modèle local costaud (Ollama, LM Studio). Le code et le raisonnement vont au modèle le plus fort, Claude Sonnet si vous avez la clé. La météo passe par Open-Meteo, et l'actualité vous propose une recherche web au lieu d'une réponse inventée. Garde-fou : une réponse de l'IA du Mac vide, hors sujet ou qui invente des informations personnelles est écartée, et le moteur suivant prend le relais. La pastille en haut à droite affiche « Auto » et le moteur utilisé ; un clic permet de forcer un moteur ou de passer en « Sur ce Mac seulement ». Dans ce mode, Halo ne passe jamais par le cloud sans votre accord et préfère un refus honnête à une invention. Sous chaque réponse, une pastille discrète indique qui a répondu.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-10-28T14:32:45Z"
+  "published": "2026-10-28T22:47:57Z"
 }
