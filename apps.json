@@ -34,18 +34,18 @@
       "slug": "canal",
       "icon": "icons/canal.png",
       "bundleId": "com.traffikweb.canal",
-      "version": "1.2",
-      "build": 4,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.2-b4/Canal-1.2-b4.zip",
-      "size": 12125706,
-      "sha256": "d45dbbb90630dcede7c1a2de4718da83dc96dfdfec8d3f1340ba3ee0e0772992",
-      "signature": "ha+ebRRnalOKdbvhWJHszMR43aWWF9sssd+eBe9LRb6AfT5baFpUM91W/DU078BwCH9niFQMqWRdDqfJdNBJCg==",
-      "notes": "Statistiques d'usage anonymes, pour savoir combien de Mac utilisent Canal : un signal par jour (identifiant tiré au hasard, version, macOS, modèle de Mac), jamais votre nom ni vos données. Désactivables dans les réglages (carte « Mises à jour »).",
+      "version": "1.3",
+      "build": 5,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.3-b5/Canal-1.3-b5.zip",
+      "size": 12402591,
+      "sha256": "c2ce9e1fdea6c9e6bad2f9f54aeb7d9a8fff888d7ab088218cc66d009dd26efb",
+      "signature": "Ks3YM8UHp4jZtOG1YKmrvmeVR2ei0U70y/1adRon3apUAw27E6b0IamfGXOloEx3L3cvsKWfS24uCIsM4+56BA==",
+      "notes": "Nouveau : « Signaler un problème… » (menu Aide, Réglages dans Compte) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Canal plante, il vous propose d'envoyer le rapport au prochain lancement. Vos identifiants, l'adresse du serveur, votre lien M3U et votre clé TMDB ne sont jamais joints.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-10-27T07:28:52Z"
+      "published": "2026-10-28T07:06:44Z"
     },
     {
       "name": "Clac",
