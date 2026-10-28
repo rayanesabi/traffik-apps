@@ -2,16 +2,16 @@
   "app": "orbe",
   "name": "Orbe",
   "bundleId": "com.traffikweb.orbe",
-  "version": "2.3.2",
-  "build": 202610270459,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.3.2-b202610270459/Orbe-2.3.2-b202610270459.zip",
-  "size": 5591740,
-  "sha256": "e9a0369c29198080e5f822f3c62f70c67eab4eff3be541c36cf86f01334082cc",
-  "signature": "gKrROnULf9CLHcS0/RybjBnt9viepeDY/+iWXs6R0bm0v7ZxB8pnGeAIGbN5iBTtWjyr2V6WKbcoUq8Qq5cNAQ==",
-  "notes": "Les bonnes icônes de sites, comme dans Arc et Safari.\n- Gmail, Google Sheets, Docs, Drive ou Agenda n'affichent plus le « G » de Google : chaque page garde sa propre icône, même dans les favoris et les onglets épinglés jamais rouverts.\n- Les icônes qui changent toutes seules (compteur de Gmail, date du jour dans Agenda) se mettent à jour dans la barre latérale.\n- Un site sans icône à lui prend celle de son domaine principal quand elle existe (ex. « Payout Portal »), sinon le globe.\n- Les icônes sont téléchargées une seule fois et le cache reste petit.",
+  "version": "2.4",
+  "build": 202610270460,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.4-b202610270460/Orbe-2.4-b202610270460.zip",
+  "size": 5873874,
+  "sha256": "1481a4dec42eb98fabd38b20137d4b75fdd9424b30ef0c3fb4d964d545fdef3e",
+  "signature": "FwMy5mU2KQ3nvho6jvn0xcAkbhctQJKFl9LmQX05ahQjKt1XsckYHNJWqCUvi0U6MxmXtQsV1pYHcxlVQLz9Aw==",
+  "notes": "Nouveau : « Signaler un problème… » (menu Aide, Réglages › Général) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Orbe plante, il vous propose d'envoyer le rapport au prochain lancement.\n- Rien de votre navigation ne part : ni adresse, ni historique, ni favori, ni onglet, ni titre de page, ni recherche, ni nom d'extension. Seulement des réglages (moteur de recherche, bloqueur oui/non…) et des nombres (fenêtres, onglets, extensions).",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-10-27T18:55:50Z"
+  "published": "2026-10-28T10:32:15Z"
 }
