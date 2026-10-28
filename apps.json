@@ -260,19 +260,19 @@
       "slug": "pastel",
       "icon": "icons/pastel.png",
       "bundleId": "com.traffikweb.pastel",
-      "version": "1.6",
-      "build": 2,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/pastel-v1.6-b2/Pastel-1.6-b2.zip",
-      "size": 4901586,
-      "sha256": "00d39b2c3d5f3364900aca32ce65a2f09cfb3c54ea99cc0b1c7c648c9d076538",
-      "signature": "R8I58fpjuutO/3fDkEklw4PjlSJpLWdRDv/s8UGGxsTiQ4cRblUvKt+rO1AhcbR0A8c8duw+hhYRY6/GkMOJDw==",
-      "notes": "Statistiques d'usage anonymes, pour savoir combien de Mac utilisent Pastel : un signal par jour (identifiant tiré au hasard, version, macOS, modèle de Mac), jamais votre nom ni vos données. Désactivables dans les réglages (carte « Mises à jour »).",
+      "version": "1.7",
+      "build": 3,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/pastel-v1.7-b3/Pastel-1.7-b3.zip",
+      "size": 5481610,
+      "sha256": "b87e19944596aeb4f611e2bf112410bdda4630c1c508a567527e71cd207441cf",
+      "signature": "krGdIywzsPKZYsTG7L8tzn+1HP1SM8rOK7b5AvNXYxOef44LHV/MO/MKu0NpiKAzVk5yufnEWQHNTHp0s2+ZBw==",
+      "notes": "Nouveau : « Signaler un problème… » (menu Aide, panneau, Réglages) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Pastel plante, il vous propose d'envoyer le rapport au prochain lancement. Corrigé : « Réglages » s'ouvre maintenant devant, même depuis le panneau de la barre des menus ; aucun libellé coupé dans le pied du panneau.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-27T13:32:34Z"
+      "published": "2026-10-28T10:32:24Z"
     }
   ]
 }
