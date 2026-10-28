@@ -3,15 +3,15 @@
   "name": "Orbe",
   "bundleId": "com.traffikweb.orbe",
   "version": "2.4",
-  "build": 202610270461,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.4-b202610270461/Orbe-2.4-b202610270461.zip",
-  "size": 5957749,
-  "sha256": "e8926ae41474d18ce7cb3b6d9adee6efe97df2de808001ca4bc4439cf67c3678",
-  "signature": "M1QyZOluyWBFzXl86nJV7ZbYz+6TKCXSBvLKO+X+YG6LIqKeTZ5eNVW92+a0S3kFiFIKulEA791ocpPk32LkDQ==",
+  "build": 202610270462,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.4-b202610270462/Orbe-2.4-b202610270462.zip",
+  "size": 6012289,
+  "sha256": "8086ba8850aa3c57b19734d67bb9ae40a48e61f99be5a6f2651db4d6a10e6ce0",
+  "signature": "JUXVlt2+xloTtDBZbRe0OhEDQ5HD+W4YLkUC31jdrAUYL2hbaAtp52TVRxjDG2OvWM25GecwjkxdMmi+HXjzBg==",
   "notes": "Nouveau : vos Mots de passe d'Apple dans Orbe — panneau du site › « Mots de passe d'Apple » (ou la bulle sur les pages de connexion) : choisissez « Mots de passe… » et Orbe remplit l'identifiant, le mot de passe et le code. Quand un site demande une clé d'accès d'Apple, Orbe propose de l'ouvrir dans Safari (macOS les réserve aux navigateurs approuvés par Apple). Réglages › Mots de passe : gestionnaire prioritaire (NordPass d'abord, comme Arc).\nNouveau : « Signaler un problème… » (menu Aide, Réglages › Général) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Orbe plante, il vous propose d'envoyer le rapport au prochain lancement.\n- Rien de votre navigation ne part : ni adresse, ni historique, ni favori, ni onglet, ni titre de page, ni recherche, ni nom d'extension. Seulement des réglages (moteur de recherche, bloqueur oui/non…) et des nombres (fenêtres, onglets, extensions).",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-10-28T12:57:34Z"
+  "published": "2026-10-28T13:42:33Z"
 }
