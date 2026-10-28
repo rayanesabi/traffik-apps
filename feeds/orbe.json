@@ -3,15 +3,15 @@
   "name": "Orbe",
   "bundleId": "com.traffikweb.orbe",
   "version": "2.4",
-  "build": 202610270462,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.4-b202610270462/Orbe-2.4-b202610270462.zip",
-  "size": 6012289,
-  "sha256": "8086ba8850aa3c57b19734d67bb9ae40a48e61f99be5a6f2651db4d6a10e6ce0",
-  "signature": "JUXVlt2+xloTtDBZbRe0OhEDQ5HD+W4YLkUC31jdrAUYL2hbaAtp52TVRxjDG2OvWM25GecwjkxdMmi+HXjzBg==",
-  "notes": "Nouveau : vos Mots de passe d'Apple dans Orbe — panneau du site › « Mots de passe d'Apple » (ou la bulle sur les pages de connexion) : choisissez « Mots de passe… » et Orbe remplit l'identifiant, le mot de passe et le code. Quand un site demande une clé d'accès d'Apple, Orbe propose de l'ouvrir dans Safari (macOS les réserve aux navigateurs approuvés par Apple). Réglages › Mots de passe : gestionnaire prioritaire (NordPass d'abord, comme Arc).\nNouveau : « Signaler un problème… » (menu Aide, Réglages › Général) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Orbe plante, il vous propose d'envoyer le rapport au prochain lancement.\n- Rien de votre navigation ne part : ni adresse, ni historique, ni favori, ni onglet, ni titre de page, ni recherche, ni nom d'extension. Seulement des réglages (moteur de recherche, bloqueur oui/non…) et des nombres (fenêtres, onglets, extensions).",
+  "build": 202610270463,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.4-b202610270463/Orbe-2.4-b202610270463.zip",
+  "size": 6209513,
+  "sha256": "92994772c9b77c674d19f290a1b1fa1911467d0a18e22dd891d4dec37a440b3f",
+  "signature": "pjz7Slc3LpGqkoJPeGLvCs3zdmS5xrlkrtI7/hfsD3cJc/A3WhDzUfs50pwDyDR5feC63En3BwCExS5t0B9bBA==",
+  "notes": "Nouveau : envoyez des images à l'assistant (⌘E). Bouton « Image » (choisir un fichier, coller, capturer la page ou une zone), glisser-déposer, ⌘V d'une image, ou clic droit sur une image d'un site › « Demander à l'assistant à propos de cette image ». HEIC, PNG, JPEG, WebP ; jusqu'à 6 images, réduites avant l'envoi.\n- Claude et GPT Luna voient l'image ; l'IA du Mac aussi sous macOS 27. Sinon, Orbe fait une analyse locale limitée (texte lu, objets, codes-barres, couleurs) et le dit.\n- « Retrouve le nom de cette paire » : sous la réponse, « Rechercher cette image sur le web » (Google Lens ou Bing, dans un nouvel onglet) et des liens Google Shopping, StockX, Vinted, eBay pour le produit trouvé.\n- Les discussions gardent un petit aperçu des images (sur ce Mac, supprimé avec la discussion).",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-10-28T13:42:33Z"
+  "published": "2026-10-28T14:32:54Z"
 }
