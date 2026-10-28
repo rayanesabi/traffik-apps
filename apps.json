@@ -137,17 +137,17 @@
       "icon": "icons/halo.png",
       "bundleId": "com.traffikweb.halo",
       "version": "1.3",
-      "build": 7,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.3-b7/Halo-1.3-b7.zip",
-      "size": 8843111,
-      "sha256": "be4dc05ce88d1d38d073941cd356f522f5167eed7ceddbe342ace908b31431b1",
-      "signature": "RCRzqkmRq1Ylma2BKl8nAzEW/KxTP3vvvBg3j8K8K+RQR81+JUaRX5MhBDjhRxxLCIKagGKKtvy1L3CUz9ULAw==",
-      "notes": "Nouveau : Halo agit. Tapez une demande puis ⇥ (« mets un rappel demain 9h pour appeler Karim », « range mes téléchargements », « lance le raccourci Mode concentration », « découpe la page 3 de facture.pdf ») : Halo prépare l'action et vous montre une carte avant de toucher à quoi que ce soit (Faire / Modifier / Annuler) ; tout est noté dans « Ce que Halo a fait » et s'annule quand c'est possible. Compris sur votre Mac (règles instantanées ou IA du Mac), le cloud seulement si vous le choisissez. Nouveau : « Signaler un problème… » (menu Aide, panneau, Réglages) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Halo plante, il vous propose d'envoyer le rapport au prochain lancement. Corrigé : la petite bulle des gestes (« Tape à 3 doigts… ») pouvait rester collée à l'écran, coupée (« Ta… ») et se retrouver dans les captures ; elle s'affiche maintenant en entier, disparaît toujours au bout d'une seconde, jamais pour une capture ni quand les gestes sont coupés. « Réglages » et « Discussion IA » s'ouvrent devant, même depuis le panneau de la barre des menus. Confidentialité : vos messages, vocaux et réponses proposées restent sur votre Mac (IA du Mac, ou Ollama / LM Studio) ; si elle ne suffit pas, Halo vous demande avant d'utiliser le cloud, pour cette fois seulement (réglage dans Réglages › IA). Chaque réponse indique « Sur ce Mac » ou « Cloud (fournisseur) ». Halo ne consomme plus rien au repos même avec des scripts « inline ».",
+      "build": 8,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.3-b8/Halo-1.3-b8.zip",
+      "size": 8975524,
+      "sha256": "78073b05553e6dd833b5a786243cd96d7aae9039255b42abeab8fd401de2123f",
+      "signature": "TMiuZzDJ4BkkDf3VRqlFN4hfhSbBXTUMgzbOjjBql4zlWE3knMjtQoVwgAY1NecbJujFN3XPGIWsu0arYztPBg==",
+      "notes": "Nouveau : envoyez des images dans la Discussion IA (⌘J dans Halo). Trombone (choisir un fichier, coller, capturer une zone de l'écran), glisser-déposer ou ⌘V d'une image ; HEIC, PNG, JPEG, WebP, jusqu'à 6 images réduites avant l'envoi. Claude, ChatGPT et GPT Luna voient l'image ; l'IA du Mac aussi sous macOS 27, sinon Halo fait une analyse locale limitée (texte lu, objets, codes-barres, couleurs) et le dit. Mode privé : une image ne part dans le cloud qu'avec votre accord (« Envoyer au cloud cette fois » ou « Analyser sur ce Mac »), et chaque réponse indique « Sur ce Mac » ou « Cloud ». Sous la réponse : « Rechercher cette image sur le web » (Google Lens ou Bing, dans votre navigateur) et des liens Google Shopping, StockX, Vinted, eBay pour le produit trouvé. Les discussions gardent un petit aperçu des images, supprimé avec la discussion.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-10-28T12:56:42Z"
+      "published": "2026-10-28T14:32:45Z"
     },
     {
       "name": "Ilot",
