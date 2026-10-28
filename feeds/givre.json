@@ -2,17 +2,17 @@
   "app": "givre",
   "name": "Givre",
   "bundleId": "com.traffikweb.givre",
-  "version": "1.2",
-  "build": 3,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/givre-v1.2-b3/Givre-1.2-b3.zip",
-  "size": 4170509,
-  "sha256": "c9946a9a0589cb8ba89427694b6067de23fbcc04ba6218f68b93d0ddb28f3426",
-  "signature": "I8yRd4i6xzYkm6tnTJ1qyHjU9412uax8XUwoo8/72WZiO1RpGOmLvuBJPai+V3kRTz45a86CPofgW9zonL6/Dw==",
-  "notes": "macOS 26 (Tahoe) et Mac Intel : Givre masque enfin vraiment vos icônes. Tout ce qui est à gauche du séparateur │ se range sous ❄︎ ; maintenez ⌘ et faites glisser une icône pour choisir. Aucune autorisation requise pour masquer ; l'Accessibilité (facultative) est détectée sans relancer. Diagnostic plus clair, avertissement si Ice, Bartender ou Hidden Bar est aussi ouvert.",
+  "version": "1.3",
+  "build": 4,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/givre-v1.3-b4/Givre-1.3-b4.zip",
+  "size": 4719642,
+  "sha256": "460abdb64fe02fe52b81727ccd0f977218fe182550666ffb4ba44a6db9952a80",
+  "signature": "I1w1xMr2T4H/BR1INO4HD00tWukcP5PAOBDY3NVsTDXzXNCc/CYbWbqZUdfHX8eMXnxrbrXxKh307/0wxrflDg==",
+  "notes": "Nouveau : « Signaler un problème… » (panneau ❄︎, menu Aide, Réglages) pour envoyer un bug à Rayane avec le diagnostic de Givre (macOS, méthode de masquage, Accessibilité, séparateur, dernière tentative), que vous pouvez relire avant l'envoi ; si Givre plante, il vous propose d'envoyer le rapport au prochain lancement. Le bouton « Réglages » du panneau ouvre la fenêtre devant les autres de façon fiable.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "x86_64",
     "arm64"
   ],
-  "published": "2026-10-27T21:20:16Z"
+  "published": "2026-10-28T10:31:48Z"
 }
