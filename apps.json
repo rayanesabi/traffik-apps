@@ -84,18 +84,18 @@
       "icon": "icons/clair.png",
       "bundleId": "com.traffikweb.clair",
       "version": "3.3",
-      "build": 6,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.3-b6/Clair-3.3-b6.zip",
-      "size": 18818915,
-      "sha256": "aaf852517afd78ab99ed6fdbdb93868d56e043c5616600627c18f859a8c47aa3",
-      "signature": "gN7Z+D4jMpj889nd8zc2mebupoXFtnyFLNHlNU+3DC68HilD1E1ZqjuXiS8O8gnhB2oYqlR2XB8Ue9aamlPCBA==",
+      "build": 7,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.3-b7/Clair-3.3-b7.zip",
+      "size": 18823863,
+      "sha256": "b06438f9269d11afa2e859e6d1431657ea6dbc2fee988fd82e86ce6ba46de42f",
+      "signature": "x5gdl8Wm0wQa2qJJFGp7oDNIkA1uceJTDuRCDJBWeJA5KI2QD3RImX0tSUY9KG100LEYrbImfC+lSQ8u6z9kBg==",
       "notes": "Le nettoyage libère vraiment l'espace : caches, journaux et fichiers temporaires sont supprimés pour de bon (ils se recréent seuls), l'espace revient tout de suite.\nVos fichiers, les apps et leurs restes passent toujours par la Corbeille : l'écran de fin montre ce qui y est, avec « Vider maintenant » (seulement ce que Clair y a mis, ou toute la Corbeille au choix).\nNouveau réglage : vider automatiquement ce que Clair met à la Corbeille (7 jours par défaut). Ce que vous y mettez vous-même n'est jamais touché.\nChiffres honnêtes : « libérés » est mesuré sur le disque ; si des instantanés Time Machine retiennent une partie de l'espace, Clair l'explique et propose de les compacter. L'Historique dit clairement ce qui se restaure encore.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-28T12:05:14Z"
+      "published": "2026-10-28T12:45:56Z"
     },
     {
       "name": "Givre",
