@@ -83,19 +83,19 @@
       "slug": "clair",
       "icon": "icons/clair.png",
       "bundleId": "com.traffikweb.clair",
-      "version": "3.1",
-      "build": 4,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.1-b4/Clair-3.1-b4.zip",
-      "size": 16555899,
-      "sha256": "a7682c69288e777f7703450bdeb202fb1208b832c635f9b21258be88d5b20560",
-      "signature": "X8JOcD3F5jHx9TM+bqBUyHMKPW7D5fBMjocHvDOaywqPjhZyw1JnkLyl+3/sqk2r6d1bFf+c0n4fLA5YF9QODg==",
-      "notes": "Nouveau : « Signaler un problème… » (menu Aide, panneau de la barre des menus, Réglages) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Clair plante, il vous propose d'envoyer le rapport au prochain lancement.\nLes boutons du panneau (« Ouvrir Clair », « Autorisations… », actions rapides) ouvrent maintenant la fenêtre devant à coup sûr.",
+      "version": "3.2",
+      "build": 5,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.2-b5/Clair-3.2-b5.zip",
+      "size": 18614893,
+      "sha256": "7c02df072ff67bb60d2770f3b68a7365aafab20c36c98b49c9153721970bf09e",
+      "signature": "ZMYs/y+f2vDEzVK0NkekWajjNmuZncxnECgPNGEOmD+YB81pV+K327fUNG10sHkcmv8MV85dvsdAGm4QSIIODg==",
+      "notes": "Nouveau : Protection façon Moonlock. Analyse anti-malware rapide, complète ou personnalisée avec les règles d'Apple (XProtect, lues sur votre Mac), des règles libres (Elastic, signature-base, ReversingLabs) et les règles de Clair contre les menaces de 2026 (fausses demandes de mot de passe, commandes « ClickFix » collées dans le Terminal, faux installeurs de Claude, ChatGPT ou Zoom, agents de démarrage cachés).\nQuarantaine réversible : un élément isolé ne peut plus s'exécuter, et se restaure ou se supprime quand vous voulez.\nAudit de 20 réglages de sécurité avec un bouton qui ouvre le bon réglage, démarrage et extensions de navigateurs avec leur signature, veille légère des nouveaux fichiers (option), état de protection dans la barre des menus et dans l'Entretien.\nCorrigé : « Retirer » un agent de démarrage l'arrête tout de suite ; le coupe-feu désactivé n'est plus affiché comme actif.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-28T07:06:31Z"
+      "published": "2026-10-28T10:38:06Z"
     },
     {
       "name": "Givre",
