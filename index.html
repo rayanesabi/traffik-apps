@@ -200,9 +200,9 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
         </div>
         <p class="desc">Un clic pour vérifier tout le Mac : caches, fichiers oubliés, doublons, applications et leurs restes, mises à jour des apps. Tout part à la Corbeille et se restaure depuis l&#x27;Historique. Rangement automatique des téléchargements (désactivé tant que vous ne le choisissez pas), petites alertes discrètes (Corbeille pleine, app figée, disque saturé) et une goutte dans la barre des menus. Tout reste sur votre Mac. Un accueil vous guide au premier lancement.</p>
         <p class="perms"><span>Autorisation demandée :</span> Accès complet au disque (facultatif, conseillé) : sans lui, macOS cache à Clair la Corbeille, les pièces jointes Mail, les fichiers cloud et une partie de la carte du disque. Clair ne lit jamais vos mails, messages, photos ni mots de passe. À activer dans Réglages Système › Confidentialité et sécurité › Accès complet au disque (l&#x27;accueil vous y emmène et voit la coche en direct).</p>
-        <ul class="badges"><li>v3.0</li><li>16,0 Mo</li><li>Universelle (Apple Silicon + Intel)</li></ul>
+        <ul class="badges"><li>v3.1</li><li>16,6 Mo</li><li>Universelle (Apple Silicon + Intel)</li></ul>
         <div class="actions">
-          <a class="btn primary" href="https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.0-b3/Clair-3.0-b3.zip">Télécharger</a>
+          <a class="btn primary" href="https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.1-b4/Clair-3.1-b4.zip">Télécharger</a>
           <button class="btn" data-copy="curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s clair">Copier la commande</button>
         </div>
       </article>
@@ -351,7 +351,7 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
     <div class="faq">
       <div class="glass"><h3>Mises à jour automatiques</h3><p>Chaque app vérifie toutes les 6 heures s'il existe une nouvelle version, la télécharge en arrière-plan et l'installe quand vous la quittez (ou tout de suite avec « Redémarrer »). Vos réglages et autorisations sont conservés. Désactivable dans les réglages de l'app.</p></div>
       <div class="glass"><h3>Sécurité</h3><p>Chaque version est signée (Ed25519) et toujours par le même certificat. Une archive modifiée, ou signée par quelqu'un d'autre, est refusée — par l'installateur comme par les mises à jour.</p></div>
-      <div class="glass"><h3>Autorisations</h3><p>Au premier lancement, l'app montre chaque autorisation utile avec un bouton qui ouvre le bon réglage, et coche la ligne dès que c'est accordé. Ce que vous faites dans les apps reste sur votre Mac (voir « Statistiques anonymes » ci-dessous).</p></div>
+      <div class="glass"><h3>Autorisations</h3><p>Au premier lancement, l'app montre chaque autorisation utile avec un bouton qui ouvre le bon réglage, et coche la ligne dès que c'est accordé. Ce que vous faites dans les apps reste sur votre Mac (voir « Statistiques anonymes » et « Signaler un problème » ci-dessous).</p></div>
       <div class="glass"><h3>Désinstaller</h3><p>Quittez l'app puis glissez-la du dossier Applications à la corbeille. C'est tout.</p></div>
     </div>
   </section>
@@ -389,6 +389,43 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
         <div class="cmd"><code>mkdir -p ~/Library/Application\ Support/TraffikWeb &amp;&amp; touch ~/Library/Application\ Support/TraffikWeb/no-stats</code>
           <button class="btn" data-copy="mkdir -p ~/Library/Application\ Support/TraffikWeb &amp;&amp; touch ~/Library/Application\ Support/TraffikWeb/no-stats">Copier</button></div>
         <p class="small">Changer d'identifiant&nbsp;: supprimez le fichier <code>~/Library/Application Support/TraffikWeb/machine-id</code>, un nouveau sera tiré au hasard.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="signaler">
+    <h2>Signaler un problème</h2>
+    <p class="sub">Une app ne marche pas comme prévu&nbsp;? Inutile d'envoyer une capture&nbsp;: dites-le directement à Rayane depuis l'app, avec un diagnostic technique que vous pouvez relire avant l'envoi.</p>
+    <div class="stats">
+      <div class="glass">
+        <h3><span class="dot"></span> Comment faire</h3>
+        <ul class="list">
+          <li><b>Menu Aide › Signaler un problème…</b>, ou le bouton <b>Signaler</b> (bulle <b>!</b>) du panneau de la barre des menus, ou <b>Réglages › Mises à jour › Signaler…</b></li>
+          <li>Décrivez ce qui s'est passé, cochez ce que vous voulez joindre, dépliez <b>«&nbsp;Voir exactement ce qui sera envoyé&nbsp;»</b> pour tout relire, puis <b>Envoyer à Rayane</b>.</li>
+          <li><b>Si une app plante</b>, elle vous le propose au lancement suivant&nbsp;: «&nbsp;&lt;App&gt; s'est arrêtée — envoyer le rapport à Rayane&nbsp;?&nbsp;». Rien ne part sans votre accord, sauf si vous cochez «&nbsp;Toujours envoyer automatiquement&nbsp;».</li>
+          <li>Pas de connexion&nbsp;? Le rapport attend sur votre Mac (10 au plus) et part tout seul plus tard.</li>
+        </ul>
+      </div>
+      <div class="glass">
+        <h3><span class="dot ok"></span> Ce qui est joint</h3>
+        <ul class="list">
+          <li>votre description, si vous en écrivez une</li>
+          <li>l'app, sa version, la <b>version de macOS</b>, le modèle de Mac, la langue, la mémoire, l'espace libre, les écrans</li>
+          <li>l'état des autorisations de l'app (accordée, refusée, pas encore demandée) et l'étape de l'accueil atteinte</li>
+          <li>les réglages de l'app (des choix et des nombres, jamais son contenu)</li>
+          <li>les 200 dernières lignes de son journal technique, filtrées&nbsp;; en cas de plantage, l'erreur et la liste des fonctions en cours</li>
+          <li>une capture de la <b>fenêtre de l'app</b> seulement si vous la cochez (jamais le reste de l'écran, aucune autorisation demandée)</li>
+          <li>l'identifiant tiré au hasard des statistiques anonymes</li>
+        </ul>
+      </div>
+      <div class="glass">
+        <h3><span class="dot no"></span> Ce qui n'est jamais envoyé</h3>
+        <ul class="list">
+          <li>votre nom, votre compte, votre e-mail, le nom de l'ordinateur&nbsp;: retirés automatiquement de tout le texte</li>
+          <li>vos fichiers, votre historique, vos messages, votre presse-papiers, vos mots de passe, clés et identifiants</li>
+          <li>les adresses complètes des pages&nbsp;: au plus le nom du site&nbsp;; les chemins de dossiers deviennent «&nbsp;~&nbsp;»</li>
+          <li>votre adresse IP&nbsp;: le serveur ne la garde pas&nbsp;; les rapports sont effacés au bout de 180 jours</li>
+        </ul>
       </div>
     </div>
   </section>

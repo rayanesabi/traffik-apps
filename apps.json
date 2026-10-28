@@ -83,19 +83,19 @@
       "slug": "clair",
       "icon": "icons/clair.png",
       "bundleId": "com.traffikweb.clair",
-      "version": "3.0",
-      "build": 3,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.0-b3/Clair-3.0-b3.zip",
-      "size": 15975747,
-      "sha256": "be5eaba40ade1ed579c2502ccd3e5c175f6dc7b5d38cd75aab95cbef54146219",
-      "signature": "hxx5jQ4hcAvC0iDMjO0xpZT79H6YP9Rdcavm0JizvnlOiP/BcmBOyFprbQCTWklUyPDKHTNFNoA8uApdXNF8Dg==",
-      "notes": "Nouvelle apparence « Nacre & Pinceau » : chaque module a son objet 3D peint, un fond d'encre teinté et des icônes en relief.\nAnimations réelles et légères : arrivée de chaque écran, analyse avec balayage et puces trouvées, nettoyage en bulles, écran de succès. Rien ne bouge au repos.\n« Réduire les animations » de macOS est respecté (images fixes). Statistiques anonymes désactivables dans les réglages.",
+      "version": "3.1",
+      "build": 4,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.1-b4/Clair-3.1-b4.zip",
+      "size": 16555899,
+      "sha256": "a7682c69288e777f7703450bdeb202fb1208b832c635f9b21258be88d5b20560",
+      "signature": "X8JOcD3F5jHx9TM+bqBUyHMKPW7D5fBMjocHvDOaywqPjhZyw1JnkLyl+3/sqk2r6d1bFf+c0n4fLA5YF9QODg==",
+      "notes": "Nouveau : « Signaler un problème… » (menu Aide, panneau de la barre des menus, Réglages) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Clair plante, il vous propose d'envoyer le rapport au prochain lancement.\nLes boutons du panneau (« Ouvrir Clair », « Autorisations… », actions rapides) ouvrent maintenant la fenêtre devant à coup sûr.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-27T08:14:47Z"
+      "published": "2026-10-28T07:06:31Z"
     },
     {
       "name": "Givre",
