@@ -136,18 +136,18 @@
       "slug": "halo",
       "icon": "icons/halo.png",
       "bundleId": "com.traffikweb.halo",
-      "version": "1.1",
-      "build": 5,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.1-b5/Halo-1.1-b5.zip",
-      "size": 8159302,
-      "sha256": "1f45b5ae1ed215db79e92b1f1374a74b990b13a23a2fcc6b11397faa9deb312f",
-      "signature": "kO3SGhJj23CFwH8p5TWhtnUC9/TpfjOalKay1H4pot/wyakbxRcDDDG8OawRFvVHOg7L2iTZHCgeXmBPGTEpAA==",
-      "notes": "Statistiques d'usage anonymes, pour savoir combien de Mac utilisent Halo : un signal par jour (identifiant tiré au hasard, version, macOS, modèle de Mac), jamais votre nom ni vos données. Désactivables dans les réglages (carte « Mises à jour »).",
+      "version": "1.3",
+      "build": 6,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.3-b6/Halo-1.3-b6.zip",
+      "size": 8813940,
+      "sha256": "3c0d54e1dfba3112753c808c525f734040621a164d6d023a7bc8d17b0b60e2c2",
+      "signature": "407FLbchBZbVh61KD4gk2z+QKXryAODFXoFptiQAB42AhudDMCJzAKyk5IrSGDEU18ZuTSeZRqCc8ZGkxrxSAg==",
+      "notes": "Nouveau : Halo agit. Tapez une demande puis ⇥ (« mets un rappel demain 9h pour appeler Karim », « range mes téléchargements », « lance le raccourci Mode concentration », « découpe la page 3 de facture.pdf ») : Halo prépare l'action et vous montre une carte avant de toucher à quoi que ce soit (Faire / Modifier / Annuler) ; tout est noté dans « Ce que Halo a fait » et s'annule quand c'est possible. Compris sur votre Mac (règles instantanées ou IA du Mac), le cloud seulement si vous le choisissez. Nouveau : « Signaler un problème… » (menu Aide, panneau, Réglages) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Halo plante, il vous propose d'envoyer le rapport au prochain lancement. Corrigé : la petite bulle des gestes (« Tape à 3 doigts… ») pouvait rester collée à l'écran, coupée (« Ta… ») et se retrouver dans les captures ; elle s'affiche maintenant en entier, disparaît toujours au bout d'une seconde, jamais pour une capture ni quand les gestes sont coupés. « Réglages » et « Discussion IA » s'ouvrent devant, même depuis le panneau de la barre des menus. Confidentialité : vos messages, vocaux et réponses proposées restent sur votre Mac (IA du Mac, ou Ollama / LM Studio) ; si elle ne suffit pas, Halo vous demande avant d'utiliser le cloud, pour cette fois seulement (réglage dans Réglages › IA). Chaque réponse indique « Sur ce Mac » ou « Cloud (fournisseur) ». Halo ne consomme plus rien au repos même avec des scripts « inline ».",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-10-27T17:27:45Z"
+      "published": "2026-10-28T10:30:36Z"
     },
     {
       "name": "Ilot",
