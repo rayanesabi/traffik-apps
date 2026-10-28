@@ -209,19 +209,19 @@
       "slug": "onde",
       "icon": "icons/onde.png",
       "bundleId": "com.traffikweb.onde",
-      "version": "1.2",
-      "build": 3,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/onde-v1.2-b3/Onde-1.2-b3.zip",
-      "size": 3778761,
-      "sha256": "1eb35d6833c649ae793137c00c11a17e51164636b345f79ee424803dba86d88e",
-      "signature": "xdL9S+TGRb7WaxF4x4keC6HYDOO/qtI7bP7W3mPxmsHccP2XqiC0pfY07ivH+rONVQ70urvFQvNMNzRWttJdDg==",
-      "notes": "Statistiques d'usage anonymes, pour savoir combien de Mac utilisent Onde : un signal par jour (identifiant tiré au hasard, version, macOS, modèle de Mac), jamais votre nom ni vos données. Désactivables dans les réglages (carte « Mises à jour »).",
+      "version": "1.3",
+      "build": 4,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/onde-v1.3-b4/Onde-1.3-b4.zip",
+      "size": 4365055,
+      "sha256": "194621dd354d4869e637fb6c7e70beb27a0e401e900a44164a6ba0db8a9c9f85",
+      "signature": "dr8BGqcQM34lhKA/E5jZ07lYhZCTOBx2yjVaySQNxvcIkuazKbZS0Z3zYbZDfWUT6dXl2XHztrQBVwkdtIi1Aw==",
+      "notes": "Nouveau : « Signaler un problème… » (menu Aide, panneau, Réglages) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Onde plante, il vous propose d'envoyer le rapport au prochain lancement. Les boutons Réglages et Mises à jour du panneau ouvrent désormais leur fenêtre au premier plan de façon fiable.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-27T07:25:12Z"
+      "published": "2026-10-28T10:31:29Z"
     },
     {
       "name": "Orbe",
