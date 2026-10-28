@@ -260,19 +260,19 @@
       "slug": "pastel",
       "icon": "icons/pastel.png",
       "bundleId": "com.traffikweb.pastel",
-      "version": "1.8",
-      "build": 5,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/pastel-v1.8-b5/Pastel-1.8-b5.zip",
-      "size": 6097453,
-      "sha256": "901ac18f6e2ae7760812c6aa05d74ce985922bccec7465e225f6496c6068c5c6",
-      "signature": "wxzsnU/hrE7C8qCOp4CDY/E+NG7Wb07q7em/3xth1iMt599MFjsTuKpup5d20hyJPfQEiz7w6Q1cqbPvNx0VAQ==",
-      "notes": "Nouveau : modifier un élément copié. Bouton « ✎ Modifier » sur la carte choisie, clic droit › Modifier…, ⌘E, double-clic dans l'aperçu, et aussi depuis le panneau de la barre des menus. Texte (majuscules/minuscules, espaces, lignes vides, tri, rechercher/remplacer, compteur ; la mise en forme est gardée ou retirée), image (recadrer, pivoter, redimensionner, flèche, rectangle, texte, flou), lien (adresse, titre, pisteurs retirés), couleur (sélecteur). « Enregistrer et coller » en un geste ; l'original reste dans « Versions » et ⌘Z le remet.",
+      "version": "1.9",
+      "build": 6,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/pastel-v1.9-b6/Pastel-1.9-b6.zip",
+      "size": 6291427,
+      "sha256": "d6f273fea67a57caa4798e0083788df8a66917ee39bae5e3bad1c0303b695bc6",
+      "signature": "muGU/5Mtd4l+pjRmGsrBBu9YXfjt76cy66qeoJerKNEOa7Dl0eiNZmQc1M3H+kRp5lOdASiC8q1u6cFgmWd+BA==",
+      "notes": "Nouveau : « Récemment supprimés », comme dans Photos. Ce que vous supprimez (⌘⌫, clic droit › Supprimer, « Effacer aujourd'hui », « Tout effacer ») reste 30 jours avant d'être effacé pour de bon : bouton corbeille à côté des tableaux, et section dans les Réglages. Pour chaque élément : jours restants, « Récupérer », « Supprimer définitivement » ; pour tout : « Tout récupérer » et « Vider ». ⌘Z remet la dernière suppression, même après avoir relancé Pastel. Sécurité : ⌫ seul ne supprime plus jamais rien, il faut ⌘⌫. Les clés secrètes et codes reçus restent effacés directement.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-28T12:57:00Z"
+      "published": "2026-10-28T22:48:08Z"
     }
   ]
 }
