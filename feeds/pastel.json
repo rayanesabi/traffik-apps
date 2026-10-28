@@ -3,16 +3,16 @@
   "name": "Pastel",
   "bundleId": "com.traffikweb.pastel",
   "version": "1.8",
-  "build": 4,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/pastel-v1.8-b4/Pastel-1.8-b4.zip",
-  "size": 6092135,
-  "sha256": "2c27ce61911a49b0fac10652c16b4246c7ea0c6d430def3fafb2c7796768049b",
-  "signature": "J74cnO/T5G5myDy4uXM6P7x/uDJld9PX2QVcKCc3EMXBDoOt/Kpnua4AnlFBfQ5fYlQ5UzaQnNHGaDOTH1dcCQ==",
+  "build": 5,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/pastel-v1.8-b5/Pastel-1.8-b5.zip",
+  "size": 6097453,
+  "sha256": "901ac18f6e2ae7760812c6aa05d74ce985922bccec7465e225f6496c6068c5c6",
+  "signature": "wxzsnU/hrE7C8qCOp4CDY/E+NG7Wb07q7em/3xth1iMt599MFjsTuKpup5d20hyJPfQEiz7w6Q1cqbPvNx0VAQ==",
   "notes": "Nouveau : modifier un élément copié. Bouton « ✎ Modifier » sur la carte choisie, clic droit › Modifier…, ⌘E, double-clic dans l'aperçu, et aussi depuis le panneau de la barre des menus. Texte (majuscules/minuscules, espaces, lignes vides, tri, rechercher/remplacer, compteur ; la mise en forme est gardée ou retirée), image (recadrer, pivoter, redimensionner, flèche, rectangle, texte, flou), lien (adresse, titre, pisteurs retirés), couleur (sélecteur). « Enregistrer et coller » en un geste ; l'original reste dans « Versions » et ⌘Z le remet.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "x86_64",
     "arm64"
   ],
-  "published": "2026-10-28T12:13:56Z"
+  "published": "2026-10-28T12:57:00Z"
 }
