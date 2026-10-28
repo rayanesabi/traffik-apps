@@ -35,17 +35,17 @@
       "icon": "icons/canal.png",
       "bundleId": "com.traffikweb.canal",
       "version": "1.3",
-      "build": 5,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.3-b5/Canal-1.3-b5.zip",
-      "size": 12402591,
-      "sha256": "c2ce9e1fdea6c9e6bad2f9f54aeb7d9a8fff888d7ab088218cc66d009dd26efb",
-      "signature": "Ks3YM8UHp4jZtOG1YKmrvmeVR2ei0U70y/1adRon3apUAw27E6b0IamfGXOloEx3L3cvsKWfS24uCIsM4+56BA==",
+      "build": 6,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.3-b6/Canal-1.3-b6.zip",
+      "size": 12442774,
+      "sha256": "90f9781dd9bdc7d4e7e0059f5eb1df97f35188f23e604058e9ed52f735b8393f",
+      "signature": "dyYQsZrugl5Xmc4O/dnL1NeZrk/l8f4WtjFr3zoW164mgA39I+wtdA41qrP8BU5SZU7z/kTAOiQXgigsFqCcBQ==",
       "notes": "Nouveau : « Signaler un problème… » (menu Aide, Réglages dans Compte) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Canal plante, il vous propose d'envoyer le rapport au prochain lancement. Vos identifiants, l'adresse du serveur, votre lien M3U et votre clé TMDB ne sont jamais joints.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-10-28T07:06:44Z"
+      "published": "2026-10-28T12:41:09Z"
     },
     {
       "name": "Clac",
