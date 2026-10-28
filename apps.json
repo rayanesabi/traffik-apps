@@ -83,19 +83,19 @@
       "slug": "clair",
       "icon": "icons/clair.png",
       "bundleId": "com.traffikweb.clair",
-      "version": "3.4",
-      "build": 8,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.4-b8/Clair-3.4-b8.zip",
-      "size": 19444982,
-      "sha256": "a1c2df9ea06a28bd07338be3009b079acdadffe7eead83af8c9359889656214a",
-      "signature": "kJYsW73RsCz+SOZQJPQDaXqqnYdqvlt2NGdMczGCODU87NyImKqJkUVvfJVoXaghsTRkO61Gh0WS9aF33qftBA==",
-      "notes": "Performances fait enfin un vrai diagnostic : un bouton « Analyser », quelques secondes, et Clair dit ce qui ralentit votre Mac, classé du plus important au moins important.\nMémoire (pression, swap, apps et leurs assistants, fuites probables), processeur (ce qui tourne fort depuis des heures, apps qui empêchent la veille, chaleur), démarrage (éléments cassés, doublons, nettoyeurs en double), disque (espace, SMART, gros dossiers d'OrbStack, Docker, Codex…), système (redémarrage, mise à jour de macOS).\nChaque conseil dit « Pourquoi ? », le gain attendu (mesuré ou estimé) et propose une action : Quitter puis Rouvrir, Désactiver au démarrage puis Réactiver, Relancer la synchronisation, Lancer les tâches d'entretien utiles en une seule demande de mot de passe.\nTendances de la journée (mémoire, processeur, swap) à partir des relevés que Clair fait déjà : aucun travail en plus. L'Entretien intègre l'analyse rapide.",
+      "version": "3.5",
+      "build": 9,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.5-b9/Clair-3.5-b9.zip",
+      "size": 19584186,
+      "sha256": "6c2c226dc0e85951af3af26c918ec325512fd0e358aa6df6c86344d4f6846513",
+      "signature": "frEXzwU34YrZhni69C07hEF19mmrE32GYUsWL/La9aw6wR5Eaxgnk5vShTrSkxtk/Ibov++FtuWcGzXm5heUDA==",
+      "notes": "Clair ne peut plus se figer au lancement : avant d'afficher une alerte, il ne demande plus au système si l'écran est verrouillé (cette question pouvait rester sans réponse) ; il suit maintenant le verrouillage tout seul.\nFichiers iCloud et dossiers qui ne répondent pas : le rangement automatique, le nettoyage et les analyses ne les attendent plus. Un dossier bloqué est mis de côté et le reste continue normalement.\nClair s'affiche tout de suite ; la surveillance démarre juste après, en arrière-plan.\nSi jamais Clair ne répond plus pendant 5 secondes, un petit rapport technique (sans aucune donnée personnelle) est préparé et vous pourrez l'envoyer à Rayane au lancement suivant.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-28T13:49:58Z"
+      "published": "2026-10-28T23:06:27Z"
     },
     {
       "name": "Givre",
