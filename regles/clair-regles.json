@@ -1,0 +1,18 @@
+{
+  "version": 2026102803,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-regles-v2026102803/clair-regles-2026102803.pack",
+  "size": 424754,
+  "sha256": "88097e30383f58f82f744654ab4921f8d0bf7da6ce49aa5d81a4a912d62dfba9",
+  "signature": "Qy/aNmXIWB+SjGOdEgsI6KC/TRrAs3TkH00zl/vUY8mmMShbBLap1O0yK7ccRtAyKeQoK+DfIGe6EkoKLNj9AQ==",
+  "rules": {
+    "clair": 7,
+    "elastic": 86,
+    "rl": 307,
+    "sigbase": 24
+  },
+  "licenses": [
+    "Elastic License 2.0",
+    "Detection Rule License 1.1",
+    "MIT (ReversingLabs)"
+  ]
+}
