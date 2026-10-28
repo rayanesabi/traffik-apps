@@ -83,19 +83,19 @@
       "slug": "clair",
       "icon": "icons/clair.png",
       "bundleId": "com.traffikweb.clair",
-      "version": "3.2",
-      "build": 5,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.2-b5/Clair-3.2-b5.zip",
-      "size": 18614893,
-      "sha256": "7c02df072ff67bb60d2770f3b68a7365aafab20c36c98b49c9153721970bf09e",
-      "signature": "ZMYs/y+f2vDEzVK0NkekWajjNmuZncxnECgPNGEOmD+YB81pV+K327fUNG10sHkcmv8MV85dvsdAGm4QSIIODg==",
-      "notes": "Nouveau : Protection façon Moonlock. Analyse anti-malware rapide, complète ou personnalisée avec les règles d'Apple (XProtect, lues sur votre Mac), des règles libres (Elastic, signature-base, ReversingLabs) et les règles de Clair contre les menaces de 2026 (fausses demandes de mot de passe, commandes « ClickFix » collées dans le Terminal, faux installeurs de Claude, ChatGPT ou Zoom, agents de démarrage cachés).\nQuarantaine réversible : un élément isolé ne peut plus s'exécuter, et se restaure ou se supprime quand vous voulez.\nAudit de 20 réglages de sécurité avec un bouton qui ouvre le bon réglage, démarrage et extensions de navigateurs avec leur signature, veille légère des nouveaux fichiers (option), état de protection dans la barre des menus et dans l'Entretien.\nCorrigé : « Retirer » un agent de démarrage l'arrête tout de suite ; le coupe-feu désactivé n'est plus affiché comme actif.",
+      "version": "3.3",
+      "build": 6,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.3-b6/Clair-3.3-b6.zip",
+      "size": 18818915,
+      "sha256": "aaf852517afd78ab99ed6fdbdb93868d56e043c5616600627c18f859a8c47aa3",
+      "signature": "gN7Z+D4jMpj889nd8zc2mebupoXFtnyFLNHlNU+3DC68HilD1E1ZqjuXiS8O8gnhB2oYqlR2XB8Ue9aamlPCBA==",
+      "notes": "Le nettoyage libère vraiment l'espace : caches, journaux et fichiers temporaires sont supprimés pour de bon (ils se recréent seuls), l'espace revient tout de suite.\nVos fichiers, les apps et leurs restes passent toujours par la Corbeille : l'écran de fin montre ce qui y est, avec « Vider maintenant » (seulement ce que Clair y a mis, ou toute la Corbeille au choix).\nNouveau réglage : vider automatiquement ce que Clair met à la Corbeille (7 jours par défaut). Ce que vous y mettez vous-même n'est jamais touché.\nChiffres honnêtes : « libérés » est mesuré sur le disque ; si des instantanés Time Machine retiennent une partie de l'espace, Clair l'explique et propose de les compacter. L'Historique dit clairement ce qui se restaure encore.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-28T10:38:06Z"
+      "published": "2026-10-28T12:05:14Z"
     },
     {
       "name": "Givre",
