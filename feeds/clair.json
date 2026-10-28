@@ -2,17 +2,17 @@
   "app": "clair",
   "name": "Clair",
   "bundleId": "com.traffikweb.clair",
-  "version": "3.3",
-  "build": 7,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.3-b7/Clair-3.3-b7.zip",
-  "size": 18823863,
-  "sha256": "b06438f9269d11afa2e859e6d1431657ea6dbc2fee988fd82e86ce6ba46de42f",
-  "signature": "x5gdl8Wm0wQa2qJJFGp7oDNIkA1uceJTDuRCDJBWeJA5KI2QD3RImX0tSUY9KG100LEYrbImfC+lSQ8u6z9kBg==",
-  "notes": "Le nettoyage libère vraiment l'espace : caches, journaux et fichiers temporaires sont supprimés pour de bon (ils se recréent seuls), l'espace revient tout de suite.\nVos fichiers, les apps et leurs restes passent toujours par la Corbeille : l'écran de fin montre ce qui y est, avec « Vider maintenant » (seulement ce que Clair y a mis, ou toute la Corbeille au choix).\nNouveau réglage : vider automatiquement ce que Clair met à la Corbeille (7 jours par défaut). Ce que vous y mettez vous-même n'est jamais touché.\nChiffres honnêtes : « libérés » est mesuré sur le disque ; si des instantanés Time Machine retiennent une partie de l'espace, Clair l'explique et propose de les compacter. L'Historique dit clairement ce qui se restaure encore.",
+  "version": "3.4",
+  "build": 8,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.4-b8/Clair-3.4-b8.zip",
+  "size": 19444982,
+  "sha256": "a1c2df9ea06a28bd07338be3009b079acdadffe7eead83af8c9359889656214a",
+  "signature": "kJYsW73RsCz+SOZQJPQDaXqqnYdqvlt2NGdMczGCODU87NyImKqJkUVvfJVoXaghsTRkO61Gh0WS9aF33qftBA==",
+  "notes": "Performances fait enfin un vrai diagnostic : un bouton « Analyser », quelques secondes, et Clair dit ce qui ralentit votre Mac, classé du plus important au moins important.\nMémoire (pression, swap, apps et leurs assistants, fuites probables), processeur (ce qui tourne fort depuis des heures, apps qui empêchent la veille, chaleur), démarrage (éléments cassés, doublons, nettoyeurs en double), disque (espace, SMART, gros dossiers d'OrbStack, Docker, Codex…), système (redémarrage, mise à jour de macOS).\nChaque conseil dit « Pourquoi ? », le gain attendu (mesuré ou estimé) et propose une action : Quitter puis Rouvrir, Désactiver au démarrage puis Réactiver, Relancer la synchronisation, Lancer les tâches d'entretien utiles en une seule demande de mot de passe.\nTendances de la journée (mémoire, processeur, swap) à partir des relevés que Clair fait déjà : aucun travail en plus. L'Entretien intègre l'analyse rapide.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "x86_64",
     "arm64"
   ],
-  "published": "2026-10-28T12:45:56Z"
+  "published": "2026-10-28T13:49:58Z"
 }
