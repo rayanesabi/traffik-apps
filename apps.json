@@ -12,18 +12,18 @@
       "icon": "icons/atelier.png",
       "bundleId": "com.traffikweb.atelier",
       "version": "1.2",
-      "build": 5,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/atelier-v1.2-b5/Atelier-1.2-b5.zip",
-      "size": 5916059,
-      "sha256": "599492e608f081160f9911fa6b30605ad7a6e6f3610064b312b94dd978ea0638",
-      "signature": "GHJSlsgwnSFQIzpG4waBjUbdYVpLJMfaFY/yzpBDe/B89i5GuwSOoCNwo1he/0gukZvb1bkjFPyipAPiF6e/Cw==",
+      "build": 6,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/atelier-v1.2-b6/Atelier-1.2-b6.zip",
+      "size": 5973492,
+      "sha256": "ebe1dec9fa7fe7f9cc18e71e255a954dc75efbbba49696c24a5eaf28241b6053",
+      "signature": "itb1lwPgHlGr1TirrpN0ActU6aGIRdt/1qihN+fGBzBzTwkDc0lYO3pCln5ctu91r2Wj9cCMN0UdnUwyPwWGAA==",
       "notes": "Nouveau : « Signaler un problème… » (menu Aide, panneau, Réglages) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Atelier plante, il vous propose d'envoyer le rapport au prochain lancement. Corrigé : « Ouvrir Atelier » et « Réglages » du panneau amènent maintenant la fenêtre devant à coup sûr.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-28T10:31:39Z"
+      "published": "2026-10-28T12:56:11Z"
     },
     {
       "name": "Canal",
