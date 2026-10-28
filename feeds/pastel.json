@@ -2,17 +2,17 @@
   "app": "pastel",
   "name": "Pastel",
   "bundleId": "com.traffikweb.pastel",
-  "version": "1.7",
-  "build": 3,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/pastel-v1.7-b3/Pastel-1.7-b3.zip",
-  "size": 5481610,
-  "sha256": "b87e19944596aeb4f611e2bf112410bdda4630c1c508a567527e71cd207441cf",
-  "signature": "krGdIywzsPKZYsTG7L8tzn+1HP1SM8rOK7b5AvNXYxOef44LHV/MO/MKu0NpiKAzVk5yufnEWQHNTHp0s2+ZBw==",
-  "notes": "Nouveau : « Signaler un problème… » (menu Aide, panneau, Réglages) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Pastel plante, il vous propose d'envoyer le rapport au prochain lancement. Corrigé : « Réglages » s'ouvre maintenant devant, même depuis le panneau de la barre des menus ; aucun libellé coupé dans le pied du panneau.",
+  "version": "1.8",
+  "build": 4,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/pastel-v1.8-b4/Pastel-1.8-b4.zip",
+  "size": 6092135,
+  "sha256": "2c27ce61911a49b0fac10652c16b4246c7ea0c6d430def3fafb2c7796768049b",
+  "signature": "J74cnO/T5G5myDy4uXM6P7x/uDJld9PX2QVcKCc3EMXBDoOt/Kpnua4AnlFBfQ5fYlQ5UzaQnNHGaDOTH1dcCQ==",
+  "notes": "Nouveau : modifier un élément copié. Bouton « ✎ Modifier » sur la carte choisie, clic droit › Modifier…, ⌘E, double-clic dans l'aperçu, et aussi depuis le panneau de la barre des menus. Texte (majuscules/minuscules, espaces, lignes vides, tri, rechercher/remplacer, compteur ; la mise en forme est gardée ou retirée), image (recadrer, pivoter, redimensionner, flèche, rectangle, texte, flou), lien (adresse, titre, pisteurs retirés), couleur (sélecteur). « Enregistrer et coller » en un geste ; l'original reste dans « Versions » et ⌘Z le remet.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "x86_64",
     "arm64"
   ],
-  "published": "2026-10-28T10:32:24Z"
+  "published": "2026-10-28T12:13:56Z"
 }
