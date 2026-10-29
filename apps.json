@@ -281,18 +281,20 @@
       "icon": "icons/pastel.png",
       "bundleId": "com.traffikweb.pastel",
       "version": "1.9",
-      "build": 6,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/pastel-v1.9-b6/Pastel-1.9-b6.zip",
-      "size": 6291427,
-      "sha256": "d6f273fea67a57caa4798e0083788df8a66917ee39bae5e3bad1c0303b695bc6",
-      "signature": "muGU/5Mtd4l+pjRmGsrBBu9YXfjt76cy66qeoJerKNEOa7Dl0eiNZmQc1M3H+kRp5lOdASiC8q1u6cFgmWd+BA==",
+      "build": 7,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/pastel-v1.9-b7/Pastel-1.9-b7.zip",
+      "size": 6353078,
+      "sha256": "0694040bdf09deb2a21573ae3d3a32e869085380d04d17b288f1482b371f9973",
+      "signature": "mGhPWHpyeu3oVSpoPC3hIM2Pe+wGS8yUvFHpWpCepOl32HnN2nQusxEahmDlw+eh9cwLx8ZJKdfUXEm72u5eBA==",
       "notes": "Nouveau : « Récemment supprimés », comme dans Photos. Ce que vous supprimez (⌘⌫, clic droit › Supprimer, « Effacer aujourd'hui », « Tout effacer ») reste 30 jours avant d'être effacé pour de bon : bouton corbeille à côté des tableaux, et section dans les Réglages. Pour chaque élément : jours restants, « Récupérer », « Supprimer définitivement » ; pour tout : « Tout récupérer » et « Vider ». ⌘Z remet la dernière suppression, même après avoir relancé Pastel. Sécurité : ⌫ seul ne supprime plus jamais rien, il faut ⌘⌫. Les clés secrètes et codes reçus restent effacés directement.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-28T22:48:08Z"
+      "published": "2026-10-29T20:32:38Z",
+      "signing": "local",
+      "trust": "developer-id-v1"
     }
   ]
 }
