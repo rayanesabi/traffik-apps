@@ -1,13 +1,16 @@
 #!/bin/bash
-# Installe les apps Traffik sur ce Mac (sans blocage Gatekeeper) :
+# Installe les apps Traffik sur ce Mac :
 #   curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s clac halo
 #   curl -fsSL https://rayanesabi.github.io/traffik-apps/install.sh | bash -s toutes
-# Pour chaque app : téléchargement, vérification de l'empreinte SHA-256, de la signature Ed25519 et du certificat
-# de signature, installation dans /Applications (ou ~/Applications), retrait de la quarantaine, ouverture.
+# Pour chaque app : téléchargement, vérification de l'empreinte SHA-256, de la signature Ed25519 et de la signature de
+# code — certificat maison épinglé, ou Developer ID de l'équipe PNJBTGUF9C notarisé et accepté par Gatekeeper —,
+# installation dans /Applications (ou ~/Applications), ouverture. La quarantaine n'est retirée que pour les versions au
+# certificat maison (les versions notarisées n'en ont pas besoin).
 set -u
 BASE="${TRAFFIK_BASE:-https://rayanesabi.github.io/traffik-apps}"   # TRAFFIK_BASE / TRAFFIK_DEST / TRAFFIK_NO_OPEN : tests uniquement
 PUBKEY="V6TU3jcjyA1ivs/qDIvZHUN5DdiY6xFn72eVuIPsNow="
 CERT_SHA256="6a7ee9c5ce004ef10ec9fa2b5bc4b901aedf37cf8ed81cfe032a15006b97b0c5"
+TEAM_ID="PNJBTGUF9C"
 VERIFY_JS_SHA256="32fc5d6eae1a7dd0dcdfdc2c5d546c6beffebf382e95504f476629a1d2caf493"
 
 say()  { printf '%s\n' "$*"; }
@@ -86,14 +89,41 @@ for slug in $SLUGS; do
     fail "$NAME : contenu inattendu, installation refusée."; KO=$((KO+1)); continue
   fi
   if ! /usr/bin/codesign --verify --strict "$APP" 2>/dev/null; then fail "$NAME : signature de code invalide."; KO=$((KO+1)); continue; fi
-  (cd "$TMP/$slug" && /usr/bin/codesign -d --extract-certificates "$APP" >/dev/null 2>&1)
-  if [ "$(sha256 "$TMP/$slug/codesign0")" != "$CERT_SHA256" ]; then fail "$NAME : certificat de signature inconnu."; KO=$((KO+1)); continue; fi
-  say "   ✓ certificat Traffik Web vérifié"
+  DEVID_REQ="identifier \"$BID\" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU] = \"$TEAM_ID\""
+  NOTARIZED=0
+  if /usr/bin/codesign --verify -R="$DEVID_REQ" "$APP" 2>/dev/null; then
+    # Developer ID de l'équipe : il faut aussi la notarisation et l'accord de Gatekeeper.
+    if ! /usr/bin/codesign --verify -R="$DEVID_REQ and notarized" "$APP" 2>/dev/null; then
+      fail "$NAME : version non notarisée par Apple, installation refusée."; KO=$((KO+1)); continue
+    fi
+    GK=$(/usr/sbin/spctl -a -t exec -vv "$APP" 2>&1)
+    case "$GK" in
+      *"override=security disabled"*|*"assessments disabled"*) ;;
+      *"source=Notarized Developer ID"*) ;;
+      *) fail "$NAME : refusée par Gatekeeper."; KO=$((KO+1)); continue ;;
+    esac
+    NOTARIZED=1
+    say "   ✓ signée Developer ID ($TEAM_ID) et vérifiée par Apple"
+  else
+    (cd "$TMP/$slug" && /usr/bin/codesign -d --extract-certificates "$APP" >/dev/null 2>&1)
+    if [ "$(sha256 "$TMP/$slug/codesign0")" != "$CERT_SHA256" ]; then fail "$NAME : certificat de signature inconnu."; KO=$((KO+1)); continue; fi
+    say "   ✓ certificat Traffik Web vérifié"
+  fi
 
   DEST="${TRAFFIK_DEST:-/Applications}"
   [ -n "${TRAFFIK_DEST:-}" ] && mkdir -p "$DEST"
   if [ ! -w "$DEST" ]; then DEST="$HOME/Applications"; mkdir -p "$DEST"; fi
   TARGET="$DEST/$NAME.app"
+  # Déjà à jour (même app, même build ou plus récent, signature intacte) : rien à remplacer.
+  if [ -d "$TARGET" ] && [ "$(/usr/bin/plutil -extract CFBundleIdentifier raw -o - "$TARGET/Contents/Info.plist" 2>/dev/null)" = "$BID" ]; then
+    HAVE=$(/usr/bin/plutil -extract CFBundleVersion raw -o - "$TARGET/Contents/Info.plist" 2>/dev/null)
+    case "$HAVE" in ''|*[!0-9]*) HAVE=0 ;; esac
+    if [ "$HAVE" -ge "$BUILD" ] && /usr/bin/codesign --verify --strict "$TARGET" 2>/dev/null; then
+      [ -z "${TRAFFIK_NO_OPEN:-}" ] && /usr/bin/open "$TARGET"
+      say "✅ $NAME $VER déjà à jour dans $DEST"
+      OK=$((OK+1)); INSTALLED="$INSTALLED $NAME"; continue
+    fi
+  fi
   # L'app qu'on remplace est ouverte : on la ferme proprement (seulement celle de cet emplacement).
   for pid in $(/usr/bin/pgrep -x "$NAME"); do
     case "$(/bin/ps -o comm= -p "$pid")" in
@@ -105,13 +135,18 @@ for slug in $SLUGS; do
     esac
   done
   if [ -e "$TARGET" ]; then
-    mv "$TARGET" "$TMP/ancien-$slug.app" || { fail "Impossible de remplacer $TARGET."; KO=$((KO+1)); continue; }
+    if ! mv "$TARGET" "$TMP/ancien-$slug.app" 2>/dev/null; then
+      # macOS protège les apps vérifiées par Apple contre les modifications par d'autres apps (« Gestion des apps »).
+      fail "Impossible de remplacer $TARGET : macOS la protège. Elle se met à jour toute seule ; pour la réinstaller avec cette commande, autorisez Terminal dans Réglages Système › Confidentialité et sécurité › Gestion des apps, puis relancez."
+      KO=$((KO+1)); continue
+    fi
   fi
   if ! /usr/bin/ditto "$APP" "$TARGET"; then
     [ -e "$TMP/ancien-$slug.app" ] && mv "$TMP/ancien-$slug.app" "$TARGET"
     fail "Copie de $NAME dans $DEST impossible."; KO=$((KO+1)); continue
   fi
-  /usr/bin/xattr -dr com.apple.quarantine "$TARGET" 2>/dev/null
+  # Certificat maison seulement : sans quarantaine, Gatekeeper ne bloque pas l'ouverture (rien à faire si notarisée).
+  [ "$NOTARIZED" = 1 ] || /usr/bin/xattr -dr com.apple.quarantine "$TARGET" 2>/dev/null
   /System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -f "$TARGET" >/dev/null 2>&1
   if [ -z "${TRAFFIK_NO_OPEN:-}" ]; then
     /usr/bin/open "$TARGET"
