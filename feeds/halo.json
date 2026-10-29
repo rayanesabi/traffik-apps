@@ -3,15 +3,17 @@
   "name": "Halo",
   "bundleId": "com.traffikweb.halo",
   "version": "1.4",
-  "build": 9,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.4-b9/Halo-1.4-b9.zip",
-  "size": 9071422,
-  "sha256": "742138fae762a71c9f3e91127917586247285a16e2e02f28b1854f2705870f6b",
-  "signature": "qeJh8AlS0TBxtuZTcD/dCg+my5NhUGP0fXt4JgjbIE3sx3b4mHhA7HwE56D5AaN+ZHfx0su0FRqBe+7/erwzCA==",
+  "build": 10,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.4-b10/Halo-1.4-b10.zip",
+  "size": 9103581,
+  "sha256": "2d8b9433439a2b83d5341dead45a18174e767995f0ab3e80df02a5e39691be25",
+  "signature": "P32C0DH7w+Ms5dbHtJoHvpmrHI10xsdwFZezgfBBucCruiDxho4mb33/yoGhSE+D+i1Z9jQ/IBG25HJi8QOkBQ==",
   "notes": "Halo choisit maintenant la bonne IA selon la demande. L'IA du Mac (petit modèle d'Apple, sans culture générale) ne sert plus qu'à retoucher un texte que vous fournissez : corriger, résumer, traduire, reformuler. Les questions (définitions, faits, explications) partent vers vos clés (GPT-6 Luna, OpenAI, Claude Haiku) ou vers un modèle local costaud (Ollama, LM Studio). Le code et le raisonnement vont au modèle le plus fort, Claude Sonnet si vous avez la clé. La météo passe par Open-Meteo, et l'actualité vous propose une recherche web au lieu d'une réponse inventée. Garde-fou : une réponse de l'IA du Mac vide, hors sujet ou qui invente des informations personnelles est écartée, et le moteur suivant prend le relais. La pastille en haut à droite affiche « Auto » et le moteur utilisé ; un clic permet de forcer un moteur ou de passer en « Sur ce Mac seulement ». Dans ce mode, Halo ne passe jamais par le cloud sans votre accord et préfère un refus honnête à une invention. Sous chaque réponse, une pastille discrète indique qui a répondu.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-10-28T22:47:57Z"
+  "published": "2026-10-29T20:31:39Z",
+  "signing": "local",
+  "trust": "developer-id-v1"
 }
