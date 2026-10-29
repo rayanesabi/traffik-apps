@@ -3,16 +3,18 @@
   "name": "Clac",
   "bundleId": "com.traffikweb.clac",
   "version": "1.3",
-  "build": 6,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clac-v1.3-b6/Clac-1.3-b6.zip",
-  "size": 8940854,
-  "sha256": "e4bbf3ac101db2c9ddbdc82a30c69bdd3e36ec27dce83bb92f50a7d119508093",
-  "signature": "o9lYVcthZ5Sox3RkO+L296FHVjsgfsUdcR2v+oOmoeWiwLKUezLHbmSNx5g+PS0RpUnMpT5fdIVX/8DbSUeLDg==",
+  "build": 7,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clac-v1.3-b7/Clac-1.3-b7.zip",
+  "size": 9003492,
+  "sha256": "f02a18fd89d3295d76ecbe97eb386ae4b5d6f99e74d7f91a86ff9755e846c657",
+  "signature": "8TA5i6QKEBJPww9d6J4s11wpB8fNJimIV5mEGBf5bZLiKwu9pA7UGCyCzgEcV5S7Ndx0lrOgZdeqnwNGIPWEDw==",
   "notes": "Nouveau : « Signaler un problème… » (menu Aide, panneau, Réglages) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Clac plante, il vous propose d'envoyer le rapport au prochain lancement. Corrigé : « Réglages… » ferme la fenêtre de la barre des menus et amène les réglages devant à coup sûr.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "x86_64",
     "arm64"
   ],
-  "published": "2026-10-28T12:56:19Z"
+  "published": "2026-10-29T20:32:21Z",
+  "signing": "local",
+  "trust": "developer-id-v1"
 }
