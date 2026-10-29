@@ -220,18 +220,20 @@
       "icon": "icons/onde.png",
       "bundleId": "com.traffikweb.onde",
       "version": "1.3",
-      "build": 5,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/onde-v1.3-b5/Onde-1.3-b5.zip",
-      "size": 4426183,
-      "sha256": "9713f66d66b8ffa97a32ee37a03c9acc4ff1fccf84260c66176a239d785a766d",
-      "signature": "MCmoaO/MCaLgCh4OGDVT4b+xTjm1mdjnaWilnn6NZ8vjOxHp46MxxtJ6zI8fYi0maWjF8l393g+Q+xa8oxfdCA==",
+      "build": 6,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/onde-v1.3-b6/Onde-1.3-b6.zip",
+      "size": 4492203,
+      "sha256": "4c3bb8341759e0670a52666e5ff54c0f19e3753c6bb26ad25d122f6ae40a183e",
+      "signature": "GKxz+SGcTS/KVlKlsKAxANbYj4XIxrISeCesPoPLL9PQVsN5/xbl9r85YrWCWRYPALGgwQKn8CI0yaE11MEHCw==",
       "notes": "Nouveau : « Signaler un problème… » (menu Aide, panneau, Réglages) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Onde plante, il vous propose d'envoyer le rapport au prochain lancement. Les boutons Réglages et Mises à jour du panneau ouvrent désormais leur fenêtre au premier plan de façon fiable.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-28T12:56:02Z"
+      "published": "2026-10-29T20:32:04Z",
+      "signing": "local",
+      "trust": "developer-id-v1"
     },
     {
       "name": "Orbe",
