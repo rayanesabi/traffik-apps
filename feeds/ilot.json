@@ -3,16 +3,18 @@
   "name": "Ilot",
   "bundleId": "com.traffikweb.ilot",
   "version": "3.2",
-  "build": 5,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/ilot-v3.2-b5/Ilot-3.2-b5.zip",
-  "size": 5175381,
-  "sha256": "94d235099eb3cc0ec3008d984f03d674295c37f197e33202db35cac91be71599",
-  "signature": "YpxP24KR87bYHfYe1U1cSrWgMI83ze2uG3BANsoZe9mubu2py8dx73+sRuQJDF2/I9vBNRuKs64I0WEfGzDFBg==",
+  "build": 6,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/ilot-v3.2-b6/Ilot-3.2-b6.zip",
+  "size": 5503289,
+  "sha256": "e55021a80f385f04827fb2899a4c2a35905c7a6ebddba53f65f9cc5f96556baa",
+  "signature": "Vsg2Q+uVQCOKHuD8KbRM+NRwB620jb1WfACvQEAU1CZjWBpQn8YSgz4l3EXV3kEuBgc3+nvdsUbl/nEd1RL4AA==",
   "notes": "Nouveau : « Signaler un problème… » (menu Aide, panneau, Réglages) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Îlot plante, il vous propose d'envoyer le rapport au prochain lancement. Les boutons Réglages et Mises à jour du panneau et de l'encoche ouvrent désormais leur fenêtre au premier plan de façon fiable.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "x86_64",
     "arm64"
   ],
-  "published": "2026-10-28T12:55:54Z"
+  "published": "2026-10-29T20:31:47Z",
+  "signing": "local",
+  "trust": "developer-id-v1"
 }
