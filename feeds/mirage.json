@@ -3,15 +3,17 @@
   "name": "Mirage",
   "bundleId": "com.traffikweb.mirage",
   "version": "1.4",
-  "build": 5,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/mirage-v1.4-b5/Mirage-1.4-b5.zip",
-  "size": 4234804,
-  "sha256": "b55e83e59cfae03c62ae50d36922a82198f0b64980297a94846afffdbf81e295",
-  "signature": "rYW9SS1epKyq8GEBX6CCcqiGg4c23of5B8n73wzAkuE1yS9/yX18Y8Qm2K9raCD2cgupZOSDzZvYCZLK2+WwDg==",
+  "build": 6,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/mirage-v1.4-b6/Mirage-1.4-b6.zip",
+  "size": 4307850,
+  "sha256": "b2ce831304a12996fda513bf1c0336d63dd99db982c6ed6cd0ab353aa7c6fbd1",
+  "signature": "bpICSS1hRyr3/rJp0rCCmDwveJlDddM/wiexH8KOgQ1nRPmm6vGe1BuLBvRBHMjC3nRgHPowffuJ7hwEMafdCw==",
   "notes": "Correctif : le bouton « Galerie » (et « Réglages ») du panneau de la barre des menus ouvre de nouveau la galerie devant les autres fenêtres. Nouveau : « Signaler un problème… » (panneau, menu Aide, Réglages) pour envoyer un bug à Rayane avec un diagnostic anonyme que vous pouvez relire ; si Mirage plante, il vous propose d'envoyer le rapport au prochain lancement.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-10-28T12:56:52Z"
+  "published": "2026-10-29T20:31:55Z",
+  "signing": "local",
+  "trust": "developer-id-v1"
 }
