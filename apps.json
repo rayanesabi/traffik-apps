@@ -86,18 +86,20 @@
       "icon": "icons/clair.png",
       "bundleId": "com.traffikweb.clair",
       "version": "3.5",
-      "build": 9,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.5-b9/Clair-3.5-b9.zip",
-      "size": 19584186,
-      "sha256": "6c2c226dc0e85951af3af26c918ec325512fd0e358aa6df6c86344d4f6846513",
-      "signature": "frEXzwU34YrZhni69C07hEF19mmrE32GYUsWL/La9aw6wR5Eaxgnk5vShTrSkxtk/Ibov++FtuWcGzXm5heUDA==",
+      "build": 10,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.5-b10/Clair-3.5-b10.zip",
+      "size": 19650988,
+      "sha256": "2e22d3574776ce9972184a7717922256821efb469d14be7e658173d0acd6561d",
+      "signature": "EovvroKktifzyruWHCwGm8ptJ5Uw3h+v4m1Fcu+SnCqaJXmqeD1vjBkPx3xKriEuLjYfCR+zpUQwi9/lvhB1CQ==",
       "notes": "Clair ne peut plus se figer au lancement : avant d'afficher une alerte, il ne demande plus au système si l'écran est verrouillé (cette question pouvait rester sans réponse) ; il suit maintenant le verrouillage tout seul.\nFichiers iCloud et dossiers qui ne répondent pas : le rangement automatique, le nettoyage et les analyses ne les attendent plus. Un dossier bloqué est mis de côté et le reste continue normalement.\nClair s'affiche tout de suite ; la surveillance démarre juste après, en arrière-plan.\nSi jamais Clair ne répond plus pendant 5 secondes, un petit rapport technique (sans aucune donnée personnelle) est préparé et vous pourrez l'envoyer à Rayane au lancement suivant.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-10-28T23:06:27Z"
+      "published": "2026-10-29T20:03:36Z",
+      "signing": "local",
+      "trust": "developer-id-v1"
     },
     {
       "name": "Givre",
