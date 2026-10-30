@@ -111,6 +111,19 @@ h2{font-size:30px;letter-spacing:-.02em;margin:0 0 6px}
 @media (prefers-color-scheme: light){.sample{background:#1d1d1f}}
 .stats .cmd{margin:0 0 10px;flex-direction:column;align-items:flex-start}.stats .cmd code{font-size:11.5px;white-space:normal;word-break:break-all}
 .small{font-size:13px!important}.small code{font:12px ui-monospace,Menlo,monospace}
+/* iPhone et iPad */
+.ios-link{display:inline-flex;margin-top:18px;padding:9px 16px;border-radius:999px;color:var(--ink);text-decoration:none;font-weight:600;font-size:14.5px}
+.gallery{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding:2px 2px 8px;margin:0 -2px;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+.gallery a{flex:0 0 auto;scroll-snap-align:start;border-radius:14px;overflow:hidden;border:1px solid var(--line);line-height:0}
+.gallery img{width:118px;height:auto;aspect-ratio:880/1912;object-fit:cover;display:block;background:rgba(0,0,0,.2)}
+.btn.soon{opacity:.55;cursor:not-allowed;transform:none}
+.btn.ghost{background:transparent}
+.note{margin:0;font-size:13px;color:var(--soft)}
+.note b{color:var(--ink)}
+.ios-guide{margin-top:18px}
+.ios-guide .steps-mini{margin:4px 0 0}
+.ios-guide .steps-mini li{margin:6px 0}
+.ios-foot{margin-top:18px;font-size:14px}
 footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
 .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(20px);opacity:0;padding:10px 18px;border-radius:999px;transition:all .3s;font-size:14px}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
@@ -131,6 +144,7 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
       <li class="glass">Intel : apps marquées « Universelle »</li>
       <li class="glass">11 app(s) disponible(s)</li>
     </ul>
+    <a class="glass ios-link" href="#iphone">Aussi sur iPhone et iPad ↓</a>
   </header>
 
   <section id="installer">
@@ -344,6 +358,104 @@ footer{padding:50px 0 70px;text-align:center;color:var(--soft);font-size:13px}
         <div class="caption">Illustration de la fenêtre de macOS</div>
       </div>
     </div>
+  </section>
+
+
+  <section id="iphone">
+    <h2>Sur iPhone et iPad</h2>
+    <p class="sub">Les mêmes apps, en version iPhone et iPad (iOS 27 ou plus récent). Cinq passent par TestFlight, l'app de test officielle d'Apple&nbsp;; Prisme s'installe directement, après inscription de ton iPhone.</p>
+    <div class="grid">
+      <article class="glass app ios-app" id="ios-canal">
+        <div class="app-head">
+          <img src="ios/canal.png" alt="" width="72" height="72" loading="lazy">
+          <div><h3>Canal</h3><p class="tagline">Le lecteur de tes abonnements IPTV</p></div>
+        </div>
+        <p class="desc">Un lecteur pour tes propres abonnements IPTV (compte Xtream ou liste M3U)&nbsp;: direct, guide TV, films et séries, reprise là où tu t&#x27;étais arrêté. Canal ne fournit aucun contenu ni aucun abonnement.</p>
+        <div class="gallery" tabindex="0" aria-label="Captures de Canal"><a href="ios/shots/canal-1.jpg" target="_blank" rel="noopener"><img src="ios/shots/canal-1.jpg" alt="Capture 1 de Canal" width="230" height="500" loading="lazy"></a><a href="ios/shots/canal-2.jpg" target="_blank" rel="noopener"><img src="ios/shots/canal-2.jpg" alt="Capture 2 de Canal" width="230" height="500" loading="lazy"></a><a href="ios/shots/canal-3.jpg" target="_blank" rel="noopener"><img src="ios/shots/canal-3.jpg" alt="Capture 3 de Canal" width="230" height="500" loading="lazy"></a><a href="ios/shots/canal-4.jpg" target="_blank" rel="noopener"><img src="ios/shots/canal-4.jpg" alt="Capture 4 de Canal" width="230" height="500" loading="lazy"></a></div>
+        <ul class="badges"><li>iOS 27 ou plus</li><li>iPhone · iPad</li><li>TestFlight</li></ul>
+        
+        <div class="actions"><span class="btn soon" aria-disabled="true">Installer avec TestFlight · Bientôt</span><a class="btn ghost" href="confidentialite/canal.html">Confidentialité</a></div>
+      </article>
+      <article class="glass app ios-app" id="ios-orbe">
+        <div class="app-head">
+          <img src="ios/orbe.png" alt="" width="72" height="72" loading="lazy">
+          <div><h3>Orbe</h3><p class="tagline">Un navigateur calme, façon Arc</p></div>
+        </div>
+        <p class="desc">Navigateur web avec espaces, onglets rangés, bloqueur de pubs et de traqueurs, mode lecture et assistant (IA de l&#x27;appareil, ou ta propre clé). Retrouve les onglets de ton Mac si tu as Orbe sur Mac.</p>
+        <div class="gallery" tabindex="0" aria-label="Captures de Orbe"><a href="ios/shots/orbe-1.jpg" target="_blank" rel="noopener"><img src="ios/shots/orbe-1.jpg" alt="Capture 1 de Orbe" width="230" height="500" loading="lazy"></a><a href="ios/shots/orbe-2.jpg" target="_blank" rel="noopener"><img src="ios/shots/orbe-2.jpg" alt="Capture 2 de Orbe" width="230" height="500" loading="lazy"></a><a href="ios/shots/orbe-3.jpg" target="_blank" rel="noopener"><img src="ios/shots/orbe-3.jpg" alt="Capture 3 de Orbe" width="230" height="500" loading="lazy"></a><a href="ios/shots/orbe-4.jpg" target="_blank" rel="noopener"><img src="ios/shots/orbe-4.jpg" alt="Capture 4 de Orbe" width="230" height="500" loading="lazy"></a></div>
+        <ul class="badges"><li>iOS 27 ou plus</li><li>iPhone · iPad</li><li>TestFlight</li></ul>
+        
+        <div class="actions"><span class="btn soon" aria-disabled="true">Installer avec TestFlight · Bientôt</span><a class="btn ghost" href="confidentialite/orbe.html">Confidentialité</a></div>
+      </article>
+      <article class="glass app ios-app" id="ios-clair">
+        <div class="app-head">
+          <img src="ios/clair.png" alt="" width="72" height="72" loading="lazy">
+          <div><h3>Clair</h3><p class="tagline">Un iPhone léger, sans y passer la soirée</p></div>
+        </div>
+        <p class="desc">Trouve les photos en double, floues ou similaires, les captures d&#x27;écran oubliées, les grosses vidéos et les contacts en double. Rien n&#x27;est supprimé sans ton accord, et tout reste 30 jours dans «&nbsp;Supprimés récemment&nbsp;».</p>
+        <div class="gallery" tabindex="0" aria-label="Captures de Clair"><a href="ios/shots/clair-1.jpg" target="_blank" rel="noopener"><img src="ios/shots/clair-1.jpg" alt="Capture 1 de Clair" width="230" height="500" loading="lazy"></a><a href="ios/shots/clair-2.jpg" target="_blank" rel="noopener"><img src="ios/shots/clair-2.jpg" alt="Capture 2 de Clair" width="230" height="500" loading="lazy"></a><a href="ios/shots/clair-3.jpg" target="_blank" rel="noopener"><img src="ios/shots/clair-3.jpg" alt="Capture 3 de Clair" width="230" height="500" loading="lazy"></a><a href="ios/shots/clair-4.jpg" target="_blank" rel="noopener"><img src="ios/shots/clair-4.jpg" alt="Capture 4 de Clair" width="230" height="500" loading="lazy"></a></div>
+        <ul class="badges"><li>iOS 27 ou plus</li><li>iPhone · iPad</li><li>TestFlight</li></ul>
+        
+        <div class="actions"><span class="btn soon" aria-disabled="true">Installer avec TestFlight · Bientôt</span><a class="btn ghost" href="confidentialite/clair.html">Confidentialité</a></div>
+      </article>
+      <article class="glass app ios-app" id="ios-halo">
+        <div class="app-head">
+          <img src="ios/halo.png" alt="" width="72" height="72" loading="lazy">
+          <div><h3>Halo</h3><p class="tagline">L&#x27;assistant et le presse-papiers</p></div>
+        </div>
+        <p class="desc">Un assistant qui répond, crée tes rappels et événements (après ta validation) et calcule, avec l&#x27;IA de l&#x27;appareil ou ta propre clé d&#x27;IA. Plus Pastel&nbsp;: historique du presse-papiers, clavier et partage.</p>
+        <div class="gallery" tabindex="0" aria-label="Captures de Halo"><a href="ios/shots/halo-1.jpg" target="_blank" rel="noopener"><img src="ios/shots/halo-1.jpg" alt="Capture 1 de Halo" width="230" height="500" loading="lazy"></a><a href="ios/shots/halo-2.jpg" target="_blank" rel="noopener"><img src="ios/shots/halo-2.jpg" alt="Capture 2 de Halo" width="230" height="500" loading="lazy"></a><a href="ios/shots/halo-3.jpg" target="_blank" rel="noopener"><img src="ios/shots/halo-3.jpg" alt="Capture 3 de Halo" width="230" height="500" loading="lazy"></a><a href="ios/shots/halo-4.jpg" target="_blank" rel="noopener"><img src="ios/shots/halo-4.jpg" alt="Capture 4 de Halo" width="230" height="500" loading="lazy"></a></div>
+        <ul class="badges"><li>iOS 27 ou plus</li><li>iPhone · iPad</li><li>TestFlight</li></ul>
+        
+        <div class="actions"><span class="btn soon" aria-disabled="true">Installer avec TestFlight · Bientôt</span><a class="btn ghost" href="confidentialite/halo.html">Confidentialité</a></div>
+      </article>
+      <article class="glass app ios-app" id="ios-aube">
+        <div class="app-head">
+          <img src="ios/aube.png" alt="" width="72" height="72" loading="lazy">
+          <div><h3>Aube</h3><p class="tagline">Prière, Coran et invocations</p></div>
+        </div>
+        <p class="desc">Horaires calculés sur l&#x27;iPhone (méthode au choix, décalage iqama réglable à la main), réveils du Fajr, Qibla, Coran page par page, invocations de la Citadelle du musulman, hadiths, quiz et podcasts. Sans pub, sans compte.</p>
+        <div class="gallery" tabindex="0" aria-label="Captures de Aube"><a href="ios/shots/aube-1.jpg" target="_blank" rel="noopener"><img src="ios/shots/aube-1.jpg" alt="Capture 1 de Aube" width="230" height="500" loading="lazy"></a><a href="ios/shots/aube-2.jpg" target="_blank" rel="noopener"><img src="ios/shots/aube-2.jpg" alt="Capture 2 de Aube" width="230" height="500" loading="lazy"></a><a href="ios/shots/aube-3.jpg" target="_blank" rel="noopener"><img src="ios/shots/aube-3.jpg" alt="Capture 3 de Aube" width="230" height="500" loading="lazy"></a><a href="ios/shots/aube-4.jpg" target="_blank" rel="noopener"><img src="ios/shots/aube-4.jpg" alt="Capture 4 de Aube" width="230" height="500" loading="lazy"></a></div>
+        <ul class="badges"><li>iOS 27 ou plus</li><li>iPhone · iPad</li><li>TestFlight</li></ul>
+        
+        <div class="actions"><span class="btn soon" aria-disabled="true">Installer avec TestFlight · Bientôt</span><a class="btn ghost" href="confidentialite/aube.html">Confidentialité</a></div>
+      </article>
+      <article class="glass app ios-app" id="ios-prisme">
+        <div class="app-head">
+          <img src="ios/prisme.png" alt="" width="72" height="72" loading="lazy">
+          <div><h3>Prisme</h3><p class="tagline">Île dynamique, widgets et fonds</p></div>
+        </div>
+        <p class="desc">Îlot (Dynamic Island animée, minuteur, mascottes), 21 widgets en 13 styles, studio de fonds d&#x27;écran Mirage et thèmes d&#x27;icônes Atelier. Installée directement (hors TestFlight)&nbsp;: il faut d&#x27;abord inscrire ton iPhone.</p>
+        <div class="gallery" tabindex="0" aria-label="Captures de Prisme"><a href="ios/shots/prisme-1.jpg" target="_blank" rel="noopener"><img src="ios/shots/prisme-1.jpg" alt="Capture 1 de Prisme" width="230" height="500" loading="lazy"></a><a href="ios/shots/prisme-2.jpg" target="_blank" rel="noopener"><img src="ios/shots/prisme-2.jpg" alt="Capture 2 de Prisme" width="230" height="500" loading="lazy"></a><a href="ios/shots/prisme-3.jpg" target="_blank" rel="noopener"><img src="ios/shots/prisme-3.jpg" alt="Capture 3 de Prisme" width="230" height="500" loading="lazy"></a><a href="ios/shots/prisme-4.jpg" target="_blank" rel="noopener"><img src="ios/shots/prisme-4.jpg" alt="Capture 4 de Prisme" width="230" height="500" loading="lazy"></a></div>
+        <ul class="badges"><li>iOS 27 ou plus</li><li>iPhone · iPad</li><li>Installation directe</li></ul>
+        <p class="note">Il faut le <b>code d'invitation</b> envoyé par Rayane, puis attendre qu'il inscrive ton iPhone (voir le guide plus bas).</p>
+        <div class="actions"><a class="btn" href="https://traffik-stats.ryusaikoo.workers.dev/ios/inscrire">1. Inscrire mon iPhone</a><span class="btn soon" aria-disabled="true">2. Installer · Bientôt</span><a class="btn ghost" href="confidentialite/prisme.html">Confidentialité</a></div>
+      </article>
+    </div>
+    <div class="manual ios-guide">
+      <div class="glass step">
+        <h3><span class="num">1</span> Avec TestFlight</h3>
+        <ol class="steps-mini">
+          <li>Installe l'app <b>TestFlight</b> d'Apple depuis l'App Store (gratuite).</li>
+          <li>Sur ton iPhone, touche «&nbsp;<b>Installer avec TestFlight</b>&nbsp;» sur la carte de l'app.</li>
+          <li>TestFlight s'ouvre&nbsp;: touche <b>Accepter</b>, puis <b>Installer</b>.</li>
+          <li>Les mises à jour arrivent dans TestFlight (active les mises à jour automatiques dans la fiche de l'app).</li>
+          <li>Une version de test dure 90 jours&nbsp;: Rayane en publie une nouvelle avant, rien à faire de ton côté.</li>
+        </ol>
+      </div>
+      <div class="glass step">
+        <h3><span class="num">2</span> Prisme (installation directe)</h3>
+        <ol class="steps-mini">
+          <li>Ouvre le lien «&nbsp;<b>Inscrire mon iPhone</b>&nbsp;» dans <b>Safari</b> sur l'iPhone, entre ton prénom et le code d'invitation de Rayane.</li>
+          <li>Ouvre <b>Réglages › Général › VPN et gestion de l'appareil</b>, touche le <b>profil téléchargé</b>, puis <b>Installer</b>. La mention «&nbsp;Non vérifié&nbsp;» est normale&nbsp;: le profil envoie seulement l'identifiant et le modèle de l'iPhone, puis disparaît.</li>
+          <li>Attends que Rayane inscrive ton iPhone chez Apple (il te prévient).</li>
+          <li>Reviens ici et touche «&nbsp;<b>Installer</b>&nbsp;», puis confirme. L'icône apparaît sur l'écran d'accueil.</li>
+          <li>Pas besoin du <b>Mode développeur</b>&nbsp;: Apple le réserve aux apps signées pour le développement&nbsp;; Prisme est signée pour la distribution.</li>
+          <li>Nouvelle version&nbsp;: Prisme affiche «&nbsp;<b>Nouvelle version — Installer</b>&nbsp;», un toucher suffit.</li>
+        </ol>
+      </div>
+    </div>
+    <p class="sub ios-foot">Sur iPhone et iPad, ces versions n'envoient ni statistiques ni rapports de plantage. Chaque app a sa page «&nbsp;Confidentialité&nbsp;».</p>
   </section>
 
   <section id="faq">
