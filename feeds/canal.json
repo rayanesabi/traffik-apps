@@ -2,18 +2,18 @@
   "app": "canal",
   "name": "Canal",
   "bundleId": "com.traffikweb.canal",
-  "version": "1.4",
-  "build": 11,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.4-b11/Canal-1.4-b11.zip",
-  "size": 13286237,
-  "sha256": "6c11e2022a53b0f2b25dc520c81368b8181959735e5c349bdd2420f3981ea17c",
-  "signature": "y11Bo/VG3jBYTuP2HzRbeqBYeo+aSceA4NODZb6crxiG5/OKXanaD4vqliAQsvz/Aj4K+RnHznX7DuDsu5axDQ==",
-  "notes": "Synchronisation personnelle : votre espace Canal (reprise à la seconde, épisodes vus, « Reprendre », Ma liste et listes perso, favoris, langues) est désormais à vous seul, même si quelqu'un utilise le même abonnement IPTV. Il est chiffré de bout en bout avec une clé propre à vous. Pour retrouver votre espace sur vos autres appareils, reliez-les avec le QR : Compte › « Envoyer vers l'iPhone, l'iPad ou un autre Mac » (entre deux Mac : « Copier le lien », puis « Recevoir » sur l'autre Mac).",
+  "version": "1.5",
+  "build": 12,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.5-b12/Canal-1.5-b12.zip",
+  "size": 13766450,
+  "sha256": "ceba853710aa99546f0616511a363e2f9d3c911bea8c8f0bc94e466ec98dc453",
+  "signature": "BP/SWboBNUoPpPR/57ICg6BwcIaTXNJtoEfKe6z3lxQ/C9IEh3YvtYhxkZKtbiwG+PEEcTrMo5bluxpZYdw4Aw==",
+  "notes": "Sites : ajoutez vos sites favoris (adresse, nom, icône récupérée automatiquement) et ouvrez-les dans Canal, en plein écran, avec le bloqueur de pubs et de fenêtres surgissantes d'Orbe (pastille « N bloquées »). Chaque site garde sa propre session ; « Effacer les données de ce site » dans le menu « … ». Où regarder : chaque fiche affiche les services qui proposent le titre en France (abonnement, location, achat, gratuit avec pub), d'après JustWatch, si une clé TMDB est configurée. Aussi : catalogue par genres avec recherche des genres et des catégories, bouton retour partout, recommandations « Ce soir ? » améliorées.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-11-06T06:25:04Z",
+  "published": "2026-11-06T14:10:21Z",
   "signing": "local",
   "trust": "developer-id-v1"
 }
