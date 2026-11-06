@@ -3,17 +3,17 @@
   "name": "Halo",
   "bundleId": "com.traffikweb.halo",
   "version": "1.5",
-  "build": 11,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.5-b11/Halo-1.5-b11.zip",
-  "size": 9447907,
-  "sha256": "1047c6060d041f6350283a5f50e8eec03c3e138b20a24264be0353dd2dba6ae5",
-  "signature": "wS52d/9/iyE0zGxd6g9BZlX/hX7654+UIw+IE3b8Lntpcn4LbQfPwoMXgS3fdfGuwOkfGGmGd0jyrk0e/5M3DQ==",
+  "build": 12,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.5-b12/Halo-1.5-b12.zip",
+  "size": 9447492,
+  "sha256": "6048dbb3bd6253a73a74810e359d501f0a8641c2feda7bd50d48105db6fb40b8",
+  "signature": "rXGkJb+86ZYTAIFaOFYVr8KXAEK7QWj3xO6tdDk1ofvwXQisdJh7r3nGE+S8pkryQGUohU/DzZ+W5ckoO3FNCw==",
   "notes": "Halo comprend mieux tes demandes sur tes messages, même avec une faute de frappe : « écoute le vocxal de Hmidet » lance bien l'écoute des vocaux, et le nom du contact est retrouvé même mal écrit. S'il y a plusieurs personnes proches, Halo te demande laquelle. « Ce que j'ai raté », ton style d'écriture et les actions simples (« mets un rapel demain 9h pour appeler Karim ») passent directement par Halo, avant toute IA de discussion, y compris en mode « Sur ce Mac seulement ». Nouveau mode « Tout par GPT-6 Luna » (avec une clé Sunra) : GPT garde le fil de la conversation et utilise les outils de Halo (vocaux, messages non lus, agenda, rappels, fichiers, météo, calcul). Les actions passent toujours par la carte d'approbation. Hors ligne, l'IA du Mac prend le relais. Tes messages restent sur ton Mac tant que « Mes messages ne quittent jamais le Mac » est activé. Sur iPhone, partage un vocal vers Halo pour qu'il le transcrive.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-11-06T06:54:12Z",
+  "published": "2026-11-06T07:01:26Z",
   "signing": "local",
   "trust": "developer-id-v1"
 }
