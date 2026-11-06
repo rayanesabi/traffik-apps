@@ -2,18 +2,18 @@
   "app": "halo",
   "name": "Halo",
   "bundleId": "com.traffikweb.halo",
-  "version": "1.4",
-  "build": 10,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.4-b10/Halo-1.4-b10.zip",
-  "size": 9103581,
-  "sha256": "2d8b9433439a2b83d5341dead45a18174e767995f0ab3e80df02a5e39691be25",
-  "signature": "P32C0DH7w+Ms5dbHtJoHvpmrHI10xsdwFZezgfBBucCruiDxho4mb33/yoGhSE+D+i1Z9jQ/IBG25HJi8QOkBQ==",
-  "notes": "Halo choisit maintenant la bonne IA selon la demande. L'IA du Mac (petit modèle d'Apple, sans culture générale) ne sert plus qu'à retoucher un texte que vous fournissez : corriger, résumer, traduire, reformuler. Les questions (définitions, faits, explications) partent vers vos clés (GPT-6 Luna, OpenAI, Claude Haiku) ou vers un modèle local costaud (Ollama, LM Studio). Le code et le raisonnement vont au modèle le plus fort, Claude Sonnet si vous avez la clé. La météo passe par Open-Meteo, et l'actualité vous propose une recherche web au lieu d'une réponse inventée. Garde-fou : une réponse de l'IA du Mac vide, hors sujet ou qui invente des informations personnelles est écartée, et le moteur suivant prend le relais. La pastille en haut à droite affiche « Auto » et le moteur utilisé ; un clic permet de forcer un moteur ou de passer en « Sur ce Mac seulement ». Dans ce mode, Halo ne passe jamais par le cloud sans votre accord et préfère un refus honnête à une invention. Sous chaque réponse, une pastille discrète indique qui a répondu.",
+  "version": "1.5",
+  "build": 11,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/halo-v1.5-b11/Halo-1.5-b11.zip",
+  "size": 9447907,
+  "sha256": "1047c6060d041f6350283a5f50e8eec03c3e138b20a24264be0353dd2dba6ae5",
+  "signature": "wS52d/9/iyE0zGxd6g9BZlX/hX7654+UIw+IE3b8Lntpcn4LbQfPwoMXgS3fdfGuwOkfGGmGd0jyrk0e/5M3DQ==",
+  "notes": "Halo comprend mieux tes demandes sur tes messages, même avec une faute de frappe : « écoute le vocxal de Hmidet » lance bien l'écoute des vocaux, et le nom du contact est retrouvé même mal écrit. S'il y a plusieurs personnes proches, Halo te demande laquelle. « Ce que j'ai raté », ton style d'écriture et les actions simples (« mets un rapel demain 9h pour appeler Karim ») passent directement par Halo, avant toute IA de discussion, y compris en mode « Sur ce Mac seulement ». Nouveau mode « Tout par GPT-6 Luna » (avec une clé Sunra) : GPT garde le fil de la conversation et utilise les outils de Halo (vocaux, messages non lus, agenda, rappels, fichiers, météo, calcul). Les actions passent toujours par la carte d'approbation. Hors ligne, l'IA du Mac prend le relais. Tes messages restent sur ton Mac tant que « Mes messages ne quittent jamais le Mac » est activé. Sur iPhone, partage un vocal vers Halo pour qu'il le transcrive.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-10-29T20:31:39Z",
+  "published": "2026-11-06T06:54:12Z",
   "signing": "local",
   "trust": "developer-id-v1"
 }
