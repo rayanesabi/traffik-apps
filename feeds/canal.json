@@ -3,17 +3,17 @@
   "name": "Canal",
   "bundleId": "com.traffikweb.canal",
   "version": "1.4",
-  "build": 10,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.4-b10/Canal-1.4-b10.zip",
-  "size": 12850868,
-  "sha256": "0d762fc1d89255bd4594c74c69c74110221e0e0efc1f07c715592305f0491766",
-  "signature": "Hc4GmmyB1dQ0Q0OWUtgZqY+Xu46CCrx4lCM/zALtCVP2OcIVj6u2VLo6JqSq62gpg1Qm2/osKTf5sYRMUQGpDw==",
+  "build": 11,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.4-b11/Canal-1.4-b11.zip",
+  "size": 13286237,
+  "sha256": "6c11e2022a53b0f2b25dc520c81368b8181959735e5c349bdd2420f3981ea17c",
+  "signature": "y11Bo/VG3jBYTuP2HzRbeqBYeo+aSceA4NODZb6crxiG5/OKXanaD4vqliAQsvz/Aj4K+RnHznX7DuDsu5axDQ==",
   "notes": "Synchronisation personnelle : votre espace Canal (reprise à la seconde, épisodes vus, « Reprendre », Ma liste et listes perso, favoris, langues) est désormais à vous seul, même si quelqu'un utilise le même abonnement IPTV. Il est chiffré de bout en bout avec une clé propre à vous. Pour retrouver votre espace sur vos autres appareils, reliez-les avec le QR : Compte › « Envoyer vers l'iPhone, l'iPad ou un autre Mac » (entre deux Mac : « Copier le lien », puis « Recevoir » sur l'autre Mac).",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-10-30T23:06:16Z",
+  "published": "2026-11-06T06:25:04Z",
   "signing": "local",
   "trust": "developer-id-v1"
 }
