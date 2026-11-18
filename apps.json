@@ -37,17 +37,17 @@
       "icon": "icons/canal.png",
       "bundleId": "com.traffikweb.canal",
       "version": "1.6",
-      "build": 18,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.6-b18/Canal-1.6-b18.zip",
-      "size": 15169025,
-      "sha256": "490e245268da3269dd7502186fa7df53c84cb3dc5c595b832312c1a20bead470",
-      "signature": "ICB+Ad7vD8M4lYbh2HQ6YnYIrNVJJV+xghGRxETZWu3wKALsn+/qDDFHq81ZqQxBn7vF8l+N/MeuezQWuZ6BBw==",
+      "build": 19,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.6-b19/Canal-1.6-b19.zip",
+      "size": 15198688,
+      "sha256": "85569484ef5957405cd8cb5e38d30f6427b3e2f8f8220ff4aec47dbe2f8c659b",
+      "signature": "t+uCEocm5w2tGUP2jlCYyC7jS45V1FxB723ZRherTZqhMEwt0vy0OJPSe3LH2hCjhQh+/kqCTw5XsMlyihTkAw==",
       "notes": "Sites : ajoutez vos sites favoris (adresse, nom, icône récupérée automatiquement) et ouvrez-les dans Canal, en plein écran, avec le bloqueur de pubs et de fenêtres surgissantes d'Orbe (pastille « N bloquées »). Chaque site garde sa propre session ; « Effacer les données de ce site » dans le menu « … ». Où regarder : chaque fiche affiche les services qui proposent le titre en France (abonnement, location, achat, gratuit avec pub), d'après JustWatch, si une clé TMDB est configurée. Aussi : catalogue par genres avec recherche des genres et des catégories, bouton retour partout, recommandations « Ce soir ? » améliorées.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-11-16T21:21:02Z",
+      "published": "2026-11-18T18:50:05Z",
       "signing": "local",
       "trust": "developer-id-v1"
     },
