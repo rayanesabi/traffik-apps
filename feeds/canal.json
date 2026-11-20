@@ -3,17 +3,17 @@
   "name": "Canal",
   "bundleId": "com.traffikweb.canal",
   "version": "1.7",
-  "build": 20,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.7-b20/Canal-1.7-b20.zip",
-  "size": 15236537,
-  "sha256": "1efb67ccfff79364d1d69c1064f7c922b28a073b6c0a6ccf404b4ee32c14099d",
-  "signature": "TuGE/3J6wZ/9RdUprx+xx+57mv46/SYIv0F/+JHQGJ+0vDqLfuIbyBe/33GNOSObM/97NmZ+RnryB2DI1RZ/Dg==",
+  "build": 21,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.7-b21/Canal-1.7-b21.zip",
+  "size": 15237959,
+  "sha256": "46a28796ca8e6856974d7cea473dff9fbdf365d48ac440de245fed6dd9ef361c",
+  "signature": "X3HCjzyAiHXOOzxpKF4YTsq4sTHq+0IjAoi+BdP6ZMBFN8rBJADF89Dp3iXPVJxl+oaYR4gQot3S/OT4SPvGAQ==",
   "notes": "Nouveau : Canal sur la télé. Compte › « Ajouter une télé » envoie votre abonnement, le serveur Emby et votre espace de synchro à Canal TV (Fire TV, Android TV) : tapez le code affiché sur la télé, rien à saisir à la télécommande. Tout est chiffré pour la télé seule. Reprise, listes et « vus » se synchronisent aussi avec la télé.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-11-20T02:29:59Z",
+  "published": "2026-11-20T02:43:22Z",
   "signing": "local",
   "trust": "developer-id-v1"
 }
