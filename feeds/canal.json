@@ -2,18 +2,18 @@
   "app": "canal",
   "name": "Canal",
   "bundleId": "com.traffikweb.canal",
-  "version": "1.6",
-  "build": 19,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.6-b19/Canal-1.6-b19.zip",
-  "size": 15198688,
-  "sha256": "85569484ef5957405cd8cb5e38d30f6427b3e2f8f8220ff4aec47dbe2f8c659b",
-  "signature": "t+uCEocm5w2tGUP2jlCYyC7jS45V1FxB723ZRherTZqhMEwt0vy0OJPSe3LH2hCjhQh+/kqCTw5XsMlyihTkAw==",
-  "notes": "Sites : ajoutez vos sites favoris (adresse, nom, icône récupérée automatiquement) et ouvrez-les dans Canal, en plein écran, avec le bloqueur de pubs et de fenêtres surgissantes d'Orbe (pastille « N bloquées »). Chaque site garde sa propre session ; « Effacer les données de ce site » dans le menu « … ». Où regarder : chaque fiche affiche les services qui proposent le titre en France (abonnement, location, achat, gratuit avec pub), d'après JustWatch, si une clé TMDB est configurée. Aussi : catalogue par genres avec recherche des genres et des catégories, bouton retour partout, recommandations « Ce soir ? » améliorées.",
+  "version": "1.7",
+  "build": 20,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.7-b20/Canal-1.7-b20.zip",
+  "size": 15236537,
+  "sha256": "1efb67ccfff79364d1d69c1064f7c922b28a073b6c0a6ccf404b4ee32c14099d",
+  "signature": "TuGE/3J6wZ/9RdUprx+xx+57mv46/SYIv0F/+JHQGJ+0vDqLfuIbyBe/33GNOSObM/97NmZ+RnryB2DI1RZ/Dg==",
+  "notes": "Nouveau : Canal sur la télé. Compte › « Ajouter une télé » envoie votre abonnement, le serveur Emby et votre espace de synchro à Canal TV (Fire TV, Android TV) : tapez le code affiché sur la télé, rien à saisir à la télécommande. Tout est chiffré pour la télé seule. Reprise, listes et « vus » se synchronisent aussi avec la télé.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-11-18T18:50:05Z",
+  "published": "2026-11-20T02:29:59Z",
   "signing": "local",
   "trust": "developer-id-v1"
 }
