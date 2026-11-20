@@ -1,0 +1,18 @@
+{
+  "app": "canal-tv",
+  "name": "Canal TV",
+  "package": "com.traffikweb.canal.tv",
+  "platform": "android",
+  "version": "1.0",
+  "build": 1,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-tv-v1.0-b1/CanalTV-1.0-b1.apk",
+  "stableUrl": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-tv/CanalTV.apk",
+  "size": 5429877,
+  "sha256": "e9c553e4429b212e1cfe9c7aae333589aa735341617a688b776b79e2671a5043",
+  "signature": "ySQQIH15py/W9AuJiKiZNmTbWBZqKL0WLgRB1GUl+0MyISfskbC4g4yaS9QflyB4iTfw6U3bHsYN5+yKVEILCA==",
+  "notes": "Première version de Canal pour la télé (Fire TV Stick, Android TV, Google TV) : appairage sans clavier depuis Canal sur Mac ou iPhone (code ou QR, chiffré de bout en bout), films, séries, animes et TV en direct de l'abonnement IPTV avec les noms de catégories de Canal, lecteur avec pistes audio et sous-titres, reprise, épisode suivant, zapping haut / bas, messages d'erreur clairs, mises à jour proposées dans l'app.",
+  "minSdk": 25,
+  "minAndroid": "7.1",
+  "published": "2026-11-20T03:19:07Z",
+  "certSha256": "d8d862ca9b8e8d8a22c3ef0b5b8676938ee2469c575b7147dd87cd950b9cd255"
+}
