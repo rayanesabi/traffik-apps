@@ -2,19 +2,19 @@
   "app": "pastel",
   "name": "Pastel",
   "bundleId": "com.traffikweb.pastel",
-  "version": "1.9",
-  "build": 7,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/pastel-v1.9-b7/Pastel-1.9-b7.zip",
-  "size": 6353078,
-  "sha256": "0694040bdf09deb2a21573ae3d3a32e869085380d04d17b288f1482b371f9973",
-  "signature": "mGhPWHpyeu3oVSpoPC3hIM2Pe+wGS8yUvFHpWpCepOl32HnN2nQusxEahmDlw+eh9cwLx8ZJKdfUXEm72u5eBA==",
-  "notes": "Nouveau : « Récemment supprimés », comme dans Photos. Ce que vous supprimez (⌘⌫, clic droit › Supprimer, « Effacer aujourd'hui », « Tout effacer ») reste 30 jours avant d'être effacé pour de bon : bouton corbeille à côté des tableaux, et section dans les Réglages. Pour chaque élément : jours restants, « Récupérer », « Supprimer définitivement » ; pour tout : « Tout récupérer » et « Vider ». ⌘Z remet la dernière suppression, même après avoir relancé Pastel. Sécurité : ⌫ seul ne supprime plus jamais rien, il faut ⌘⌫. Les clés secrètes et codes reçus restent effacés directement.",
+  "version": "2.0",
+  "build": 8,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/pastel-v2.0-b8/Pastel-2.0-b8.zip",
+  "size": 6870973,
+  "sha256": "20ef2672cbc082012553a9a8a25b251c0126325efcfa431a3faa4f991802dd35",
+  "signature": "CVMM2Tg3Av+c7NUKjtlE9SUECwuzT1bhPtgThPFlQtXTU9nVqJ1hqps4p+AfeWzHgPagAi5+w6R1QodAKpVcCQ==",
+  "notes": "Nouveau : images copiées allégées (Réglages › Images copiées, désactivé par défaut). Une capture ou une image copiée seule est optimisée sans différence visible (souvent −70 à −80 %) puis remise dans le presse-papiers : ce que vous collez dans un mail, Slack ou un site est bien plus léger. Petite bulle « 2,4 Mo → 640 Ko » avec « Annuler » ; l'original reste dans l'historique (Modifier › Versions). Les fichiers copiés dans le Finder ne sont jamais modifiés, et les copies de Figma, Photoshop ou Aperçu restent intactes.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "x86_64",
     "arm64"
   ],
-  "published": "2026-10-29T20:32:38Z",
+  "published": "2026-11-22T17:23:14Z",
   "signing": "local",
   "trust": "developer-id-v1"
 }
