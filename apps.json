@@ -28,6 +28,30 @@
       "trust": "developer-id-v1"
     },
     {
+      "name": "Bobine",
+      "tagline": "Le lecteur vidéo qui remplace QuickTime",
+      "description": "Tous les formats (MP4, MKV, AVI, WebM, TS…), HDR et Dolby Vision, son multicanal. Sous-titres SRT, WebVTT et ASS avec leur style, décalage au clavier, pistes audio, chapitres, vitesses de 0,25× à 4×, image par image, boucle A-B, reprise là où vous vous étiez arrêté, épisode suivant automatique, image dans l’image, AirPlay, égaliseur et amplification, découpe sans réencodage. Raccourcis d’IINA, de mpv et de QuickTime. Un bouton en fait votre lecteur par défaut.",
+      "shortcut": "",
+      "permissions": [],
+      "slug": "bobine",
+      "icon": "icons/bobine.png",
+      "bundleId": "com.traffikweb.bobine",
+      "version": "1.0",
+      "build": 1,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/bobine-v1.0-b1/Bobine-1.0-b1.zip",
+      "size": 12049692,
+      "sha256": "58b3126eeee0003ae18b5d3dcf2f667bc9e1ae9df7337f916101d6e2bcfbcfc4",
+      "signature": "7tGGwkeioXSUrP/DHzvTBWR8nL46m6sL9fXoKtdURunWB9HvKg33GqwTu267ZkuqfXkuLMCrC0aWG8mCcE5uAw==",
+      "notes": "Première version : lecteur vidéo complet (MKV, HDR, sous-titres ASS, découpe, égaliseur), raccourcis d'IINA, de mpv et de QuickTime, et un bouton pour en faire votre lecteur par défaut.",
+      "minimumSystemVersion": "26.0",
+      "archs": [
+        "arm64"
+      ],
+      "published": "2026-11-22T09:25:26Z",
+      "signing": "local",
+      "trust": "developer-id-v1"
+    },
+    {
       "name": "Canal",
       "tagline": "Lecteur IPTV façon Netflix",
       "description": "Votre propre abonnement IPTV (compte Xtream Codes ou lien M3U) : TV en direct, films, séries, guide TV, reprise à la seconde, « Que regarder ce soir ? ». Clé TMDB gratuite facultative pour les affiches et les notes. Identifiants rangés dans votre trousseau.",
