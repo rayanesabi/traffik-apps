@@ -3,17 +3,17 @@
   "name": "Bobine",
   "bundleId": "com.traffikweb.bobine",
   "version": "1.1",
-  "build": 2,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/bobine-v1.1-b2/Bobine-1.1-b2.zip",
-  "size": 12291653,
-  "sha256": "a76ddc19c88ffe561527e062caf7d1a3475fe1a427bc05306a54c55ba83f7047",
-  "signature": "LxkKLAtHnR4NpAODbFeSlNPm8PxJD97lmFlk+w+XtmFBam+ed91URA10Qbn0SK3ino0HsX79wj3DmwKr6xdIAw==",
+  "build": 3,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/bobine-v1.1-b3/Bobine-1.1-b3.zip",
+  "size": 11234843,
+  "sha256": "b80db663ff6321dbbdcfc177a702e32cd502b4e104feaaea6902d46d33c1713d",
+  "signature": "0Tb4ZVRQTvpQQ6Gatav8jaNkaDiuaC6flFJChdK4SWD0ICuz7kHtUEfze9It93mrgFMpRniRSCRMZj7wOl2GCw==",
   "notes": "Nouveau mode Montage (couper, assembler, texte, musique, formats 9:16 et 1:1, export H.264 ou HEVC). Épisode suivant seulement pour les séries, barre de contrôle qui s'adapte à toutes les tailles de fenêtre, interface neutre sans orange.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-11-22T15:13:18Z",
+  "published": "2026-11-22T18:14:34Z",
   "signing": "local",
   "trust": "developer-id-v1"
 }
