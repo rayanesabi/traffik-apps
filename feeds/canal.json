@@ -2,18 +2,18 @@
   "app": "canal",
   "name": "Canal",
   "bundleId": "com.traffikweb.canal",
-  "version": "1.7",
-  "build": 22,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.7-b22/Canal-1.7-b22.zip",
-  "size": 15278492,
-  "sha256": "89d59cb64841bc965ca274cd7e677e87cb944cc4e602ffa18bfe2641e533bed8",
-  "signature": "E6t4i3fLix/84Zx2+cYx+t1Cgma/OXNtgEW9vKbNq6LcjsIOVDrAn87VOY9+z93zyvCT1owhDrAaIDdv9eGXDw==",
-  "notes": "Nouveau : Canal sur la télé. Compte › « Ajouter une télé » envoie votre abonnement, le serveur Emby et votre espace de synchro à Canal TV (Fire TV, Android TV) : tapez le code affiché sur la télé, rien à saisir à la télécommande. Tout est chiffré pour la télé seule. Reprise, listes et « vus » se synchronisent aussi avec la télé.",
+  "version": "1.7.1",
+  "build": 23,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.7.1-b23/Canal-1.7.1-b23.zip",
+  "size": 15280382,
+  "sha256": "fddcfccd3bed4d946eb8ed02641e4eaa8bbd73ef5ea1baf760f5e0ee21915bea",
+  "signature": "GKR8+fy8s8MmgfhwQDALQPIzxrhNW0AwK2C2fZ65CtnWdna7NCW92Bat3ZEQS4/n6ADFzNO9iqztRsudlQuCBg==",
+  "notes": "Correctif : la clé TMDB est mieux acceptée. Espaces, retours à la ligne et « Bearer » collés par erreur sont retirés ; si le réseau bloque themoviedb.org, Canal passe par l'adresse de secours officielle api.tmdb.org ; le message dit enfin pourquoi TMDB ne répond pas.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-11-22T19:40:08Z",
+  "published": "2026-11-23T14:20:08Z",
   "signing": "local",
   "trust": "developer-id-v1"
 }
