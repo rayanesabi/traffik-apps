@@ -1,19 +1,19 @@
 {
   "app": "bobine",
-  "name": "Bobine",
+  "name": "Lumen",
   "bundleId": "com.traffikweb.bobine",
-  "version": "1.1",
-  "build": 3,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/bobine-v1.1-b3/Bobine-1.1-b3.zip",
-  "size": 11234843,
-  "sha256": "b80db663ff6321dbbdcfc177a702e32cd502b4e104feaaea6902d46d33c1713d",
-  "signature": "0Tb4ZVRQTvpQQ6Gatav8jaNkaDiuaC6flFJChdK4SWD0ICuz7kHtUEfze9It93mrgFMpRniRSCRMZj7wOl2GCw==",
-  "notes": "Nouveau mode Montage (couper, assembler, texte, musique, formats 9:16 et 1:1, export H.264 ou HEVC). Épisode suivant seulement pour les séries, barre de contrôle qui s'adapte à toutes les tailles de fenêtre, interface neutre sans orange.",
+  "version": "1.2",
+  "build": 4,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/bobine-v1.2-b4/Lumen-1.2-b4.zip",
+  "size": 11248109,
+  "sha256": "2b334bf6839e3948fa8de1bdbbe2d00938d79caa48765e01f99e7295a2e4c023",
+  "signature": "RGixuGEpNkXHQsTjuOcHAg6o9twUCFKk/efLPkL/PCa5eM55YMJsaqJA8sV7K4dUYwHNTZLkENP+CDt3/OItBg==",
+  "notes": "Bobine s'appelle maintenant Lumen. Même app, même icône : vos réglages, vos reprises de lecture et vos formats ouverts par défaut sont conservés, et l'app prend son nouveau nom dans le dossier Applications à sa prochaine fermeture.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-11-22T18:14:34Z",
+  "published": "2026-11-23T04:13:10Z",
   "signing": "local",
   "trust": "developer-id-v1"
 }

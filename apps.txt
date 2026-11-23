@@ -1,11 +1,11 @@
 atelier
-bobine
 canal
 clac
 clair
 givre
 halo
 ilot
+bobine
 mirage
 onde
 orbe
