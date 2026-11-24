@@ -2,18 +2,18 @@
   "app": "canal",
   "name": "Canal",
   "bundleId": "com.traffikweb.canal",
-  "version": "1.7.3",
-  "build": 25,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.7.3-b25/Canal-1.7.3-b25.zip",
-  "size": 15302781,
-  "sha256": "81340175037be3d209383bf5b00274ef9db9338aea96070a7b569aaa5af61766",
-  "signature": "NLlDKHmwilnJMCvSNU6Z95drfeQKb4Y8vtHhRsPnWD6MORo0K4y22iY6pUrVKPfnnCPZfsTxCWGDlWAHJGtrCw==",
-  "notes": "Lecteur : un clic sur l'image ne met plus pause (Espace ou le bouton ▶︎ le font), double-clic pour le plein écran. Les boutons ✕, plein écran, ±10 s… répondent au premier clic sur toute leur pastille, et les contrôles ne disparaissent plus sous la souris.",
+  "version": "1.7.4",
+  "build": 26,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.7.4-b26/Canal-1.7.4-b26.zip",
+  "size": 15306812,
+  "sha256": "6bdb4ead6c679a6b106437b3259733bb54a0e625dfc7e8a41329af4e7c92b161",
+  "signature": "dLyg0J59W2XmxkoqFq1y1wNYLtCLubmYon8K9xT1M2Stmvj5lW1bsm2bnr7tcbn+cX4JHx7HFcyxvH5BW/6bBg==",
+  "notes": "Aperçus de la barre de lecture : chaque épisode a enfin ses propres images (avant, une série entière partageait les mêmes : on voyait celles de l'épisode précédent). Pendant le chargement, l'image affichée est à 10 s près au maximum (avant : jusqu'à 1 minute d'écart). Lecteur : un clic sur l'image ne met plus pause, les boutons répondent au premier clic.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-11-24T22:20:52Z",
+  "published": "2026-11-24T23:27:55Z",
   "signing": "local",
   "trust": "developer-id-v1"
 }
