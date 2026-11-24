@@ -279,17 +279,17 @@
       "icon": "icons/orbe.png",
       "bundleId": "com.traffikweb.orbe",
       "version": "2.4",
-      "build": 202610270475,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.4-b202610270475/Orbe-2.4-b202610270475.zip",
-      "size": 8242295,
-      "sha256": "bb87a597afdd8fc1e733376518860d7829424b8aa7f2ec6e35a0659e240bdf69",
-      "signature": "M/UOn+dtxqB8J57y1MGKcyeTEFMAQNcb57wCWnw6KN6pnXQDYjLiPB3Zp330HeZtKvN0jjB6nE+NH8/t3ONwCQ==",
+      "build": 202610270476,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.4-b202610270476/Orbe-2.4-b202610270476.zip",
+      "size": 8242708,
+      "sha256": "70d9d45ef591ec56a0916cdc48ba365d62c7356123e6c43d6eec5d2bcb75ef23",
+      "signature": "NCQpWdKP4ytfL3HJFweamILzD/YQbasz7rYRgv9o1POkOqRgT7ED21Ip14e8KKmeiGLo3rZJOH4IrQyDU/E7AA==",
       "notes": "Nouveau : partagez un seul onglet dans Google Meet, Zoom, Teams ou Discord, comme dans Chrome. Au moment de présenter, Orbe propose « Un onglet » (liste de vos onglets), « Fenêtre d'Orbe » ou « Écran entier ou autre app ». L'onglet choisi s'ouvre dans une fenêtre de partage, la page seule : choisissez-la dans le sélecteur de macOS. Un bandeau « Onglet partagé dans … » permet ensuite d'afficher la page, de changer d'onglet ou d'arrêter ; à la fin du partage, l'onglet revient à sa place. Le son de l'onglet n'est pas partagé (WebKit ne le permet pas).\n\nNouveau : envoyez des images à l'assistant (⌘E). Bouton « Image » (choisir un fichier, coller, capturer la page ou une zone), glisser-déposer, ⌘V d'une image, ou clic droit sur une image d'un site › « Demander à l'assistant à propos de cette image ». HEIC, PNG, JPEG, WebP ; jusqu'à 6 images, réduites avant l'envoi.\n- Claude et GPT Luna voient l'image ; l'IA du Mac aussi sous macOS 27. Sinon, Orbe fait une analyse locale limitée (texte lu, objets, codes-barres, couleurs) et le dit.\n- « Retrouve le nom de cette paire » : sous la réponse, « Rechercher cette image sur le web » (Google Lens ou Bing, dans un nouvel onglet) et des liens Google Shopping, StockX, Vinted, eBay pour le produit trouvé.\n- Les discussions gardent un petit aperçu des images (sur ce Mac, supprimé avec la discussion).\n\nCorrigé : les boutons « Imprimer » et « Enregistrer en PDF » des sites (window.print()) ouvrent le panneau d'impression de macOS, avec les cases « arrière-plans » et « en-têtes et pieds de page ». Une page qui redemande sans cesse à imprimer peut être bloquée.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-11-22T21:39:36Z",
+      "published": "2026-11-24T14:19:34Z",
       "signing": "local",
       "trust": "developer-id-v1"
     },
