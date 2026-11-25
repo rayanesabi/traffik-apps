@@ -2,18 +2,18 @@
   "app": "bobine",
   "name": "Lumen",
   "bundleId": "com.traffikweb.bobine",
-  "version": "1.2",
-  "build": 4,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/bobine-v1.2-b4/Lumen-1.2-b4.zip",
-  "size": 11248109,
-  "sha256": "2b334bf6839e3948fa8de1bdbbe2d00938d79caa48765e01f99e7295a2e4c023",
-  "signature": "RGixuGEpNkXHQsTjuOcHAg6o9twUCFKk/efLPkL/PCa5eM55YMJsaqJA8sV7K4dUYwHNTZLkENP+CDt3/OItBg==",
-  "notes": "Bobine s'appelle maintenant Lumen. Même app, même icône : vos réglages, vos reprises de lecture et vos formats ouverts par défaut sont conservés, et l'app prend son nouveau nom dans le dossier Applications à sa prochaine fermeture.",
+  "version": "1.3",
+  "build": 5,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/bobine-v1.3-b5/Lumen-1.3-b5.zip",
+  "size": 11300572,
+  "sha256": "1b8845c3197e3170eb5e50eeb008fbfb82e7b6be567234f4bdfdeab067983564",
+  "signature": "hBuCOK0RToIkOuiDnOSP/eHebqVjOEJEwKQKyJRSAv3d3lI7gCPH1CGwWxPGXZm8fIOTU9F6KXZTB93OUSLuAg==",
+  "notes": "Onglets comme dans QuickTime : plusieurs vidéos ouvertes d'un coup arrivent dans une seule fenêtre, une par onglet (avant : une fenêtre par vidéo, en cascade). Seul l'onglet affiché joue : en changeant d'onglet, l'ancien se met en pause et reprend quand vous y revenez. Présentation › Afficher la barre d'onglets (⇧⌘T) et Afficher tous les onglets ; Fenêtre › onglet précédent / suivant (⌃⇧⇥ / ⌃⇥), Placer l'onglet dans une nouvelle fenêtre, Fusionner toutes les fenêtres. Le réglage de macOS « Préférer les onglets lors de l'ouverture de documents » est respecté pour les vidéos ouvertes une à une.",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-11-23T04:13:10Z",
-  "signing": "local",
+  "published": "2026-11-25T00:53:25Z",
+  "signing": "developer-id",
   "trust": "developer-id-v1"
 }
