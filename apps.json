@@ -37,18 +37,18 @@
       "icon": "icons/canal.png",
       "bundleId": "com.traffikweb.canal",
       "version": "1.7.4",
-      "build": 26,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.7.4-b26/Canal-1.7.4-b26.zip",
-      "size": 15306812,
-      "sha256": "6bdb4ead6c679a6b106437b3259733bb54a0e625dfc7e8a41329af4e7c92b161",
-      "signature": "dLyg0J59W2XmxkoqFq1y1wNYLtCLubmYon8K9xT1M2Stmvj5lW1bsm2bnr7tcbn+cX4JHx7HFcyxvH5BW/6bBg==",
+      "build": 27,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/canal-v1.7.4-b27/Canal-1.7.4-b27.zip",
+      "size": 15337319,
+      "sha256": "e4106b432a26e865d66c1000fc411f2479478fca986575fbcdcae9cd61317ceb",
+      "signature": "Rl3ZUJdfwFFDmwvm6WTLLOJsHilyzaeI1NJtiMAOqzIkdDtlX+96W7EWmFOLpPUPTnf+VhTfHKMnwzNe8kYuDg==",
       "notes": "Aperçus de la barre de lecture : chaque épisode a enfin ses propres images (avant, une série entière partageait les mêmes : on voyait celles de l'épisode précédent). Pendant le chargement, l'image affichée est à 10 s près au maximum (avant : jusqu'à 1 minute d'écart). Lecteur : un clic sur l'image ne met plus pause, les boutons répondent au premier clic.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-11-24T23:27:55Z",
-      "signing": "local",
+      "published": "2026-11-25T00:34:31Z",
+      "signing": "developer-id",
       "trust": "developer-id-v1"
     },
     {
