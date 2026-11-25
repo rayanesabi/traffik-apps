@@ -3,17 +3,17 @@
   "name": "Orbe",
   "bundleId": "com.traffikweb.orbe",
   "version": "2.4",
-  "build": 202610270477,
-  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.4-b202610270477/Orbe-2.4-b202610270477.zip",
-  "size": 8363262,
-  "sha256": "ff2f9bd3a58448adca072d1bcfde9ae13f178ad78ddadce489ff2e158d47d276",
-  "signature": "B97CFxLXBclrR3qcAT7MgXD0rWyzBEKHz9cRZe8lF/5Uf3SdaRWONq3P50I1ZXMrYY7cONW+tq4vJbfuNJE0DA==",
-  "notes": "Plus fluide : changer d'espace glisse sans à-coups (la liste de chaque espace est prête et l'animation est confiée à la carte graphique : 5 fois moins d'images perdues), changer d'onglet ne bloque plus l'affichage le temps que la page se redessine (les dernières pages restent prêtes, masquées), icônes des sites décodées à l'avance pour un défilement net.\n\nNouveau : lecteur vidéo flottant comme dans Arc. Quand vous quittez un onglet qui lit une vidéo, elle reste à l'écran dans un cadre, par-dessus vos autres onglets. Déplacez-le (il se range dans le coin le plus proche), agrandissez-le ou rapetissez-le par son coin intérieur. Survol : « Revenir à l'onglet » (ou double-clic), « Réduire » en pastille, « Fermer », ±15 s, lecture / pause et barre de progression. Réglage : Réglages › Plus › « Vidéo en lecteur flottant quand je change d'onglet ».",
+  "build": 202610270478,
+  "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.4-b202610270478/Orbe-2.4-b202610270478.zip",
+  "size": 8369889,
+  "sha256": "082916c655f8ee26e33fd9dab34118e2ca9535f0fee5c95193b43450d97d9bb9",
+  "signature": "WP4sZrSUufKuH0Z7qIiXatoVFSKehx0+xre2ehGvGCF7joW7HLawWVo7zEFNM87wp1/txCgLcz9Vkx92fmikAw==",
+  "notes": "Plus fluide : changer d'espace glisse sans à-coups (la liste de chaque espace est prête, seule la bande glisse : 2 à 3 fois moins d'images perdues), changer d'onglet ne bloque plus l'affichage le temps que la page se redessine (les dernières pages restent prêtes, masquées), icônes des sites décodées à l'avance pour un défilement net.\n\nNouveau : lecteur vidéo flottant comme dans Arc. Quand vous quittez un onglet qui lit une vidéo, elle reste à l'écran dans un cadre, par-dessus vos autres onglets. Déplacez-le (il se range dans le coin le plus proche), agrandissez-le ou rapetissez-le par son coin intérieur. Survol : « Revenir à l'onglet » (ou double-clic), « Réduire » en pastille, « Fermer », ±15 s, lecture / pause et barre de progression. Réglage : Réglages › Plus › « Vidéo en lecteur flottant quand je change d'onglet ».",
   "minimumSystemVersion": "26.0",
   "archs": [
     "arm64"
   ],
-  "published": "2026-11-25T02:53:41Z",
+  "published": "2026-11-25T03:48:05Z",
   "signing": "developer-id",
   "trust": "developer-id-v1"
 }
