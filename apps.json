@@ -279,18 +279,18 @@
       "icon": "icons/orbe.png",
       "bundleId": "com.traffikweb.orbe",
       "version": "2.4",
-      "build": 202610270476,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.4-b202610270476/Orbe-2.4-b202610270476.zip",
-      "size": 8242708,
-      "sha256": "70d9d45ef591ec56a0916cdc48ba365d62c7356123e6c43d6eec5d2bcb75ef23",
-      "signature": "NCQpWdKP4ytfL3HJFweamILzD/YQbasz7rYRgv9o1POkOqRgT7ED21Ip14e8KKmeiGLo3rZJOH4IrQyDU/E7AA==",
-      "notes": "Nouveau : partagez un seul onglet dans Google Meet, Zoom, Teams ou Discord, comme dans Chrome. Au moment de présenter, Orbe propose « Un onglet » (liste de vos onglets), « Fenêtre d'Orbe » ou « Écran entier ou autre app ». L'onglet choisi s'ouvre dans une fenêtre de partage, la page seule : choisissez-la dans le sélecteur de macOS. Un bandeau « Onglet partagé dans … » permet ensuite d'afficher la page, de changer d'onglet ou d'arrêter ; à la fin du partage, l'onglet revient à sa place. Le son de l'onglet n'est pas partagé (WebKit ne le permet pas).\n\nNouveau : envoyez des images à l'assistant (⌘E). Bouton « Image » (choisir un fichier, coller, capturer la page ou une zone), glisser-déposer, ⌘V d'une image, ou clic droit sur une image d'un site › « Demander à l'assistant à propos de cette image ». HEIC, PNG, JPEG, WebP ; jusqu'à 6 images, réduites avant l'envoi.\n- Claude et GPT Luna voient l'image ; l'IA du Mac aussi sous macOS 27. Sinon, Orbe fait une analyse locale limitée (texte lu, objets, codes-barres, couleurs) et le dit.\n- « Retrouve le nom de cette paire » : sous la réponse, « Rechercher cette image sur le web » (Google Lens ou Bing, dans un nouvel onglet) et des liens Google Shopping, StockX, Vinted, eBay pour le produit trouvé.\n- Les discussions gardent un petit aperçu des images (sur ce Mac, supprimé avec la discussion).\n\nCorrigé : les boutons « Imprimer » et « Enregistrer en PDF » des sites (window.print()) ouvrent le panneau d'impression de macOS, avec les cases « arrière-plans » et « en-têtes et pieds de page ». Une page qui redemande sans cesse à imprimer peut être bloquée.",
+      "build": 202610270477,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/orbe-v2.4-b202610270477/Orbe-2.4-b202610270477.zip",
+      "size": 8363262,
+      "sha256": "ff2f9bd3a58448adca072d1bcfde9ae13f178ad78ddadce489ff2e158d47d276",
+      "signature": "B97CFxLXBclrR3qcAT7MgXD0rWyzBEKHz9cRZe8lF/5Uf3SdaRWONq3P50I1ZXMrYY7cONW+tq4vJbfuNJE0DA==",
+      "notes": "Plus fluide : changer d'espace glisse sans à-coups (la liste de chaque espace est prête et l'animation est confiée à la carte graphique : 5 fois moins d'images perdues), changer d'onglet ne bloque plus l'affichage le temps que la page se redessine (les dernières pages restent prêtes, masquées), icônes des sites décodées à l'avance pour un défilement net.\n\nNouveau : lecteur vidéo flottant comme dans Arc. Quand vous quittez un onglet qui lit une vidéo, elle reste à l'écran dans un cadre, par-dessus vos autres onglets. Déplacez-le (il se range dans le coin le plus proche), agrandissez-le ou rapetissez-le par son coin intérieur. Survol : « Revenir à l'onglet » (ou double-clic), « Réduire » en pastille, « Fermer », ±15 s, lecture / pause et barre de progression. Réglage : Réglages › Plus › « Vidéo en lecteur flottant quand je change d'onglet ».",
       "minimumSystemVersion": "26.0",
       "archs": [
         "arm64"
       ],
-      "published": "2026-11-24T14:19:34Z",
-      "signing": "local",
+      "published": "2026-11-25T02:53:41Z",
+      "signing": "developer-id",
       "trust": "developer-id-v1"
     },
     {
