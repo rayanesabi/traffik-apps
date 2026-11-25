@@ -90,19 +90,19 @@
       "icon": "icons/clair.png",
       "bundleId": "com.traffikweb.clair",
       "version": "3.6",
-      "build": 12,
-      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.6-b12/Clair-3.6-b12.zip",
-      "size": 20306873,
-      "sha256": "1e8d6c181c18bbc1337a7807d7b55d339f169bfeab19467f484ef16a0dfe22fe",
-      "signature": "MzQoCfmkIwt3bAXxk+mh5TYX3+mVGfdjZT9rnd5W3wAnv1F1NVepYQo6RQuw14dmbWFwLavKcOhhuS3eYHiuAg==",
+      "build": 13,
+      "url": "https://github.com/rayanesabi/traffik-apps/releases/download/clair-v3.6-b13/Clair-3.6-b13.zip",
+      "size": 20311980,
+      "sha256": "15a919619e7bec80d7c7ac50126c6e5a8200d419a391de20d231602a5dd80f95",
+      "signature": "AG77sjYXuRQ4p30L+uR/k9LZoK55vPzyBg5x3fqv/7WZkL7OVtLBHZ/hWCkpof1e6DXMqgvk5Ulr6Z1U/wsRAA==",
       "notes": "Nouveau : compression automatique (Rangement › Compression, désactivée par défaut). Les images, vidéos et PDF qui arrivent dans vos Téléchargements (ou un dossier choisi) sont allégés sans différence visible : même nom, même format, mêmes dimensions. Exemples : capture d'écran −80 %, PDF scanné −78 %, vidéo d'écran H.265 jusqu'à −95 %.\nL'original est gardé 7 jours : « Annuler » dans la petite bulle ou dans le journal le remet à l'identique. Jamais touchés : téléchargements en cours, fichiers iCloud absents du Mac, PDF signés ou à remplir, vidéos HDR, fichiers déjà présents. Pause automatique sur batterie faible. Exclusions par dossier, extension ou site d'origine.",
       "minimumSystemVersion": "26.0",
       "archs": [
         "x86_64",
         "arm64"
       ],
-      "published": "2026-11-22T07:30:03Z",
-      "signing": "local",
+      "published": "2026-11-25T00:44:08Z",
+      "signing": "developer-id",
       "trust": "developer-id-v1"
     },
     {
